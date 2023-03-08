@@ -135,10 +135,10 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Data limite de inscrição no torneio: até ao final do dia 4 de Novembro de  2018.
-                Data da publicação das listas provisórias: até ao final do dia 5 de  Novembro de 2018.
-                Data limite de edição de inscrições pelo atleta: até ao final do dia 6 de  Novembro de 2018.
-                Data de publicação das chaves: até ao final do dia 8 de Novembro de  2018.
+                Data limite de inscrição no torneio: até ao final do dia 23 de Abril de  2023.
+                Data da publicação das listas provisórias: até ao final do dia 16 de  Abril de 2023.
+                Data limite de edição de inscrições pelo atleta: até ao final do dia 16 de  Abril de 2023.
+                Data de publicação das chaves: até ao final do dia 30 de Abril de  2023.
                 ATENÇÃO: Não serão permitidas quaisquer alterações às listas após a  publicação das chaves do torneio.
 
               </p>
