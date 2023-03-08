@@ -143,13 +143,13 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
 
               </p>
               <p className="mb-5">
-                Preço da inscrição no torneio até ao final do dia 21 de Outubro de 2018:
+                Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
                 • €15 para atletas com idade inferior aos 18 anos.
                 • €25 para atletas com idade igual ou superior aos 18 anos.  Estes preços têm os seguintes acréscimos:
-                • Acréscimos de €10 para inscrições efectuadas de dia 22 de outubro  de 2018 até à data limite de inscrição.
+                • Acréscimos de €10 para inscrições efectuadas de dia 16 de Abril  de 2023 até à data limite de inscrição.
                 • Acréscimos de €10 para os atletas sem filiação atualizada na FPJJB  ou IBJJF, para efeitos de seguro desportivo.
                 PAGAMENTO:
-                Transferência bancária para o IBAN PT50 0193 0000 1050 0495 5190 3  (Ricardo Soares).
+                Transferência bancária para o IBAN PT50 xxxxxxxxxxxxxx  (Associação de Jiu Jitsu Brasileiro de Castro Verde).
               </p>
             </motion.div>
 
