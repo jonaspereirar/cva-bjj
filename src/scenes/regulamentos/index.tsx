@@ -60,7 +60,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>Regulamento e Premiação</HText>
+          <HText>Regulamento</HText>
           <p className="my-5 text-sm">
             Este torneio é dirigido a todos os atletas e
             professores que pretendem competir no
@@ -93,12 +93,6 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
 
         {/* GRAPHICS AND DESCRIPTION */}
         <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
-          {/* GRAPHIC */}
-          {/* <img
-            className="mx-auto"
-            alt="regulamentos-page-graphic"
-            src={regulamentosPageGraphic}
-          /> */}
 
           {/* DESCRIPTION */}
           <div>
@@ -116,110 +110,111 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                   }}
                 >
 
-<HText>
-  Datas importantes do evento e {" "}
-  <span className="text-primary-500">preços</span>
-</HText>
-<motion.div
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true, amount: 0.5 }}
-  transition={{ delay: 0.2, duration: 0.5 }}
-  variants={{
-    hidden: { opacity: 0, x: 50 },
-    visible: { opacity: 1, x: 0 },
-  }}
->
-  <p className="my-5">
-    Data limite de inscrição no torneio: até ao final do dia 23 de Abril de  2023.
-  </p>
-  <p className="my-5">
-    Data da publicação das listas provisórias: até ao final do dia 16 de  Abril de 2023.
-  </p>
-  <p className="my-5">
-    Data limite de edição de inscrições pelo atleta: até ao final do dia 16 de  Abril de 2023.
-  </p>
-  <p className="my-5">
-    Data de publicação das chaves: até ao final do dia 30 de Abril de  2023.
-  </p>
-  <p className="my-5">
-    ATENÇÃO: Não serão permitidas quaisquer alterações às listas após a  publicação das chaves do torneio.
-  </p>
-  <p className="my-5">
-    A premiação será efetuada da seguinte forma:
-  </p>
-  <p className="my-5">
-    Categoria:
-  </p>
-  <p className="my-5">
-    . 1° colocado Medalha + kimono *
-  </p>
-  <p className="my-5">
-    . 2° colocado Medalha
-  </p>
-  <p className="my-5">
-    . 3° colocado Medalha
-  </p>
-  <p className="my-5">
-    Absoluto:
-  </p>
-  <p className="my-5">
-    . 1° colocado  Medalha + inscrição campeonato europeu IBJJ *
-  </p>
-  <p className="my-5">
-    . 2° colocado Medalha
-  </p>
-  <p className="my-5">
-    . 3° colocado Medalha 
-  </p>
-  <p className="my-5">
-    * A premiação será efetuada ao 1° colocado, desde que a chave esteja composta por no mínimo 5 atletas. 
-  </p>
-  <p className="my-5">
-    Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
-  </p>
-  <p className="my-5">
-    • €15 para atletas com idade inferior aos 18 anos.
-  </p>
-  <p className="my-5">
-    • €20 para atletas com idade igual ou superior aos 18 anos.  Estes preços têm os seguintes acréscimos:
-  </p>
-  <p className="my-5">
-    • Acréscimos de €10 para inscrições efectuadas de dia 16 de Abril  de 2023 até à data limite de inscrição.
-  </p>
-  <p className="
+                  <HText>
+                    Datas importantes do evento e {" "}
+                    <span className="text-primary-500">Premiação</span>
+                  </HText>
+                </motion.div>
+              </div>
+            </div>
 
-</p>
-<p className="my-5">
-A premiação será efetuada da seguinte forma:
-</p>
-<p>Categoria:</p>
-<ul>
-  <li>1° colocado Medalha + kimono *</li>
-  <li>2° colocado Medalha</li>
-  <li>3° colocado Medalha</li>
-</ul>
-<p>Absoluto:</p>
-<ul>
-  <li>1° colocado Medalha + inscrição campeonato europeu IBJJ *</li>
-  <li>2° colocado Medalha</li>
-  <li>3° colocado Medalha</li>
-</ul>
-<p>* A premiação será efetuada ao 1° colocado, desde que a chave esteja composta por no mínimo 5 atletas. </p>
-<p className="mb-5">
-Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
-</p>
-<ul>
-  <li>€15 para atletas com idade inferior aos 18 anos.</li>
-  <li>€20 para atletas com idade igual ou superior aos 18 anos.</li>
-</ul>
-<p>Estes preços têm os seguintes acréscimos:</p>
-<ul>
-  <li>Acréscimos de €10 para inscrições efectuadas de dia 16 de Abril  de 2023 até à data limite de inscrição.</li>
-  <li>Acréscimos de €10 para os atletas sem filiação atualizada na FPJJB  ou IBJJF, para efeitos de seguro desportivo.</li>
-</ul>
-<p>PAGAMENTO:</p>
-<p>Transferência bancária para o IBAN PT50 xxxxxxxxxxxxxx  (Associação de Jiu Jitsu Brasileiro de Castro Verde).</p>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, x: 50 },
+                visible: { opacity: 1, x: 0 },
+              }}
+            >
+              <p className="my-5">
+                Data limite de inscrição no torneio: até ao final do dia 23 de Abril de  2023.
+              </p>
+              <p className="my-5">
+                Data da publicação das listas provisórias: até ao final do dia 16 de  Abril de 2023.
+              </p>
+              <p className="my-5">
+                Data limite de edição de inscrições pelo atleta: até ao final do dia 16 de  Abril de 2023.
+              </p>
+              <p className="my-5">
+                Data de publicação das chaves: até ao final do dia 30 de Abril de  2023.
+              </p>
+              <p className="my-5">
+                ATENÇÃO: Não serão permitidas quaisquer alterações às listas após a  publicação das chaves do torneio.
+              </p>
+              <p className="my-5">
+                A premiação será efetuada da seguinte forma:
+              </p>
+              <p className="my-5">
+                Categoria:
+              </p>
+              <p className="my-5">
+                . 1° colocado Medalha + kimono *
+              </p>
+              <p className="my-5">
+                . 2° colocado Medalha
+              </p>
+              <p className="my-5">
+                . 3° colocado Medalha
+              </p>
+              <p className="my-5">
+                Absoluto:
+              </p>
+              <p className="my-5">
+                . 1° colocado  Medalha + inscrição campeonato europeu IBJJ *
+              </p>
+              <p className="my-5">
+                . 2° colocado Medalha
+              </p>
+              <p className="my-5">
+                . 3° colocado Medalha
+              </p>
+              <p className="my-5">
+                * A premiação será efetuada ao 1° colocado, desde que a chave esteja composta por no mínimo 5 atletas.
+              </p>
+              <p className="my-5">
+                Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
+              </p>
+              <p className="my-5">
+                • €15 para atletas com idade inferior aos 18 anos.
+              </p>
+              <p className="my-5">
+                • €20 para atletas com idade igual ou superior aos 18 anos.  Estes preços têm os seguintes acréscimos:
+              </p>
+              <p className="my-5">
+                • Acréscimos de €10 para inscrições efectuadas de dia 16 de Abril  de 2023 até à data limite de inscrição.
+              </p>
+              <p className="my-5">
+                A premiação será efetuada da seguinte forma:
+              </p>
+              <p>Categoria:</p>
+              <ul>
+                <li>1° colocado Medalha + kimono *</li>
+                <li>2° colocado Medalha</li>
+                <li>3° colocado Medalha</li>
+              </ul>
+              <p>Absoluto:</p>
+              <ul>
+                <li>1° colocado Medalha + inscrição campeonato europeu IBJJ *</li>
+                <li>2° colocado Medalha</li>
+                <li>3° colocado Medalha</li>
+              </ul>
+              <p>* A premiação será efetuada ao 1° colocado, desde que a chave esteja composta por no mínimo 5 atletas. </p>
+              <p className="mb-5">
+                Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
+              </p>
+              <ul>
+                <li>€15 para atletas com idade inferior aos 18 anos.</li>
+                <li>€20 para atletas com idade igual ou superior aos 18 anos.</li>
+              </ul>
+              <p>Estes preços têm os seguintes acréscimos:</p>
+              <ul>
+                <li>Acréscimos de €10 para inscrições efectuadas de dia 16 de Abril  de 2023 até à data limite de inscrição.</li>
+                <li>Acréscimos de €10 para os atletas sem filiação atualizada na FPJJB  ou IBJJF, para efeitos de seguro desportivo.</li>
+              </ul>
+              <p>PAGAMENTO:</p>
+              <p>Transferência bancária para o IBAN PT50 PT50004560454027846447323 SWIFT: CCCMPTPL (Associação de Jiu Jitsu Brasileiro de Castro Verde).</p>
             </motion.div>
 
             {/* BUTTON */}

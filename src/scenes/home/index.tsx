@@ -72,20 +72,24 @@ const Home = ({ setSelectedPage }: Props) => {
           >
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
               <p className="text-white text-xl">ADULTO/MASTER</p>
-              <ActionButton
-  link="https://docs.google.com/forms/d/e/1FAIpQLSdguq7WfhvHwmQE7D64yxXgVYzLsybSzid_sm93FtbjhjB2aw/viewform?usp=pp_url setSelectedPage={SelectedPageGoogle}"
-  onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdguq7WfhvHwmQE7D64yxXgVYzLsybSzid_sm93FtbjhjB2aw/viewform?usp=pp_url"}
->
-  ACESSAR
-</ActionButton>
+              <button
+                onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdguq7WfhvHwmQE7D64yxXgVYzLsybSzid_sm93FtbjhjB2aw/viewform?usp=pp_url"}
+                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
+              >
+                ACESSAR
+              </button>
 
             </div>
 
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">INFANTIL/JUVENIL</p>
-              <ActionButton link="https://docs.google.com/forms/d/e/1FAIpQLSd-ARZARAWPzvoml820o8B1t2_7iev0UbmCn_-uIP4qb273FQ/viewform?usp=pp_url" setSelectedPage={SelectedPageGoogle}>
+              <button
+                onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSd-ARZARAWPzvoml820o8B1t2_7iev0UbmCn_-uIP4qb273FQ/viewform?usp=pp_url"}
+                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
+              >
+
                 ACESSAR
-              </ActionButton>
+              </button>
             </div>
             {/* <a
               className="text-l font-bold text-primary-500 underline hover:text-secondary-500"
