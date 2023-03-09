@@ -117,7 +117,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 >
                   <HText>
                     Datas importantes do evento e {" "}
-                    <span className="text-primary-500">preços</span>
+                    <span className="text-primary-500">premiações</span>
                   </HText>
                 </motion.div>
               </div>
