@@ -15,7 +15,7 @@ const regulamentos: Array<RegulamentoType> = [
     icon: <CalendarDaysIcon className="h-6 w-6" />,
     title: "Data e Hora do evento ",
     description:
-      "Dia 06 de Maio de 2023, Início às 10 horas",
+      "Dia 06 de Maio de 2023, Início às 09 horas",
   },
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
@@ -142,10 +142,26 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 ATENÇÃO: Não serão permitidas quaisquer alterações às listas após a  publicação das chaves do torneio.
 
               </p>
+
+<p className="my-5">
+A premiação será efetuada da seguinte forma:
+Categoria:
+. 1° colocado Medalha + kimono *
+. 2° colocado Medalha
+. 3° colocado Medalha
+
+Absoluto:
+. 1° colocado  Medalha + inscrição campeonato europeu IBJJ *
+. 2° colocado Medalha
+. 3° colocado Medalha 
+
+* A premiação será efetuada ao 1° colocado, desde que a chave esteja composta por no mínimo 5 atletas. 
+
+</p>
               <p className="mb-5">
                 Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
                 • €15 para atletas com idade inferior aos 18 anos.
-                • €25 para atletas com idade igual ou superior aos 18 anos.  Estes preços têm os seguintes acréscimos:
+                • €20 para atletas com idade igual ou superior aos 18 anos.  Estes preços têm os seguintes acréscimos:
                 • Acréscimos de €10 para inscrições efectuadas de dia 16 de Abril  de 2023 até à data limite de inscrição.
                 • Acréscimos de €10 para os atletas sem filiação atualizada na FPJJB  ou IBJJF, para efeitos de seguro desportivo.
                 PAGAMENTO:
