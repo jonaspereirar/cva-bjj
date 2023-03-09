@@ -72,9 +72,13 @@ const Home = ({ setSelectedPage }: Props) => {
           >
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
               <p className="text-white text-xl">ADULTO/MASTER</p>
-              <ActionButton link="https://docs.google.com/forms/d/e/1FAIpQLSdguq7WfhvHwmQE7D64yxXgVYzLsybSzid_sm93FtbjhjB2aw/viewform?usp=pp_url" setSelectedPage={SelectedPageGoogle}>
-                ACESSAR
-              </ActionButton>
+              <ActionButton
+  link="https://docs.google.com/forms/d/e/1FAIpQLSdguq7WfhvHwmQE7D64yxXgVYzLsybSzid_sm93FtbjhjB2aw/viewform?usp=pp_url"
+  onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdguq7WfhvHwmQE7D64yxXgVYzLsybSzid_sm93FtbjhjB2aw/viewform?usp=pp_url"}
+>
+  ACESSAR
+</ActionButton>
+
             </div>
 
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
