@@ -52,7 +52,7 @@ const Home = ({ setSelectedPage }: Props) => {
                 <img alt="home-page-text" src={HomePageText} />
               </div>
             </div>
-            <p className="mt-12 text-sm md:text-3xl text-red-800">
+            <p className="mt-6 text-xl md:text-3xl text-red-800">
               6 de Maio
             </p>
           </motion.div>
