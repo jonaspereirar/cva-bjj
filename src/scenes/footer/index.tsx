@@ -13,8 +13,13 @@ const Footer = () => {
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Links</h4>
-          <p className="my-5">Facebook</p>
-          <p className="my-5">Instagram</p>
+          <p className="my-5">
+  <a href="https://www.facebook.com/CVABJJ">Facebook</a>
+</p>
+<p className="my-5">
+  <a href="https://instagram.com/cvabjj?igshid=ZDdkNTZiNTM=">Instagram</a>
+</p>
+
           <p>cvabjj.pt</p>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
