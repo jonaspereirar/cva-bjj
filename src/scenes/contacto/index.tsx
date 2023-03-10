@@ -69,7 +69,7 @@ const Contacto = ({ setSelectedPage }: Props) => {
               action="https://formsubmit.co/7d23f7fed18a1895ef7f445fb50a696d"
               method="POST"
             >
-              <input type="hidden" name="_next" value="https://cvabjj.pt/src/scenes/contacto/sucesso.html" />
+             {/* <input type="hidden" name="_next" value="https://cvabjj.pt/src/scenes/contacto/sucesso.html" /> */} 
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_cc" value="jonasprodriguesdev@gmail.com" />
               <input type="hidden" name="_autoresponse" value="Recebemos sua menssagem, obrigado pelo contato, reponderemos brevemente!" />
