@@ -66,9 +66,14 @@ const Contacto = ({ setSelectedPage }: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+              action="https://formsubmit.co/7d23f7fed18a1895ef7f445fb50a696d"
               method="POST"
             >
+              <input type="hidden" name="_next" value="https://cvabjj.pt/src/scenes/contacto/sucesso.html" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_cc" value="jonasprodriguesdev@gmail.com" />
+              <input type="hidden" name="_autoresponse" value="Recebemos sua menssagem, obrigado pelo contato, reponderemos brevemente!" />
+              <input type="hidden" name="_captcha" value="false" />
               <input
                 className={inputStyles}
                 type="text"
@@ -157,3 +162,8 @@ const Contacto = ({ setSelectedPage }: Props) => {
 };
 
 export default Contacto;
+
+
+
+
+// <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/caa4453e293a2a7ff8d38175b/f99c6cc319118d42424eb1046.js");</script>
