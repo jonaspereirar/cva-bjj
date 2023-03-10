@@ -217,14 +217,14 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               <p>Transferência bancária para o IBAN PT50 PT50004560454027846447323 SWIFT: CCCMPTPL (Associação de Jiu Jitsu Brasileiro de Castro Verde).</p>
             </motion.div>
 
-            {/* BUTTON */}
+            {/* BUTTON 
             <div className="relative mt-16">
               <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
                 <ActionButton link="Home" setSelectedPage={setSelectedPage}>
                   Inscrever-se
                 </ActionButton>
               </div>
-            </div>
+            </div> */} 
           </div>
         </div>
       </motion.div>
