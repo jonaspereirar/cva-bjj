@@ -111,8 +111,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 >
 
                   <HText>
-                    Datas importantes do evento e {" "}
-                    <span className="text-primary-500">Premiação</span>
+                    Datas importantes do evento
                   </HText>
                 </motion.div>
               </div>
@@ -129,100 +128,93 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Data limite de inscrição no torneio: até ao final do dia 23 de Abril de  2023.
+                Data limite de inscrição no torneio: <p><strong> Até às 23h 59m do dia 23 de Abril de 2023</strong>.</p>
               </p>
               <p className="my-5">
-                Data da publicação das listas provisórias: até ao final do dia 16 de  Abril de 2023.
+                Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 16 de  Abril de 2023.</strong></p>
               </p>
               <p className="my-5">
-                Data limite de edição de inscrições pelo atleta: até ao final do dia 16 de  Abril de 2023.
+                Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 16 de  Abril de 2023.</strong></p>
               </p>
               <p className="my-5">
-                Data de publicação das chaves: até ao final do dia 30 de Abril de  2023.
+                Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 30 de Abril de  2023.</strong></p>
               </p>
               <p className="my-5">
-                ATENÇÃO: Não serão permitidas quaisquer alterações às listas após a  publicação das chaves do torneio.
+                <strong >ATENÇÃO: Não serão permitidas quaisquer alterações às <br />listas após a  publicação das chaves do torneio.</strong>
               </p>
-              <p className="my-5">
-                A premiação será efetuada da seguinte forma:
-              </p>
-              <p className="my-5">
-                Categoria:
-              </p>
-              <p className="my-5">
-                . 1° colocado Medalha + kimono *
-              </p>
-              <p className="my-5">
-                . 2° colocado Medalha
-              </p>
-              <p className="my-5">
-                . 3° colocado Medalha
-              </p>
-              <p className="my-5">
-                Absoluto:
-              </p>
-              <p className="my-5">
-                . 1° colocado  Medalha + inscrição campeonato europeu IBJJ *
-              </p>
-              <p className="my-5">
-                . 2° colocado Medalha
-              </p>
-              <p className="my-5">
-                . 3° colocado Medalha
-              </p>
-              <p className="my-5">
-                * A premiação será efetuada ao 1° colocado, desde que a chave esteja composta por no mínimo 5 atletas.
-              </p>
-              <p className="my-5">
-                Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
-              </p>
-              <p className="my-5">
-                • €15 para atletas com idade inferior aos 18 anos.
-              </p>
-              <p className="my-5">
-                • €20 para atletas com idade igual ou superior aos 18 anos.  Estes preços têm os seguintes acréscimos:
-              </p>
-              <p className="my-5">
-                • Acréscimos de €10 para inscrições efectuadas de dia 16 de Abril  de 2023 até à data limite de inscrição.
-              </p>
+
+
+              <HText>
+                <span className="text-primary-500">Premiação</span>
+              </HText>
+
               <p className="my-5">
                 A premiação será efetuada da seguinte forma:
               </p>
-              <p>Categoria:</p>
-              <ul>
-                <li>1° colocado Medalha + kimono *</li>
-                <li>2° colocado Medalha</li>
-                <li>3° colocado Medalha</li>
-              </ul>
-              <p>Absoluto:</p>
-              <ul>
-                <li>1° colocado Medalha + inscrição campeonato europeu IBJJ *</li>
-                <li>2° colocado Medalha</li>
-                <li>3° colocado Medalha</li>
-              </ul>
-              <p>* A premiação será efetuada ao 1° colocado, desde que a chave esteja composta por no mínimo 5 atletas. </p>
-              <p className="mb-5">
-                Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
+              <p className="my-8">
+                Categorias:  <strong>Mirin, Ifantil, Ifanto-juvenil, Juvenil, Adulto, Master </strong>
               </p>
-              <ul>
-                <li>€15 para atletas com idade inferior aos 18 anos.</li>
-                <li>€20 para atletas com idade igual ou superior aos 18 anos.</li>
-              </ul>
-              <p>Estes preços têm os seguintes acréscimos:</p>
-              <ul>
-                <li>Acréscimos de €10 para inscrições efectuadas de dia 16 de Abril  de 2023 até à data limite de inscrição.</li>
-                <li>Acréscimos de €10 para os atletas sem filiação atualizada na FPJJB  ou IBJJF, para efeitos de seguro desportivo.</li>
-              </ul>
+              <p className="my-5 mx-4">
+                <strong>. 1° classificado</strong> Medalha + kimono *
+              </p>
+              <p className="my-5 mx-4">
+                <strong>. 2° classificado</strong> Medalha
+              </p>
+              <p className="my-5 mx-4">
+                <strong>. 3° classificado</strong> Medalha
+              </p>
+              <p><strong>*</strong> Para a atribuição do prémio kimono é necessário haver no mínimo <strong>4</strong> atletas na chave. </p>
+
+
+              <p className="my-8">
+                Categoria Absoluto faixa Azul, Roxa, Marron, Preta: <strong>Adulto e Master</strong>
+              </p>
+              <p className="my-5 mx-4">
+                <strong>. 1° classificado</strong>  Medalha + inscrição campeonato europeu IBJJ <strong>**</strong>
+              </p>
+              <p className="my-5 mx-4">
+                <strong>. 2° classificado</strong> Medalha
+              </p>
+              <p className="my-5 mx-4">
+                <strong>. 3° classificado</strong> Medalha
+              </p>
+              <p className="my-5">
+                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2023</strong> é necessário haver no
+                mínimo <strong>10</strong> atletas na chave.  Se na chave houver entre <strong>4</strong> a <strong>9</strong> atletas será atribuído como prémio um kimono.
+              </p>
+
+              <HText>
+                <span className="text-primary-500">Valores</span>
+              </HText>
+
+              <p className="my-5">
+                Preço da inscrição no torneio até ao final do dia 16 de Abril de 2023:
+              </p>
+              <p className="my-5">
+                <strong>• €15</strong> para atletas com idade inferior aos 18 anos.
+              </p>
+              <p className="my-5">
+                <strong>• €20 </strong>para atletas com idade igual ou superior aos 18 anos.
+
+                <p className="my-5"> <strong>Estes preços têm os seguintes acréscimos:</strong></p>
+              </p>
+              <p className="my-5">
+                • Acréscimos de <strong>€10</strong> para inscrições efectuadas depois do dia <strong>16 de Abril de 2023</strong> até à data limite de inscrição.
+              </p>
+
               <p>PAGAMENTO:</p>
-              <p>Transferência bancária para o IBAN PT50 PT50004560454027846447323 SWIFT: CCCMPTPL (Associação de Jiu Jitsu Brasileiro de Castro Verde).</p>
+              <p>Transferência bancária para o IBAN PT50 PT50004560454027846447323 SWIFT: CCCMPTPL </p>
+              <p>(Associação de Jiu Jitsu Brasileiro de Castro Verde).</p>
+
+              <p className="my-5">Inscrição válidas após o envio do comprovativo de Transferências bancárias</p>
             </motion.div>
 
             {/* BUTTON 
             <div className="relative mt-16">
               <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
-                <ActionButton link="Home" setSelectedPage={setSelectedPage}>
+                {/* <ActionButton link="Home" setSelectedPage={setSelectedPage}>
                   Inscrever-se
-                </ActionButton>
+                </ActionButton> */}
               </div>
             </div> */} 
           </div>
