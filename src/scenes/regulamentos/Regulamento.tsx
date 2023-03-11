@@ -44,7 +44,7 @@ const Regulamento = ({ icon, title, description, setSelectedPage, link, children
         onClick={handleClick}
         href={`#${SelectedPage.Contacto}`}
       >
-        <p>Mais informações</p>
+        {/* <p>Mais informações</p> */}
         {children}
       </AnchorLink>
     </motion.div>
