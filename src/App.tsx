@@ -1,11 +1,12 @@
-import Navbar from "@/scenes/navbar";
-import Home from "@/scenes/home";
-import OurClasses from "@/scenes/ourClasses";
-import Regulamentos from "./scenes/regulamentos";
+import AdultList from "@/scenes/AdultList";
 import Contacto from "@/scenes/contacto";
 import Footer from "@/scenes/footer";
-import { useEffect, useState } from "react";
+import Home from "@/scenes/home";
+import Navbar from "@/scenes/navbar";
+import Regulamentos from "@/scenes/regulamentos";
 import { SelectedPage } from "@/shared/types";
+import { useEffect, useState } from "react";
+import InfantList from "./scenes/InfantList";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -34,7 +35,8 @@ function App() {
       />
       <Home setSelectedPage={setSelectedPage} />
       <Regulamentos setSelectedPage={setSelectedPage} />
-      {/* <OurClasses setSelectedPage={setSelectedPage} /> */}
+      <AdultList setSelectedPage={setSelectedPage} />
+      <InfantList setSelectedPage={setSelectedPage} />
       <Contacto setSelectedPage={setSelectedPage} />
       <Footer />
     </div>

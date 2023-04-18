@@ -3,6 +3,8 @@ export enum SelectedPage {
   Regulamentos = "regulamentos",
   OurClasses = "ourclasses",
   Contacto = "contactos",
+  AdultList = "listagem-adulto/master",
+  InfantList = "listagem-infantil/juvenil"
 }
 
 export interface RegulamentoType {
