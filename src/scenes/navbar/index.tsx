@@ -17,9 +17,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   const navbarBackground = isTopOfPage ? "" : "bg-black drop-shadow";
 
-  function ListagemAdult(page: SelectedPage) {
-    setSelectedPage(page);
-  }
+  // function ListagemAdult(page: SelectedPage) {
+  //   setSelectedPage(page);
+  // }
 
   return (
     <nav>
@@ -86,14 +86,14 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
             </button>
           </div>
 
-          {isMenuToggled && (
-            // <div className="flex flex-col gap-8 mt-10">
-            //   <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">Inscritos Adulto/Master</button>
-            //   <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">
-            //   Inscritos Infantil/Juvenil
-            //   </button>
-            // </div>
-          )}
+          {/* {isMenuToggled && (
+            <div className="flex flex-col gap-8 mt-10">
+              <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">Inscritos Adulto/Master</button>
+              <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">
+              Inscritos Infantil/Juvenil
+              </button>
+            </div>
+          )} */}
 
           {/* MENU ITEMS */}
           <div className="ml-[33%] mt-10 flex flex-col gap-10 text-2xl bg-black">
@@ -112,11 +112,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            {/* <Link
+            <Link
               page="AdultList"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            /> */}
+            />
           </div>
         </div>
       )}
