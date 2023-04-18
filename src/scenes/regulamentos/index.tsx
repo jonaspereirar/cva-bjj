@@ -1,13 +1,11 @@
-import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
 import { RegulamentoType, SelectedPage } from "@/shared/types";
 import {
+  AcademicCapIcon,
   CalendarDaysIcon,
   HomeModernIcon,
-  AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import regulamentosPageGraphic from "@/assets/RegulamentosPageGraphic.png";
 import Regulamento from "./Regulamento";
 
 const regulamentos: Array<RegulamentoType> = [
@@ -134,7 +132,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 16 de  Abril de 2023.</strong></p>
               </p>
               <p className="my-5">
-                Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 16 de  Abril de 2023.</strong></p>
+                Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 23 de  Abril de 2023.</strong></p>
               </p>
               <p className="my-5">
                 Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 30 de Abril de  2023.</strong></p>
@@ -188,7 +186,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               </HText>
 
               <p className="my-5">
-                Preço da inscrição no torneio até ao final do dia 16 de Abril de 2023:
+                Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
               </p>
               <p className="my-5">
                 <strong>• €15</strong> para atletas com idade inferior aos 18 anos.
@@ -199,7 +197,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 <p className="my-5"> <strong>Estes preços têm os seguintes acréscimos:</strong></p>
               </p>
               <p className="my-5">
-                • Acréscimos de <strong>€10</strong> para inscrições efectuadas depois do dia <strong>16 de Abril de 2023</strong> até à data limite de inscrição.
+                • Acréscimos de <strong>€10</strong> para inscrições efectuadas depois do dia <strong>23 de Abril de 2023</strong> até à data limite de inscrição.
               </p>
 
               <p>PAGAMENTO:</p>
