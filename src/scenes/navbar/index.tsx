@@ -87,12 +87,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
           </div>
 
           {isMenuToggled && (
-            <div className="flex flex-col gap-8 mt-10">
-              <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">Inscritos Adulto/Master</button>
-              <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">
-              Inscritos Infantil/Juvenil
-              </button>
-            </div>
+            // <div className="flex flex-col gap-8 mt-10">
+            //   <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">Inscritos Adulto/Master</button>
+            //   <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white">
+            //   Inscritos Infantil/Juvenil
+            //   </button>
+            // </div>
           )}
 
           {/* MENU ITEMS */}
@@ -112,11 +112,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
+            {/* <Link
               page="AdultList"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            />
+            /> */}
           </div>
         </div>
       )}
