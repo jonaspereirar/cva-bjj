@@ -93,7 +93,119 @@ const dados: DadoAdult[] = [
     categoria: "Master 1",
     equipe: "O Dojo São Luís",
     sexo: "Masculino"
-  }
+  },
+  {
+    nome: "Carlos Teixeira",
+    faixa: "Azul",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "Figthers inside",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Alexandre Rodrigues",
+    faixa: "Branca",
+    peso: "Pesado",
+    categoria: "Adulto",
+    equipe: "Checkmat torres Vedras",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Bruno Sodre",
+    faixa: "Branca",
+    peso: "Pesado",
+    categoria: "Master 1",
+    equipe: "Gracie lisboa",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Helder Sousa",
+    faixa: "Marron",
+    peso: "Pesado",
+    categoria: "Master 1",
+    equipe: "Endless",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Luís Verdades",
+    faixa: "Azul",
+    peso: "Leve",
+    categoria: "Master 3",
+    equipe: "Endless Team-Liga de Algés",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Helder Sousa",
+    faixa: "Marron",
+    peso: "Pesado",
+    categoria: "Master 1",
+    equipe: "Endless",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Rui Gomes",
+    faixa: "Azul",
+    peso: "Pena",
+    categoria: "Master 4",
+    equipe: "Endless Team Liga de Algés",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Francisco Ferreira",
+    faixa: "Azul",
+    peso: "Pluma",
+    categoria: "Adulto",
+    equipe: "Checkmate Europa",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Samer Haidar",
+    faixa: "Azul",
+    peso: "Meio-Pesado",
+    categoria: "Master 1",
+    equipe: "Odojo Sao luis",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Alexandre Sousa",
+    faixa: "Branca",
+    peso: "Pesado",
+    categoria: "Adulto",
+    equipe: "Peposo Team Portugal Açores São Miguel",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Pedro Tarabá",
+    faixa: "Marron",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "Academia 21 BPT Queluz",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Ricardo Gomes",
+    faixa: "Preta",
+    peso: "Meio-Pesado",
+    categoria: "Master 3",
+    equipe: "Brazilian power team internacional",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Marcos Almeida",
+    faixa: "Branca",
+    peso: "Pesadíssimo",
+    categoria: "Adulto",
+    equipe: "Brazilian power team internacional",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Sergio Júnior",
+    faixa: "Azul",
+    peso: "Pesado",
+    categoria: "Adulto",
+    equipe: "Wish roll Porto",
+    sexo: "Masculino"
+  },
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {

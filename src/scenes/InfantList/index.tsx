@@ -45,7 +45,21 @@ const dados: DadosInfant[] = [
   { nome: "Fabiana Guerreiro", faixa: "Branca", peso: 49.8, categoria: "Infantil", equipe: "CVA" },
   { nome: "Louis Gana", faixa: "Branca", peso: 57.7, categoria: "Infanto-Juvenil", equipe: "CVA" },
   { nome: "Maliah Noack", faixa: "Branca", peso: 55, categoria: "Infanto-Juvenil", equipe: "CVA" },
-  { nome: "Samuel Savador", faixa: "Branca", peso: 31, categoria: "Infantil", equipe: "Sampaiobjj-fcs Algarve" }
+  { nome: "Samuel Savador", faixa: "Branca", peso: 31, categoria: "Infantil", equipe: "Sampaiobjj-fcs Algarve" },
+  {
+    nome: "Lea Salazar",
+    faixa: "Cinza",
+    peso: 45,
+    categoria: "Infantil",
+    equipe: "O Dojo São Luís"
+    },
+    {
+    nome: "Salvador Balicevic",
+    faixa: "Amarela",
+    peso: 52.55,
+    categoria: "Infantil",
+    equipe: "Icon jiujitsu Algarve"
+    }
 ];
 
 const InfantList = ({ setSelectedPage }: Props) => {
