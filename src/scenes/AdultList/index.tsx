@@ -58,7 +58,7 @@ const dados: DadoAdult[] = [
     nome: "Diogo Pinho",
     faixa: "Branca",
     peso: "Médio",
-    categoria: "Master 1",
+    categoria: "Master 2",
     equipe: "Endless Jiu Jitsu Algés",
     sexo: "Masculino"
   },
@@ -204,6 +204,30 @@ const dados: DadoAdult[] = [
     peso: "Pesado",
     categoria: "Adulto",
     equipe: "Wish roll Porto",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Alemão ",
+    faixa: "Marron",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "ZR Team Casal de Cambra",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Carlos Diogo",
+    faixa: "Roxa",
+    peso: "Pena",
+    categoria: "Master 3",
+    equipe: "ZR Team Casal de Cambra",
+    sexo: "Masculino"
+  },
+  {
+    nome: "João Silva",
+    faixa: "Branca",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "Icon Jiu Jitsu Carcavelos",
     sexo: "Masculino"
   },
 ];

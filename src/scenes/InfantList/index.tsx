@@ -59,7 +59,21 @@ const dados: DadosInfant[] = [
     peso: 52.55,
     categoria: "Infantil",
     equipe: "Icon jiujitsu Algarve"
-    }
+    },
+  {
+    nome: "Diego soares",
+    faixa: "Cinza",
+    peso: 24.50,
+    categoria: "Mirim",
+    equipe: "Icon jiu jitsu algarve"
+    },
+    {
+      nome: "Moritz Fajan Hänsel ",
+      faixa: "Cinza",
+      peso: 54,
+      categoria: "Infantil",
+      equipe: "Atos  Sao Luis"
+      },
 ];
 
 const InfantList = ({ setSelectedPage }: Props) => {
