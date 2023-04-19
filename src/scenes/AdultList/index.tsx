@@ -98,7 +98,7 @@ const dados: DadoAdult[] = [
     nome: "Carlos Teixeira",
     faixa: "Azul",
     peso: "Médio",
-    categoria: "Adulto",
+    categoria: "Master 1",
     equipe: "Figthers inside",
     sexo: "Masculino"
   },
