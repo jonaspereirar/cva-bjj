@@ -201,7 +201,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               </p>
 
               <p>PAGAMENTO:</p>
-              <p>Transferência bancária para o IBAN PT50 PT50004560454027846447323 SWIFT: CCCMPTPL </p>
+              <p>Transferência bancária para o IBAN PT50 004560454027846447323 SWIFT: CCCMPTPL </p>
               <p>(Associação de Jiu Jitsu Brasileiro de Castro Verde).</p>
 
               <p className="my-5">Inscrição válidas após o envio do comprovativo de Transferências bancárias</p>
