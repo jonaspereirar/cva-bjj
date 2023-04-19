@@ -180,6 +180,9 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2023</strong> é necessário haver no
                 mínimo <strong>10</strong> atletas na chave.  Se na chave houver entre <strong>4</strong> a <strong>9</strong> atletas será atribuído como prémio um kimono.
               </p>
+              <p className="my-5">
+                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2023</strong><strong>será transferido o valor da inscrição para o atleta.</strong>
+              </p>
 
               <HText>
                 <span className="text-primary-500">Valores</span>
