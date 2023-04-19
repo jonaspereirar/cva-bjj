@@ -230,6 +230,55 @@ const dados: DadoAdult[] = [
     equipe: "Icon Jiu Jitsu Carcavelos",
     sexo: "Masculino"
   },
+  {
+    nome: "Arlindo Prates",
+    faixa: "Preta",
+    peso: "Meio-Pesado",
+    categoria: "Adulto",
+    equipe: "Icon Jiu Jitsu Algarve",
+    sexo: "Masculino"
+  },  
+  {
+    nome: "Maria Ferreira",
+    faixa: "Marron",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "Gracie Barra Portimão",
+    sexo: "Feminino"
+  },  
+  {
+    nome: "Rafael Santos",
+    faixa: "Branca",
+    peso: "Meio-Pesado",
+    categoria: "Adulto",
+    equipe: "Luso Warrior Alcântara",
+    sexo: "Masculino"
+  },  
+  {
+    nome: "Antonio Filho",
+    faixa: "Marron",
+    peso: "Pesadíssimo",
+    categoria: "Master 4",
+    equipe: "Monteiro, Brasil",
+    sexo: "Masculino"
+  },  
+  {
+    nome: "José Vicente",
+    faixa: "Azul",
+    peso: "Médio",
+    categoria: "Master 1",
+    equipe: "Brasa Lisboa",
+    sexo: "Masculino"
+  },  
+  {
+    nome: "Carlos Luz",
+    faixa: "Azul",
+    peso: "Pesado",
+    categoria: "Adulto",
+    equipe: "CVABJJ",
+    sexo: "Masculino"
+  }
+  
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {

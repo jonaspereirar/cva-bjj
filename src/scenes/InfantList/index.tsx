@@ -74,6 +74,13 @@ const dados: DadosInfant[] = [
       categoria: "Infantil",
       equipe: "Atos  Sao Luis"
       },
+      {
+        nome: "Liedson Arrulo",
+        faixa: "Branca",
+        peso: 56,
+        categoria: "Infanto-Juvenil",
+        equipe: "Bragança Essence internacional"
+        },
 ];
 
 const InfantList = ({ setSelectedPage }: Props) => {
