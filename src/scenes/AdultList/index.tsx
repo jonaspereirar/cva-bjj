@@ -351,11 +351,35 @@ const dados: DadoAdult[] = [
     sexo: "Masculino"
   },
   {
-    nome: "Victor fiaes ",
+    nome: "Victor fiaes",
     faixa: "Branca",
     peso: "Pluma",
     categoria: "Adulto",
     equipe: "Karkara bjj caldas da rainha ",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Nuno pedro",
+    faixa: "Azul",
+    peso: "Pesado",
+    categoria: "Master 4",
+    equipe: "Sampaio",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Rubben Rocha",
+    faixa: "Roxa",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "Katsu Jiu-Jitsu",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Carlos Nunes",
+    faixa: "Marron",
+    peso: "Pena",
+    categoria: "Master 2",
+    equipe: "Cobrinha",
     sexo: "Masculino"
   },
 ];
