@@ -80,14 +80,21 @@ const dados: DadosInfant[] = [
         peso: 56,
         categoria: "Infanto-Juvenil",
         equipe: "Bragança Essence internacional"
+       },
+      {
+        nome: "Telma Rodrigues",
+        faixa: "Verde",
+        peso: 60,
+        categoria: "Infanto-Juvenil",
+        equipe: "Fighters Inside Regunegos de Monsaraz"
         },
         {
-          nome: "Telma Rodrigues",
-          faixa: "Verde",
-          peso: 60,
-          categoria: "Infanto-Juvenil",
-          equipe: "Fighters Inside Regunegos de Monsaraz"
-          },
+        nome: "William Machado",
+        faixa: "Branca",
+        peso: 64,
+        categoria: "Juvenil",
+        equipe: "Endless Team Algés"
+        },
 ];
 
 const InfantList = ({ setSelectedPage }: Props) => {
