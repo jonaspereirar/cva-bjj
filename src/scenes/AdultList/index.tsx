@@ -317,7 +317,23 @@ const dados: DadoAdult[] = [
     categoria: "Master 1",
     equipe: "2Brothers Monte Caparica",
     sexo: "Masculino"
-  }
+  },
+  {
+    nome: "Rui Bernardo",
+    faixa: "Azul",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "Fighters Inside",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Daniel Lincoln",
+    faixa: "Branca",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "Endless Team Jiu Jitsu",
+    sexo: "Masculino"
+  },
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {
