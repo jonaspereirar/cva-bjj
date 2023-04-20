@@ -350,6 +350,14 @@ const dados: DadoAdult[] = [
     equipe: "Artsuave Marcão ",
     sexo: "Masculino"
   },
+  {
+    nome: "Victor fiaes ",
+    faixa: "Branca",
+    peso: "Pluma",
+    categoria: "Adulto",
+    equipe: "Karkara bjj caldas da rainha ",
+    sexo: "Masculino"
+  },
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {
