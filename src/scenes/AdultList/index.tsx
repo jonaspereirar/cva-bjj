@@ -334,6 +334,14 @@ const dados: DadoAdult[] = [
     equipe: "Endless Team Jiu Jitsu",
     sexo: "Masculino"
   },
+  {
+    nome: "Gonçalo Pereira ",
+    faixa: "Marron",
+    peso: "Leve",
+    categoria: "Adulto",
+    equipe: "Brazilian Power Team",
+    sexo: "Masculino"
+  },
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {
