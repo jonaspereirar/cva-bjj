@@ -335,11 +335,19 @@ const dados: DadoAdult[] = [
     sexo: "Masculino"
   },
   {
-    nome: "Gonçalo Pereira ",
+    nome: "Gonçalo Pereira",
     faixa: "Marron",
     peso: "Leve",
     categoria: "Adulto",
     equipe: "Brazilian Power Team",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Daniel Hoeger",
+    faixa: "Azul",
+    peso: "Pena",
+    categoria: "Adulto",
+    equipe: "Artsuave Marcão ",
     sexo: "Masculino"
   },
 ];
