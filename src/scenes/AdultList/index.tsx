@@ -277,8 +277,47 @@ const dados: DadoAdult[] = [
     categoria: "Adulto",
     equipe: "CVABJJ",
     sexo: "Masculino"
+  },
+  {
+    nome: "Rui Bernardo",
+    faixa: "Azul",
+    peso: "Médio",
+    categoria: "Adulto",
+    equipe: "Fighters Inside Portugal",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Antonio Acabado",
+    faixa: "Branca",
+    peso: "Pena",
+    categoria: "Adulto",
+    equipe: "Fighters Inside",
+    sexo: "Masculino"
+  },
+  {
+    nome: "João Acabado",
+    faixa: "Branca",
+    peso: "Pesado",
+    categoria: "Adulto",
+    equipe: "Fighters Inside",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Pedro Rodrigues",
+    faixa: "Preta",
+    peso: "Super-Pesado",
+    categoria: "Master 3",
+    equipe: "Fighters Inside",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Mayron Souza",
+    faixa: "Azul",
+    peso: "Meio-Pesado",
+    categoria: "Master 1",
+    equipe: "2Brothers Monte Caparica",
+    sexo: "Masculino"
   }
-  
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {
