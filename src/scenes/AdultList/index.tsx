@@ -382,7 +382,31 @@ const dados: DadoAdult[] = [
     equipe: "Cobrinha",
     sexo: "Masculino"
   },
-  {    nome: "Daniel Lincoln",    faixa: "Branca",    peso: "Médio",    categoria: "Adulto",    equipe: "Endless Team Jiu Jitsu",    sexo: "Masculino"  },  {    nome: "Gonçalo Pereira",    faixa: "Marron",    peso: "Leve",    categoria: "Adulto",    equipe: "Brazilian Power Team",    sexo: "Masculino"  },  {    nome: "Daniel Hoeger",    faixa: "Azul",    peso: "Pena",    categoria: "Adulto",    equipe: "Artsuave Marcão",    sexo: "Masculino"  },  {    nome: "Victor fiaes",    faixa: "Branca",    peso: "Pluma",    categoria: "Adulto",    equipe: "Karkara bjj caldas da rainha",    sexo: "Masculino"  },  {    nome: "Nuno pedro",    faixa: "Azul",    peso: "Pesado",    categoria: "Master 4",    equipe: "Sampaio",    sexo: "Masculino"  },  {    nome: "Rubben Rocha",    faixa: "Roxa",    peso: "Médio",    categoria: "Adulto",    equipe: "Katsu Jiu-Jitsu",    sexo: "Masculino"  },  {    nome: "Carlos Nunes",    faixa: "Marron",    peso: "Pena",    categoria: "Master 2",    equipe: "Cobrinha",    sexo: "Masculino"  },  {    nome: "Leandro Pinheiro",    faixa: "Roxa",    peso: "Leve",    categoria: "Master 2",    equipe: "Reginaldo Avelino",    sexo: "Masculino"  },  {    nome: "Sérgio Aires",    faixa: "Branca",    peso: "Pena",    categoria: "Master 3",    equipe: "CVA",    sexo: "Masculino"  },  {    nome: "Alexandre Policarpo",    faixa: "Branca",    peso: "Médio",    categoria: "Master 1",    equipe: "CVA",    sexo: "Masculino"  },  {    nome: "Anderson",    faixa: "Preta",    peso: "Meio-Pesado",    categoria: "Master 1",    equipe: "Bjj4life",    sexo: "Masculino"  },  {    nome: "Joana Costa",    faixa: "Branca",    peso: "Meio-Pesado",    categoria: "Adulto",    equipe: "CVA",    sexo: "Feminino"  }
+  {    nome: "Daniel Lincoln",    faixa: "Branca",    peso: "Médio",    categoria: "Adulto",    equipe: "Endless Team Jiu Jitsu",    sexo: "Masculino"  },  {    nome: "Gonçalo Pereira",    faixa: "Marron",    peso: "Leve",    categoria: "Adulto",    equipe: "Brazilian Power Team",    sexo: "Masculino"  },  {    nome: "Daniel Hoeger",    faixa: "Azul",    peso: "Pena",    categoria: "Adulto",    equipe: "Artsuave Marcão",    sexo: "Masculino"  },  {    nome: "Victor fiaes",    faixa: "Branca",    peso: "Pluma",    categoria: "Adulto",    equipe: "Karkara bjj caldas da rainha",    sexo: "Masculino"  },  {    nome: "Nuno pedro",    faixa: "Azul",    peso: "Pesado",    categoria: "Master 4",    equipe: "Sampaio",    sexo: "Masculino"  },  {    nome: "Rubben Rocha",    faixa: "Roxa",    peso: "Médio",    categoria: "Adulto",    equipe: "Katsu Jiu-Jitsu",    sexo: "Masculino"  },  {    nome: "Carlos Nunes",    faixa: "Marron",    peso: "Pena",    categoria: "Master 2",    equipe: "Cobrinha",    sexo: "Masculino"  },  {    nome: "Leandro Pinheiro",    faixa: "Roxa",    peso: "Leve",    categoria: "Master 2",    equipe: "Reginaldo Avelino",    sexo: "Masculino"  },  {    nome: "Sérgio Aires",    faixa: "Branca",    peso: "Pena",    categoria: "Master 3",    equipe: "CVA",    sexo: "Masculino"  },  {    nome: "Alexandre Policarpo",    faixa: "Branca",    peso: "Médio",    categoria: "Master 1",    equipe: "CVA",    sexo: "Masculino"  },  {    nome: "Anderson",    faixa: "Preta",    peso: "Meio-Pesado",    categoria: "Master 1",    equipe: "Bjj4life",    sexo: "Masculino"  },  {    nome: "Joana Costa",    faixa: "Branca",    peso: "Meio-Pesado",    categoria: "Adulto",    equipe: "CVA",    sexo: "Feminino"  },
+   {
+    nome: "Deyveson Oliveira",
+    faixa: "Preta",
+    peso: "Pesadíssimo",
+    categoria: "Adulto",
+    equipe: "Black Norte Jiu-jitsu",
+    sexo: "Masculino"
+  },
+   {
+    nome: "Tiago Silva",
+    faixa: "Roxa",
+    peso: "Pesadíssimo",
+    categoria: "Master 1",
+    equipe: "DL BJJ Queluz",
+    sexo: "Masculino"
+  },
+  {
+    nome: "Cesario santana",
+    faixa: "Roxa",
+    peso: "Médio",
+    categoria: "Master 1",
+    equipe: "Gracie Barra Portimao",
+    sexo: "Masculino"
+  },
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {
