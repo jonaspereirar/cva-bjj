@@ -407,6 +407,14 @@ const dados: DadoAdult[] = [
     equipe: "Gracie Barra Portimao",
     sexo: "Masculino"
   },
+  {
+    nome: "Tiago nunes",
+    faixa: "Azul",
+    peso: "Leve",
+    categoria: "Adulto",
+    equipe: "Icon jiu-jitsu Cascais",
+    sexo: "Masculino"
+  },
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {
