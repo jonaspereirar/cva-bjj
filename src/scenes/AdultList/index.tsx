@@ -415,6 +415,13 @@ const dados: DadoAdult[] = [
     equipe: "Icon jiu-jitsu Cascais",
     sexo: "Masculino"
   },
+  {    nome: "Samuel Pãozinho",    faixa: "Azul",    peso: "Pesadíssimo",    categoria: "Master 2",    equipe: "Icon JJ Team",    sexo: "Masculino"  },  
+  {    nome: "Guilherme Gonçalves",    faixa: "Branca",    peso: "Pluma",    categoria: "Adulto",    equipe: "Icon Jiu-Jitsu Algarve",    sexo: "Masculino"  },  
+  {    nome: "Pedro Confeiteiro",    faixa: "Azul",    peso: "Leve",    categoria: "Adulto",    equipe: "Five Elements",    sexo: "Masculino"  }, 
+  {    nome: "Miguel Carvalho",    faixa: "Azul",    peso: "Leve",    categoria: "Adulto",    equipe: "Icon Jiu-Jitsu Évora",    sexo: "Masculino"  },  
+  {    nome: "Joana Rocha",    faixa: "Azul",    peso: "Meio-Pesado",    categoria: "Adulto",    equipe: "Vita Team Évora",    sexo: "Feminino"  },  
+  {    nome: "Alexandre silva",    faixa: "Branca",    peso: "Médio",    categoria: "Master 2",    equipe: "Gracie barra Hamburgo",    sexo: "Masculino"  }
+
 ];
 
 const AdultList = ({ setSelectedPage }: Props) => {

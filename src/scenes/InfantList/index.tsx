@@ -17,23 +17,21 @@ type DadosInfant = {
 };
 
 const dados: DadosInfant[] = [
-  { nome: "Santiago Afonso", faixa: "Amarela", peso: 51, categoria: "Infanto-Juvenil", equipe: "CVA" },
+  { nome: "Santiago Afonso", faixa: "Amarela", peso: 51, categoria: "Infantil", equipe: "CVA" },
   { nome: "Tiago Faísco", faixa: "Branca", peso: 38, categoria: "Mirim", equipe: "CVA" },
   { nome: "Rosa Getsel", faixa: "Cinza", peso: 31.6, categoria: "Infantil", equipe: "CVA" },
-  { nome: "Tiago Kempe", faixa: "Cinza", peso: 45, categoria: "Infantil", equipe: "ATOS São Luís" },
-  { nome: "Tiago Julian Fernandes Kempe", faixa: "Cinza", peso: 45, categoria: "Infantil", equipe: "ATOS São Luís" },
-  { nome: "Balian Hellinger", faixa: "Cinza", peso: 64, categoria: "Juvenil", equipe: "Atos Jiu-Jitsu" },
+  { nome: "Tiago Kempe", faixa: "Cinza", peso: 45, categoria: "Infanto-Juvenil", equipe: "ATOS São Luís" },
+  { nome: "Balian Hellinger", faixa: "Cinza", peso: 64, categoria: "Infanto-Juvenil", equipe: "Atos Jiu-Jitsu" },
   { nome: "Tomas Guia", faixa: "Amarela", peso: 78.4, categoria: "Infantil", equipe: "SampaioBJJ_FCS" },
   { nome: "Heitor Pereira", faixa: "Branca", peso: 56, categoria: "Infanto-Juvenil", equipe: "Academia DL BJJ" },
-  { nome: "Moussa Rashed", faixa: "Branca", peso: 31, categoria: "Infantil", equipe: "Odojo Sao Luis" },
-  { nome: "Samuel Rosa", faixa: "Laranja", peso: 50, categoria: "Infantil", equipe: "DL-BJJ QUELUZ" },
+  { nome: "Moussa Rashed", faixa: "Branca", peso: 31, categoria: "Mirim", equipe: "Odojo Sao Luis" },
+  { nome: "Samuel Rosa", faixa: "Laranja", peso: 50, categoria: "Infanto-Juvenil", equipe: "DL-BJJ QUELUZ" },
   { nome: "Samuel Rosa", faixa: "Laranja", peso: 50, categoria: "Infantil", equipe: "DL-BJJ QUELUZ" },
   { nome: "NOAH LOPEZ", faixa: "Branca", peso: 38, categoria: "Infantil", equipe: "O dojo do Sao Luis" },
-  { nome: "LEON LOPEZ", faixa: "Branca", peso: 30, categoria: "Infantil", equipe: "O dojo do Sao Luis" },
+  { nome: "LEON LOPEZ", faixa: "Branca", peso: 30, categoria: "Mirim", equipe: "O dojo do Sao Luis" },
   { nome: "Emanuel Rosa", faixa: "Cinza", peso: 38, categoria: "Mirim", equipe: "DL-BJJ QUELUZ" },
-  { nome: "Samuel Rosa", faixa: "Laranja", peso: 50, categoria: "Infanto-Juvenil", equipe: "DL-BJJ QUELUZ" },
   { nome: "Thallyson Vasconcelos", faixa: "Azul", peso: 72, categoria: "Juvenil", equipe: "ZR team Sintra" },
-  { nome: "Gabriel Inácio Krushovski", faixa: "Amarela", peso: 49.3, categoria: "Infantil", equipe: "Ícone jiu jitsu Algarve" },
+  { nome: "Gabriel Inácio Krushovski", faixa: "Amarela", peso: 49.3, categoria: "Infanto-Juvenil", equipe: "Ícone jiu jitsu Algarve" },
   { nome: "Francisco Ferreira", faixa: "Branca", peso: 25.3, categoria: "Mirim", equipe: "CVA" },
   { nome: "Alície Vermelho", faixa: "Branca", peso: 20.5, categoria: "Pré-Mirim", equipe: "CVA" },
   { nome: "Simão Alexandrino", faixa: "Cinza", peso: 28.8, categoria: "Mirim", equipe: "CVA" },
@@ -44,7 +42,7 @@ const dados: DadosInfant[] = [
   { nome: "Iara Guerreiro", faixa: "Branca", peso: 55.5, categoria: "Infantil", equipe: "CVA" },
   { nome: "Fabiana Guerreiro", faixa: "Branca", peso: 49.8, categoria: "Infantil", equipe: "CVA" },
   { nome: "Louis Gana", faixa: "Branca", peso: 57.7, categoria: "Infanto-Juvenil", equipe: "CVA" },
-  { nome: "Maliah Noack", faixa: "Branca", peso: 55, categoria: "Infanto-Juvenil", equipe: "CVA" },
+  { nome: "Maliah Noack", faixa: "Branca", peso: 55, categoria: "Infantil", equipe: "CVA" },
   { nome: "Samuel Savador", faixa: "Branca", peso: 31, categoria: "Infantil", equipe: "Sampaiobjj-fcs Algarve" },
   {
     nome: "Lea Salazar",
@@ -57,7 +55,7 @@ const dados: DadosInfant[] = [
     nome: "Salvador Balicevic",
     faixa: "Amarela",
     peso: 52.55,
-    categoria: "Infantil",
+    categoria: "Infanto-Juvenil",
     equipe: "Icon jiujitsu Algarve"
     },
   {
@@ -71,7 +69,7 @@ const dados: DadosInfant[] = [
       nome: "Moritz Fajan Hänsel ",
       faixa: "Cinza",
       peso: 54,
-      categoria: "Infantil",
+      categoria: "Infanto-Juvenil",
       equipe: "Atos  Sao Luis"
       },
       {
@@ -92,7 +90,7 @@ const dados: DadosInfant[] = [
         nome: "William Machado",
         faixa: "Branca",
         peso: 64,
-        categoria: "Juvenil",
+        categoria: "Infanto-Juvenil",
         equipe: "Endless Team Algés"
         },
   {
@@ -106,14 +104,7 @@ const dados: DadosInfant[] = [
             nome: "Lucía Thaler",
             faixa: "Cinza",
             peso: 50,
-            categoria: "Infantil",
-            equipe: "ATOS",
-          },
-          {
-            nome: "Lucía Thaler",
-            faixa: "Cinza",
-            peso: 50,
-            categoria: "Infantil",
+            categoria: "Infanto-Juvenil",
             equipe: "ATOS",
           },
           {
@@ -127,14 +118,14 @@ const dados: DadosInfant[] = [
             nome: "Lennad Lengfeld",
             faixa: "Cinza",
             peso: 45,
-            categoria: "Juvenil",
+            categoria: "Infanto-Juvenil",
             equipe: "Atos Jiu-Jitsu São Luís",
           },
   {
             nome: "Lucas Bezerra",
             faixa: "Verde",
             peso: 65,
-            categoria: "Juvenil",
+            categoria: "Infanto-Juvenil",
             equipe: "Zrteam casal de cambra",
           }
 ];
