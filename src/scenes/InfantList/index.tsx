@@ -122,6 +122,20 @@ const dados: DadosInfant[] = [
             peso: 83,
             categoria: "Juvenil",
             equipe: "Fighters Inside",
+          },
+  {
+            nome: "Lennad Lengfeld",
+            faixa: "Cinza",
+            peso: 45,
+            categoria: "Juvenil",
+            equipe: "Atos Jiu-Jitsu São Luís",
+          },
+  {
+            nome: "Lucas Bezerra",
+            faixa: "Verde",
+            peso: 65,
+            categoria: "Juvenil",
+            equipe: "Zrteam casal de cambra",
           }
 ];
 
