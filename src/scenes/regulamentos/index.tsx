@@ -63,8 +63,10 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
             Este torneio é dirigido a todos os atletas e
             professores que pretendem competir no
             evento e apresenta todas as informações
-            necessárias para a participação.
-
+            necessárias para a participação. O evento 
+            reger-se-á pelas normas, critérios de graduação 
+            e de regras criados pela IBJJF - 
+            International Brazilian Jiu-Jitsu Federation.
           </p>
         </motion.div>
 
