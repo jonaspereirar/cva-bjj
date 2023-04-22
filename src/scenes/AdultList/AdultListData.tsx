@@ -95,4 +95,14 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Alexandre silva", faixa: "Branca", peso: "Médio", categoria: "Master 2", equipe: "Gracie barra Hamburgo", sexo: "Masculino"  },
   { nome: "Yara leite", faixa: "Marron", peso: "Leve", categoria: "Adulto", equipe: "Endlles team", sexo: "Feminino"  },
   { nome: "Widerley souza", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "GSampaiobjj Algarve", sexo: "Feminino"  },
+  { nome: "José", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Master 2", equipe: "DL-Bjj", sexo: "Masculino" },
+  { nome: "Miguel Rondão", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "Academia DL-BJJ", sexo: "Masculino"  },
+  { nome: "Alexei Lungu", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Adulto", equipe: "Sampaio BJJ", sexo: "Masculino"  },
+  { nome: "Tiago Gomes", faixa: "Branca", peso: "Médio", categoria: "Adulto", equipe: "DL Jiu-jitsu -  Queluz", sexo: "Masculino"  },
+  { nome: "Leonardo Silva", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Master 1", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },
+  { nome: "Elena Buss", faixa: "Branca", peso: "Médio", categoria: "Master 2", equipe: "Roger Gracie Algarve", sexo: "Feminino"  },
+  { nome: "Anne van Es", faixa: "Branca", peso: "Pena", categoria: "Master 1", equipe: "Roger Gracie Algarve", sexo: "Feminino"  },
+  { nome: "Evany Ottoniel", faixa: "Marron", peso: "Pena", categoria: "Master 1", equipe: "Gracie Barra Amora", sexo: "Masculino"  },
+  { nome: "João Domingos Oliveira", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Under Pressure BJJ", sexo: "Masculino"  },
+  { nome: "Guilherme Seabra", faixa: "Branca", peso: "Pena", categoria: "Adulto", equipe: "Checkmat Europa", sexo: "Masculino"  }
 ];

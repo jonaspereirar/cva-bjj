@@ -39,5 +39,7 @@ export const Atletas: DadosInfatil[] = [
   { nome: "Lucía Thaler", faixa: "Cinza", peso: 50, categoria: "Infanto-Juvenil", equipe: "ATOS"},
   { nome: "Simão Chá", faixa: "Branca", peso: 83, categoria: "Juvenil", equipe: "Fighters Inside"},
   { nome: "Lennad Lengfeld", faixa: "Cinza", peso: 45, categoria: "Infanto-Juvenil", equipe: "Atos Jiu-Jitsu São Luís"},
-  { nome: "Lucas Bezerra", faixa: "Verde", peso: 65, categoria: "Infanto-Juvenil", equipe: "Zrteam casal de cambra"}
+  { nome: "Lucas Bezerra", faixa: "Verde", peso: 65, categoria: "Infanto-Juvenil", equipe: "Zrteam casal de cambra"},
+  { nome: "Louis Pinheiro", faixa: "Cinza", peso: 53, categoria: "Juvenil", equipe: "ATOS São Luis"},
+  { nome: "João Pereira ", faixa: "Amarela", peso: 43, categoria: "Infanto-Juvenil", equipe: "Zrteam casal de cambra"},
 ];
