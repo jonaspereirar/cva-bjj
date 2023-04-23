@@ -49,4 +49,7 @@ export const Atletas: DadosInfatil[] = [
   { nome: "Mia Menezes", faixa: "Branca", peso: 18, categoria: "Mirim", equipe: "Roger Gracie Algarve"    },
   { nome: "Luanda Menezes", faixa: "Branca", peso: 28, categoria: "Mirim", equipe: "Roger Gracie Algarve"    },
   { nome: "David Menezes", faixa: "Branca", peso: 47, categoria: "Infanto-Juvenil", equipe: "Roger Gracie Algarve"    }
+  { nome: "Henrique Santos", faixa: "Cinza", peso: 28.5, categoria: "Mirim", equipe: "Zr Team"    }
+  { nome: "Joana Manhita", faixa: "Cinza", peso: 46, categoria: "Mirim", equipe: "Cobrinha Portugal"    }
+  { nome: "Santiago Fialho", faixa: "Cinza", peso: 33, categoria: "Mirim", equipe: "Cobrinha Portugal"    }
 ];

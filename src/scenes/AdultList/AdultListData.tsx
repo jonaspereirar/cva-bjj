@@ -108,4 +108,6 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Gabriel Mota", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "DL BJJ Queluz", sexo: "Masculino"  },
   { nome: "João Martins", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "Cobrinha Portugal, Beja", sexo: "Masculino"  },
   { nome: "Diane Grossot", faixa: "Azul", peso: "Médio", categoria: "Master 2", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },
+  { nome: "Sérgio Albuquerque", faixa: "Azul", peso: "Meio-Pesado", categoria: "Master 3", equipe: "Academia DL-BJJ Queluz", sexo: "Masculino"  },
+  { nome: "Victor Dicov", faixa: "Branca", peso: "Leve", categoria: "Master 2", equipe: "Cobrinha Portugal", sexo: "Masculino"  },
 ];
