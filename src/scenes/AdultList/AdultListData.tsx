@@ -64,10 +64,8 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Pedro Rodrigues", faixa: "Preta", peso: "Super-Pesado", categoria: "Master 3", equipe: "Fighters Inside", sexo: "Masculino"},
   { nome: "Mayron Souza", faixa: "Azul", peso: "Meio-Pesado", categoria: "Master 1", equipe: "2Brothers Monte Caparica", sexo: "Masculino"},
   { nome: "Rui Bernardo", faixa: "Azul", peso: "Médio", categoria: "Adulto", equipe: "Fighters Inside", sexo: "Masculino"},
-  { nome: "Daniel Lincoln", faixa: "Branca", peso: "Médio", categoria: "Adulto", equipe: "Endless Team Jiu Jitsu", sexo: "Masculino"},
   { nome: "Gonçalo Pereira", faixa: "Marron", peso: "Leve", categoria: "Adulto", equipe: "Brazilian Power Team", sexo: "Masculino"},
   { nome: "Daniel Hoeger", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Artsuave Marcão ", sexo: "Masculino"},
-  { nome: "Victor fiaes", faixa: "Branca", peso: "Pluma", categoria: "Adulto", equipe: "Karkara bjj caldas da rainha ", sexo: "Masculino"},
   { nome: "Nuno pedro", faixa: "Azul", peso: "Pesado", categoria: "Master 4", equipe: "Sampaio", sexo: "Masculino" }, 
   { nome: "Rubben Rocha", faixa: "Roxa", peso: "Médio", categoria: "Adulto", equipe: "Katsu Jiu-Jitsu", sexo: "Masculino"},
   { nome: "Carlos Nunes", faixa: "Marron", peso: "Pena", categoria: "Master 2", equipe: "Cobrinha", sexo: "Masculino"},
@@ -108,4 +106,6 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Jorge Nunes", faixa: "Roxa", peso: "Médio", categoria: "Master 4", equipe: "Brazilian Power Team Internacional", sexo: "Masculino"  },
   { nome: "Tiago Batista", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "Icon Jiu-Jitsu Team", sexo: "Masculino"  },
   { nome: "Gabriel Mota", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "DL BJJ Queluz", sexo: "Masculino"  },
+  { nome: "João Martins", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "Cobrinha Portugal, Beja", sexo: "Masculino"  },
+  { nome: "Diane Grossot", faixa: "Azul", peso: "Médio", categoria: "Master 2", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },
 ];

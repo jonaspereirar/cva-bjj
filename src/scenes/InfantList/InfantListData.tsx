@@ -43,4 +43,10 @@ export const Atletas: DadosInfatil[] = [
   { nome: "Louis Pinheiro", faixa: "Cinza", peso: 53, categoria: "Juvenil", equipe: "ATOS São Luis"},
   { nome: "João Pereira ", faixa: "Amarela", peso: 43, categoria: "Infanto-Juvenil", equipe: "Zrteam casal de cambra"},
   { nome: "Liedson Arrulo ", faixa: "Amarela", peso: 60, categoria: "Infanto-Juvenil", equipe: "Essencial internacional"},
+  { nome: "Ryo Elsinga", faixa: "Amarela", peso: 64, categoria: "Infanto-Juvenil", equipe: "Odojo odemira s.Luis"    },
+  { nome: "Margarida Pereira", faixa: "Cinza", peso: 38, categoria: "Infantil", equipe: "Cobrinha Portugal"    },
+  { nome: "Gabriela Pereira", faixa: "Cinza", peso: 25, categoria: "Pré-Mirim", equipe: "Cobrinha Portugal"    },
+  { nome: "Mia Menezes", faixa: "Branca", peso: 18, categoria: "Mirim", equipe: "Roger Gracie Algarve"    },
+  { nome: "Luanda Menezes", faixa: "Branca", peso: 28, categoria: "Mirim", equipe: "Roger Gracie Algarve"    },
+  { nome: "David Menezes", faixa: "Branca", peso: 47, categoria: "Infanto-Juvenil", equipe: "Roger Gracie Algarve"    }
 ];
