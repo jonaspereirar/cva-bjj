@@ -42,4 +42,5 @@ export const Atletas: DadosInfatil[] = [
   { nome: "Lucas Bezerra", faixa: "Verde", peso: 65, categoria: "Infanto-Juvenil", equipe: "Zrteam casal de cambra"},
   { nome: "Louis Pinheiro", faixa: "Cinza", peso: 53, categoria: "Juvenil", equipe: "ATOS São Luis"},
   { nome: "João Pereira ", faixa: "Amarela", peso: 43, categoria: "Infanto-Juvenil", equipe: "Zrteam casal de cambra"},
+  { nome: "Liedson Arrulo ", faixa: "Amarela", peso: 60, categoria: "Infanto-Juvenil", equipe: "Essencial internacional"},
 ];

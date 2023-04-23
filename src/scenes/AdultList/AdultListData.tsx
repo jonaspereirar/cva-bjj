@@ -104,5 +104,8 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Anne van Es", faixa: "Branca", peso: "Pena", categoria: "Master 1", equipe: "Roger Gracie Algarve", sexo: "Feminino"  },
   { nome: "Evany Ottoniel", faixa: "Marron", peso: "Pena", categoria: "Master 1", equipe: "Gracie Barra Amora", sexo: "Masculino"  },
   { nome: "João Domingos Oliveira", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Under Pressure BJJ", sexo: "Masculino"  },
-  { nome: "Guilherme Seabra", faixa: "Branca", peso: "Pena", categoria: "Adulto", equipe: "Checkmat Europa", sexo: "Masculino"  }
+  { nome: "Guilherme Seabra", faixa: "Branca", peso: "Pena", categoria: "Adulto", equipe: "Checkmat Europa", sexo: "Masculino"  },
+  { nome: "Jorge Nunes", faixa: "Roxa", peso: "Médio", categoria: "Master 4", equipe: "Brazilian Power Team Internacional", sexo: "Masculino"  },
+  { nome: "Tiago Batista", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "Icon Jiu-Jitsu Team", sexo: "Masculino"  },
+  { nome: "Gabriel Mota", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "DL BJJ Queluz", sexo: "Masculino"  },
 ];
