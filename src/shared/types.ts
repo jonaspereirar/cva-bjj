@@ -4,7 +4,8 @@ export enum SelectedPage {
   OurClasses = "ourclasses",
   Contacto = "contactos",
   AdultList = "listagem-adulto/master",
-  InfantList = "listagem-infantil/juvenil"
+  InfantList = "listagem-infantil/juvenil",
+  Lutas = "lutas"
 }
 
 export interface RegulamentoType {
@@ -19,3 +20,20 @@ export interface ClassType {
   description?: string;
   image: string;
 }
+
+export type DadosAdulto = {
+  nome: string;
+  faixa: string;
+  peso: string;
+  categoria: string;
+  equipe: string;
+  sexo: string;
+};
+
+export type DadosInfatil = {
+  nome: string;
+  faixa: string;
+  peso: number;
+  categoria: string;
+  equipe: string;
+};

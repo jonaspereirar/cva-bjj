@@ -7,6 +7,7 @@ import Regulamentos from "@/scenes/regulamentos";
 import { SelectedPage } from "@/shared/types";
 import { useEffect, useState } from "react";
 import InfantList from "./scenes/InfantList";
+import Lutas from "./scenes/Lutas";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -37,6 +38,7 @@ function App() {
       <Regulamentos setSelectedPage={setSelectedPage} />
       <AdultList setSelectedPage={setSelectedPage} />
       <InfantList setSelectedPage={setSelectedPage} />
+      <Lutas setSelectedPage={setSelectedPage} />
       <Contacto setSelectedPage={setSelectedPage} />
       <Footer />
     </div>
