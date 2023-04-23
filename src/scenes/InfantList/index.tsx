@@ -35,15 +35,30 @@ const InfantList = ({ setSelectedPage }: Props) => {
       onClick={handleToggleListClick}>Ver lista de inscritos</button>
       {showList && (
         <section id="listagem-infantil" className="mx-auto w-5/6 pt-24 pb-32">
-          <div className="mb-4">
-            <input
-              type="text"
-              placeholder="Pesquisar"
-              className="px-4 py-2 w-full border rounded-lg"
-              value={searchValue}
-              onChange={handleSearchInputChange}
-            />
-          </div>
+         
+          <div className="relative mb-4">
+  <input
+    type="text"
+    placeholder="Pesquisar"
+    //className="px-4 py-2 w-full border rounded-lg outline-none focus:border-blue-500 animate-pulse"
+    className="px-4 py-2 w-full border rounded-lg 
+    focus:outline-none focus:ring-2 focus:ring-blue-600 
+    bg-gray-100 text-gray-700 placeholder-gray-500 animate-pulse"
+    value={searchValue}
+    onChange={handleSearchInputChange}
+  />
+  <div className="absolute inset-y-0 right-0 flex items-center pr-3">
+    <svg className="h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none">
+      <path
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        d="M15 9l-4 4m0 0l-4-4m4 4v6a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h6"
+      ></path>
+    </svg>
+  </div>
+</div>
+          
           <ul>
             {filteredData.map((dado, index) => (
               <motion.li

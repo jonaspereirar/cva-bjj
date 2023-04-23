@@ -58,6 +58,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Antonio Filho", faixa: "Marron", peso: "Pesadíssimo", categoria: "Master 4", equipe: "Monteiro, Brasil", sexo: "Masculino"},  
   { nome: "José Vicente", faixa: "Azul", peso: "Médio", categoria: "Master 1", equipe: "Brasa Lisboa", sexo: "Masculino"  },
   { nome: "Carlos Luz", faixa: "Azul", peso: "Pesado", categoria: "Adulto", equipe: "CVABJJ", sexo: "Masculino"},
+  { nome: "Rui Bernardo", faixa: "Azul", peso: "Médio", categoria: "Adulto", equipe: "Fighters Inside Portugal", sexo: "Masculino"},
   { nome: "Antonio Acabado", faixa: "Branca", peso: "Pena", categoria: "Adulto", equipe: "Fighters Inside", sexo: "Masculino"},
   { nome: "João Acabado", faixa: "Branca", peso: "Pesado", categoria: "Adulto", equipe: "Fighters Inside", sexo: "Masculino"},
   { nome: "Pedro Rodrigues", faixa: "Preta", peso: "Super-Pesado", categoria: "Master 3", equipe: "Fighters Inside", sexo: "Masculino"},

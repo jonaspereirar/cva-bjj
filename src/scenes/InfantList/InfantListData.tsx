@@ -62,5 +62,15 @@ export const Atletas: DadosInfatil[] = [
   { nome: "Ryo Elsinga", faixa: "Amarela", peso: 64, categoria: "Infanto-Juvenil", equipe: "O dojo, São Luís, Odemira"    },
   { nome: "Mara Nascimento", faixa: "Amarela", peso: 48, categoria: "Infanto-Juvenil", equipe: "Casal de Cambra"    },
   { nome: "Mara Encarnação", faixa: "Amarela", peso: 48, categoria: "Infanto-Juvenil", equipe: "Casal de Cambra"    }
+  { nome: "André Ramos", faixa: "Cinza", peso: 30, categoria: "Mirim", equipe: "Cobrinha Portugal"    },
+  { nome: "João Carneiro", faixa: "Branca", peso: 78, categoria: "Juvenil", equipe: "ZR Team Casal de Cambra"    },
+  { nome: "João Carneiro", faixa: "Branca", peso: 78, categoria: "Juvenil", equipe: "ZR Team Casal de Cambra"    },
+  { nome: "Felipe Santos", faixa: "Branca", peso: 56, categoria: "Infanto-Juvenil", equipe: "Família Marola Faro"    },
+  { nome: "Lucca Oliveira", faixa: "Amarela", peso: 45, categoria: "Infantil", equipe: "ZR team Association"    },
+  { nome: "Enzo Correia", faixa: "Amarela", peso: 56, categoria: "Infanto-Juvenil", equipe: "Zr casal de cambra"    },
+  { nome: "Gabriel Lungu", faixa: "Laranja", peso: 39, categoria: "Infanto-Juvenil", equipe: "Sampaio bjj"    },
+  { nome: "Ryo Elsinga", faixa: "Amarela", peso: 64, categoria: "Infanto-Juvenil", equipe: "O dojo, São Luís, Odemira"    },
+  { nome: "Mara Nascimento", faixa: "Amarela", peso: 48, categoria: "Infanto-Juvenil", equipe: "Casal de Cambra"    },
+  { nome: "Mara Encarnação", faixa: "Amarela", peso: 48, categoria: "Infanto-Juvenil", equipe: "Casal de Cambra"    }
   
 ];
