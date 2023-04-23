@@ -65,7 +65,6 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Mayron Souza", faixa: "Azul", peso: "Meio-Pesado", categoria: "Master 1", equipe: "2Brothers Monte Caparica", sexo: "Masculino"},
   { nome: "Rui Bernardo", faixa: "Azul", peso: "Médio", categoria: "Adulto", equipe: "Fighters Inside", sexo: "Masculino"},
   { nome: "Gonçalo Pereira", faixa: "Marron", peso: "Leve", categoria: "Adulto", equipe: "Brazilian Power Team", sexo: "Masculino"},
-  { nome: "Daniel Hoeger", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Artsuave Marcão ", sexo: "Masculino"},
   { nome: "Nuno pedro", faixa: "Azul", peso: "Pesado", categoria: "Master 4", equipe: "Sampaio", sexo: "Masculino" }, 
   { nome: "Rubben Rocha", faixa: "Roxa", peso: "Médio", categoria: "Adulto", equipe: "Katsu Jiu-Jitsu", sexo: "Masculino"},
   { nome: "Carlos Nunes", faixa: "Marron", peso: "Pena", categoria: "Master 2", equipe: "Cobrinha", sexo: "Masculino"},
@@ -109,4 +108,13 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Diane Grossot", faixa: "Azul", peso: "Médio", categoria: "Master 2", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },
   { nome: "Sérgio Albuquerque", faixa: "Azul", peso: "Meio-Pesado", categoria: "Master 3", equipe: "Academia DL-BJJ Queluz", sexo: "Masculino"  },
   { nome: "Victor Dicov", faixa: "Branca", peso: "Leve", categoria: "Master 2", equipe: "Cobrinha Portugal", sexo: "Masculino"  },
+  { nome: "Diane Grossot", faixa: "Azul", peso: "Médio", categoria: "Master 2", equipe: "Roger Gracie Algarve", sexo: "Feminino"  },  
+  { nome: "João Dias", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "Icon jiu-jitsu team", sexo: "Masculino"  },  
+  { nome: "Bruno Soares", faixa: "Azul", peso: "Pena", categoria: "Master 2", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },  
+  { nome: "Bruno Ataíde", faixa: "Azul", peso: "Pesadíssimo", categoria: "Master 2", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },  
+  { nome: "Gonçalo Alegre", faixa: "Azul", peso: "Leve", categoria: "Adulto", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },  
+  { nome: "José Vilhena", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "cvabjj", sexo: "Masculino"  },  
+  { nome: "João Dias", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "Icon jiu-jitsu team", sexo: "Masculino"  },  
+  { nome: "Daniele Réus", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Família Marola (Faro)", sexo: "Feminino"  }
+
 ];

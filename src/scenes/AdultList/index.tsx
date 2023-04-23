@@ -11,12 +11,6 @@ type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
 
-// const Atletas: DadoAdulto[] = [
-//   { nome: "Filipe Goes", faixa: "Roxa", peso: "Pena", categoria: "Master 1", equipe: "Icon jiu jitsu", sexo: "Masculino" },
-//   { nome: "Eduardo Peixoto", faixa: "Azul", peso: "Leve", categoria: "Master 2", equipe: "5 Element Jiu jitsu Alentejo", sexo: "Masculino" },
-//   { nome: "Jonas Rodrigues", faixa: "Preta", peso: "Pesado", categoria: "Master 3", equipe: "CVA", sexo: "Masculino" },
-// ];
-
 const AdultList = ({ setSelectedPage }: Props) => {
   const [searchValue, setSearchValue] = useState("");
   const [showList, setShowList] = useState(false);

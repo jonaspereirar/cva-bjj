@@ -48,8 +48,19 @@ export const Atletas: DadosInfatil[] = [
   { nome: "Gabriela Pereira", faixa: "Cinza", peso: 25, categoria: "Pré-Mirim", equipe: "Cobrinha Portugal"    },
   { nome: "Mia Menezes", faixa: "Branca", peso: 18, categoria: "Mirim", equipe: "Roger Gracie Algarve"    },
   { nome: "Luanda Menezes", faixa: "Branca", peso: 28, categoria: "Mirim", equipe: "Roger Gracie Algarve"    },
-  { nome: "David Menezes", faixa: "Branca", peso: 47, categoria: "Infanto-Juvenil", equipe: "Roger Gracie Algarve"    }
-  { nome: "Henrique Santos", faixa: "Cinza", peso: 28.5, categoria: "Mirim", equipe: "Zr Team"    }
-  { nome: "Joana Manhita", faixa: "Cinza", peso: 46, categoria: "Mirim", equipe: "Cobrinha Portugal"    }
-  { nome: "Santiago Fialho", faixa: "Cinza", peso: 33, categoria: "Mirim", equipe: "Cobrinha Portugal"    }
+  { nome: "David Menezes", faixa: "Branca", peso: 47, categoria: "Infanto-Juvenil", equipe: "Roger Gracie Algarve"    },
+  { nome: "Henrique Santos", faixa: "Cinza", peso: 28.5, categoria: "Mirim", equipe: "Zr Team"    },
+  { nome: "Joana Manhita", faixa: "Cinza", peso: 46, categoria: "Mirim", equipe: "Cobrinha Portugal"    },
+  { nome: "Santiago Fialho", faixa: "Cinza", peso: 33, categoria: "Mirim", equipe: "Cobrinha Portugal"    },
+    { nome: "André Ramos", faixa: "Cinza", peso: 30, categoria: "Mirim", equipe: "Cobrinha Portugal"    },
+    { nome: "João Carneiro", faixa: "Branca", peso: 78, categoria: "Juvenil", equipe: "ZR Team Casal de Cambra"    },
+    { nome: "João Carneiro", faixa: "Branca", peso: 78, categoria: "Juvenil", equipe: "ZR Team Casal de Cambra"    },
+    { nome: "Felipe Santos", faixa: "Branca", peso: 56, categoria: "Infanto-Juvenil", equipe: "Família Marola Faro"    },
+    { nome: "Lucca Oliveira", faixa: "Amarela", peso: 45, categoria: "Infantil", equipe: "ZR team Association"    },
+    { nome: "Enzo Correia", faixa: "Amarela", peso: 56, categoria: "Infanto-Juvenil", equipe: "Zr casal de cambra"    },
+    { nome: "Gabriel Lungu", faixa: "Laranja", peso: 39, categoria: "Infanto-Juvenil", equipe: "Sampaio bjj"    },
+    { nome: "Ryo Elsinga", faixa: "Amarela", peso: 64, categoria: "Infanto-Juvenil", equipe: "O dojo, São Luís, Odemira"    },
+    { nome: "Mara Nascimento", faixa: "Amarela", peso: 48, categoria: "Infanto-Juvenil", equipe: "Casal de Cambra"    },
+    { nome: "Mara Encarnação", faixa: "Amarela", peso: 48, categoria: "Infanto-Juvenil", equipe: "Casal de Cambra"    }
+  
 ];
