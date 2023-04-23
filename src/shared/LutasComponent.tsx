@@ -147,7 +147,7 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
                 </div>
               </li>
             ))}
-            {luta.atletas.length > 2 ? (
+            {/* {luta.atletas.length > 2 ? (
               <div className="top-0 mt-10 ml-64 absolute">
               <div className="col-start-2">
                 <li key={luta.atletas.length}>
@@ -158,7 +158,7 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
               </div>
             </div>
             
-            ) : null}
+            ) : null} */}
           </ul>
         ))}
       </div>
@@ -174,7 +174,7 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
                 </div>
               </li>
             ))}
-            {luta.atletas.length > 2 ? (
+            {/* {luta.atletas.length > 2 ? (
               <div className="top-0 mt-10 ml-64 absolute">
                 <li key={luta.atletas.length + 1}>
                   <div className="w-64 h-12 border-2 border-gray-400 rounded-lg flex flex-col justify-center items-center bg-gray-100 shadow-md rounded-lg p-4 mt-2 mb-1 semifinal-box">
@@ -210,7 +210,7 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
                   <span className="text-sm font-medium">Final</span>
                 </div>
               </div>
-            ) : null}
+            ) : null} */}
           </ul>
 
         ))}
