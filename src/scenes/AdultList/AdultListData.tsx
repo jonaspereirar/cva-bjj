@@ -3,7 +3,7 @@ import { DadosAdulto } from "@/shared/types";
 export const Atletas: DadosAdulto[] = [
   { nome: "Filipe Goes", faixa: "Roxa", peso: "Pena", categoria: "Master 1", equipe: "Icon jiu jitsu", sexo: "Masculino" },
   { nome: "Eduardo Peixoto", faixa: "Azul", peso: "Leve", categoria: "Master 2", equipe: "5 Element Jiu jitsu Alentejo", sexo: "Masculino" },
-  { nome: "Jonas Rodrigues", faixa: "Preta", peso: "Pesado", categoria: "Master 3", equipe: "CVA", sexo: "Masculino" },
+  { nome: "Jonas Rodrigues", faixa: "Preta", peso: "Super-Pesado", categoria: "Master 3", equipe: "CVA", sexo: "Masculino" },
   { nome: "Pedro Santinhos", faixa: "Branca", peso: "Médio", categoria: "Master 3", equipe: "5 elements jui-jitsu Alentejo", sexo: "Masculino" },
   { nome: "Lauro de Souza", faixa: "Preta", peso: "Super-Pesado", categoria: "Master 1", equipe: "Acreditar Sempre Jiu-Jitsu", sexo: "Masculino" },
   { nome: "Rodrigo Silva", faixa: "Roxa", peso: "Pluma", categoria: "Adulto", equipe: "CVA", sexo: "Masculino" },
@@ -115,6 +115,8 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Gonçalo Alegre", faixa: "Azul", peso: "Leve", categoria: "Adulto", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },  
   { nome: "José Vilhena", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "cvabjj", sexo: "Masculino"  },  
   { nome: "João Dias", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "Icon jiu-jitsu team", sexo: "Masculino"  },  
-  { nome: "Daniele Réus", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Família Marola (Faro)", sexo: "Feminino"  }
+  { nome: "Daniele Réus", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Família Marola (Faro)", sexo: "Feminino"  },
+  { nome: "Miguel  Silvino", faixa: "Preta", peso: "Leve", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
+  { nome: "Elias Leal", faixa: "Azul", peso: "Super-Pesado", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
 
 ];
