@@ -90,7 +90,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Joana Rocha", faixa: "Azul", peso: "Meio-Pesado", categoria: "Adulto", equipe: "Vita Team Évora", sexo: "Feminino"  },  
   { nome: "Alexandre silva", faixa: "Branca", peso: "Médio", categoria: "Master 2", equipe: "Gracie barra Hamburgo", sexo: "Masculino"  },
   { nome: "Yara leite", faixa: "Marron", peso: "Leve", categoria: "Adulto", equipe: "Endlles team", sexo: "Feminino"  },
-  { nome: "Widerley souza", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "GSampaiobjj Algarve", sexo: "Feminino"  },
+  { nome: "Widerley souza", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "GSampaiobjj Algarve", sexo: "Masculino"  },
   { nome: "José", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Master 2", equipe: "DL-Bjj", sexo: "Masculino" },
   { nome: "Miguel Rondão", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "Academia DL-BJJ", sexo: "Masculino"  },
   { nome: "Alexei Lungu", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Adulto", equipe: "Sampaio BJJ", sexo: "Masculino"  },
