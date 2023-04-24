@@ -68,7 +68,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Nuno pedro", faixa: "Azul", peso: "Pesado", categoria: "Master 4", equipe: "Sampaio", sexo: "Masculino" }, 
   { nome: "Rubben Rocha", faixa: "Roxa", peso: "Médio", categoria: "Adulto", equipe: "Katsu Jiu-Jitsu", sexo: "Masculino"},
   { nome: "Carlos Nunes", faixa: "Marron", peso: "Pena", categoria: "Master 2", equipe: "Cobrinha", sexo: "Masculino"},
-  { nome: "Daniel Lincoln", faixa: "Branca", peso: "Médio", categoria: "Adulto", equipe: "Endless Team Jiu Jitsu", sexo: "Masculino"  },  
+  { nome: "Daniel Lincoln", faixa: "Branca", peso: "Médio", categoria: "Master 1", equipe: "Endless Team Jiu Jitsu", sexo: "Masculino"  },  
   { nome: "Gonçalo Pereira", faixa: "Marron", peso: "Leve", categoria: "Adulto", equipe: "Brazilian Power Team", sexo: "Masculino"  },  
   { nome: "Daniel Hoeger", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Artsuave Marcão", sexo: "Masculino"  },  
   { nome: "Victor fiaes", faixa: "Branca", peso: "Pluma", categoria: "Adulto", equipe: "Karkara bjj caldas da rainha", sexo: "Masculino"  },  
