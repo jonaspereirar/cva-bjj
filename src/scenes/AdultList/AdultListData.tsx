@@ -120,5 +120,6 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Elias Leal", faixa: "Azul", peso: "Super-Pesado", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
   { nome: "Ericles godoi", faixa: "Azul", peso: "Super-Pesado", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
   { nome: "Carlos Sequeira Guerreiro ", faixa: "Marron", peso: "Pesado", categoria: "Master 4", equipe: "CVA", sexo: "Masculino"  },
+  { nome: "Paulo Júlio ", faixa: "Marron", peso: "Médio", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
 
 ];
