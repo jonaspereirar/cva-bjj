@@ -128,13 +128,13 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Data limite de inscrição no torneio: <p><strong> Até às 23h 59m do dia 23 de Abril de 2023</strong>.</p>
+                Data limite de inscrição no torneio: <p><strong> Até às 23h 59m do dia 25 de Abril de 2023</strong>.</p>
               </p>
               <p className="my-5">
                 Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 16 de  Abril de 2023.</strong></p>
               </p>
               <p className="my-5">
-                Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 23 de  Abril de 2023.</strong></p>
+                Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 25 de  Abril de 2023.</strong></p>
               </p>
               <p className="my-5">
                 Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 30 de Abril de  2023.</strong></p>
