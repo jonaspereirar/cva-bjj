@@ -78,7 +78,7 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
             <option value="Branca">Branca</option>
             <option value="Azul">Azul</option>
             <option value="Roxa">Roxa</option>
-            <option value="Marrom">Marrom</option>
+            <option value="Marron">Marrom</option>
             <option value="Preta">Preta</option>
           </select>
         </label>
