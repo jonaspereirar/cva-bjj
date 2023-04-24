@@ -96,9 +96,9 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
             <option value={"Pena"}>Até 70 (Pena)</option>
             <option value={"Leve"}>Até 76 (Leve)</option>
             <option value={"Médio"}>Até 74 (Médio)</option>
-            <option value={"Meio-pesado"}>Até 88,30 (Meio-pesado)</option>
+            <option value={"Meio-Pesado"}>Até 88,30 (Meio-Pesado)</option>
             <option value={"Pesado"}>Até 94,30 (Pesado)</option>
-            <option value={"Super-pesado"}>Até 100,50 (Super-pesado)</option>
+            <option value={"Super-Pesado"}>Até 100,50 (Super-Pesado)</option>
             <option value={"Pesadíssimo"}>Acima de 100,50 (Pesadíssimo)</option>
           </select>
         </label>
