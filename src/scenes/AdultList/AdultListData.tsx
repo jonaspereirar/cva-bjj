@@ -48,7 +48,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Ricardo Gomes", faixa: "Preta", peso: "Meio-Pesado", categoria: "Master 3", equipe: "BPT internacional", sexo: "Masculino"},
   { nome: "Marcos Almeida", faixa: "Branca", peso: "Pesadíssimo", categoria: "Adulto", equipe: "BPT internacional", sexo: "Masculino"},
   { nome: "Sergio Júnior", faixa: "Azul", peso: "Pesado", categoria: "Adulto", equipe: "Wish roll Porto", sexo: "Masculino"},
-  { nome: "Alemão ", faixa: "Marron", peso: "Médio", categoria: "Adulto", equipe: "ZR Team Casal de Cambra", sexo: "Masculino"  },
+  { nome: "Alemão ", faixa: "Marron", peso: "Médio", categoria: "Master 1", equipe: "ZR Team Casal de Cambra", sexo: "Masculino"  },
   { nome: "Carlos Diogo", faixa: "Roxa", peso: "Pena", categoria: "Master 3", equipe: "ZR Team Casal de Cambra", sexo: "Masculino"},
   { nome: "João Silva", faixa: "Branca", peso: "Médio", categoria: "Adulto", equipe: "Icon Jiu Jitsu Carcavelos", sexo: "Masculino"},
   { nome: "Arlindo Prates", faixa: "Preta", peso: "Meio-Pesado", categoria: "Adulto", equipe: "Icon Jiu Jitsu Algarve", sexo: "Masculino"},  
