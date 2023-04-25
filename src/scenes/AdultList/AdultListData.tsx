@@ -110,7 +110,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "José Vilhena", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "cvabjj", sexo: "Masculino"  },  
   { nome: "João Dias", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "Icon jiu-jitsu team", sexo: "Masculino"  },  
   { nome: "Daniele Réus", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Família Marola (Faro)", sexo: "Feminino"  },
-  { nome: "Miguel  Silvino", faixa: "Preta", peso: "Leve", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
+  { nome: "Miguel  Silvino", faixa: "Preta", peso: "Médio", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
   { nome: "Elias Leal", faixa: "Azul", peso: "Super-Pesado", categoria: "Master 2", equipe: "Clone bjj", sexo: "Masculino"  },
   { nome: "Ericles godoi", faixa: "Azul", peso: "Pesado", categoria: "Adulto", equipe: "Clone bjj", sexo: "Masculino"  },
   { nome: "Carlos Sequeira Guerreiro ", faixa: "Marron", peso: "Pesado", categoria: "Master 4", equipe: "CVA", sexo: "Masculino"  },
