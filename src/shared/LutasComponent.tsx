@@ -91,14 +91,14 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
               bg-gray-100 text-gray-700 placeholder-gray-500 animate-pulse"
               value={peso} onChange={(e) => setPeso(e.target.value)}>
             <option value={""}></option>
-            <option value={"Galo"}>Até 57,50 (Galo)</option>
-            <option value={"Pluma"}>Até 64 (Pluma)</option>
-            <option value={"Pena"}>Até 70 (Pena)</option>
-            <option value={"Leve"}>Até 76 (Leve)</option>
-            <option value={"Médio"}>Até 74 (Médio)</option>
-            <option value={"Meio-Pesado"}>Até 88,30 (Meio-Pesado)</option>
-            <option value={"Pesado"}>Até 94,30 (Pesado)</option>
-            <option value={"Super-Pesado"}>Até 100,50 (Super-Pesado)</option>
+            <option value={"Galo"}>Até (M)57,50-(F)48,50 (Galo)</option>
+            <option value={"Pluma"}>Até (M)64-(F)53,50 (Pluma)</option>
+            <option value={"Pena"}>Até (M)70-(F)58,50 (Pena)</option>
+            <option value={"Leve"}>Até (M)76-(F)64 (Leve)</option>
+            <option value={"Médio"}>Até (M)82,30-(F)69 (Médio)</option>
+            <option value={"Meio-Pesado"}>Até (M)88,30-(F)74 (Meio-Pesado)</option>
+            <option value={"Pesado"}>Até (M)94,30-(F)79,30 (Pesado)</option>
+            <option value={"Super-Pesado"}>Até (M)100,50-(F)Acima de 79,30 (Super-Pesado)</option>
             <option value={"Pesadíssimo"}>Acima de 100,50 (Pesadíssimo)</option>
           </select>
         </label>
