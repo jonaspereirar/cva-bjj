@@ -63,4 +63,6 @@ export const Atletas: DadosInfatil[] = [
   { nome: "Marco Rocha", faixa: "Azul", peso: 72, categoria: "Juvenil", equipe: "Katsu Jiu Jitsu"    },
   { nome: "Francisco Catarino", faixa: "Cinza", peso: 36, categoria: "Infantil", equipe: "Endless Team"    },
   { nome: "Diogo Borges", faixa: "Amarela", peso: 54, categoria: "Infanto-Juvenil", equipe: "Checkmate Torres Vedras"    },
+  { nome: "David Severino", faixa: "Branca", peso: 59, categoria: "Juvenil", equipe: "DL BJJ"    },
 ];
+
