@@ -116,5 +116,6 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Carlos Sequeira Guerreiro ", faixa: "Marron", peso: "Pesado", categoria: "Master 4", equipe: "CVA", sexo: "Masculino"  },
   { nome: "Paulo Júlio ", faixa: "Marron", peso: "Médio", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
   { nome: "Pedro Catarino ", faixa: "Azul", peso: "Leve", categoria: "Master 4", equipe: "Endless Team", sexo: "Masculino"  },
+  { nome: "Tauan ", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Master 1", equipe: "Gracie Barra", sexo: "Masculino"  },
 
 ];
