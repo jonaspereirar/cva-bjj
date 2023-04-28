@@ -119,5 +119,11 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Tauan Fabiano", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Master 1", equipe: "Gracie Barra", sexo: "Masculino"  },
   { nome: "Tiago Gorges", faixa: "Marron", peso: "Pesadíssino", categoria: "Master 2", equipe: "Icon Jiu Jitsu", sexo: "Masculino"  }
   { nome: "Bianca Rocha", faixa: "Branca", peso: "Pesadíssimo", categoria: "Adulto", equipe: "Família Marola Faro", sexo: "Feminino"  }
+  { nome: "Apolo Pereira", faixa: "Branca", peso: "Médio", categoria: "Master 1", equipe: "Old Dog", sexo: "Masculino"  }
+  { nome: "Ricardo Viegas", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "Old Dog", sexo: "Masculino"  }
+  { nome: "Cristiano Hortensio", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Old Dog", sexo: "Masculino"  }
+  { nome: "Cristiano Pereira", faixa: "Roxa", peso: "Super-Pesado", categoria: "Master 1", equipe: "Old Dog", sexo: "Masculino"  }
+  { nome: "Ana Silva", faixa: "Branca", peso: "Super-Pesado", categoria: "Adulto", equipe: "Old Dog", sexo: "Feminino"  }
+  { nome: "Paula Oliveira", faixa: "Azul", peso: "Leve", categoria: "Master 4", equipe: "Old Dog", sexo: "Feminino"  }
 
 ];
