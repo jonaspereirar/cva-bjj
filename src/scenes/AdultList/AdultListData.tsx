@@ -125,5 +125,6 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Cristiano Pereira", faixa: "Roxa", peso: "Super-Pesado", categoria: "Master 1", equipe: "Old Dog", sexo: "Masculino"  },
   { nome: "Ana Silva", faixa: "Branca", peso: "Super-Pesado", categoria: "Adulto", equipe: "Old Dog", sexo: "Feminino"  },
   { nome: "Paula Oliveira", faixa: "Azul", peso: "Leve", categoria: "Master 4", equipe: "Old Dog", sexo: "Feminino"  },
+  { nome: "Matheus Maier", faixa: "Preta", peso: "Médio", categoria: "Master 1", equipe: "Família Marola Faro", sexo: "Masculino"  },
 
 ];
