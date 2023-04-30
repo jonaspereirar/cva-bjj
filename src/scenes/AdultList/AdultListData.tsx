@@ -99,7 +99,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Guilherme Seabra", faixa: "Branca", peso: "Pena", categoria: "Adulto", equipe: "Checkmat Europa", sexo: "Masculino"  },
   { nome: "Jorge Nunes", faixa: "Roxa", peso: "Médio", categoria: "Master 4", equipe: "BPT Internacional", sexo: "Masculino"  },
   { nome: "Tiago Batista", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "Icon Jiu-Jitsu Team", sexo: "Masculino"  },
-  //{ nome: "Gabriel Mota", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "DL BJJ Queluz", sexo: "Masculino"  },
+  { nome: "Gabriel Mota", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "DL BJJ Queluz", sexo: "Masculino"  },
   { nome: "João Martins", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "Cobrinha Portugal, Beja", sexo: "Masculino"  },
   { nome: "Sérgio Albuquerque", faixa: "Azul", peso: "Meio-Pesado", categoria: "Master 3", equipe: "Academia DL-BJJ Queluz", sexo: "Masculino"  },
   { nome: "Victor Dicov", faixa: "Branca", peso: "Leve", categoria: "Master 2", equipe: "Cobrinha Portugal", sexo: "Masculino"  },
