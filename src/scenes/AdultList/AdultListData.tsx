@@ -11,7 +11,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Cristian Salazar", faixa: "Roxa", peso: "Médio", categoria: "Master 1", equipe: "Atos Alentejo" , sexo: "Masculino"},
   { nome: "Pedro Silva", faixa: "Branca", peso: "Médio", categoria: "Adulto", equipe: "DLL BJJ QUELUZ", sexo: "Masculino" },
   //{ nome: "Márcio Vieira", faixa: "Branca", peso: "Meio-Pesado", categoria: "Adulto", equipe: "Sampaio", sexo: "Masculino" },
-  { nome: "Glaucilene Oliveira", faixa: "Azul", peso: "Médio", categoria: "Master 3", equipe: "Sampaiobjj _FSC-Algarve", sexo: "Feminino" },
+  { nome: "Glaucilene Oliveira", faixa: "Azul", peso: "Médio", categoria: "Master 2", equipe: "Sampaiobjj _FSC-Algarve", sexo: "Feminino" },
   //{ nome: "George Gomes", faixa: "Azul", peso: "Médio", categoria: "Master 1", equipe: "Gracie Barra Paços de Arcos", sexo: "Masculino" },
   { nome: "André pinto", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "CVA", sexo: "Masculino" },
   { nome: "Carlos Silva", faixa: "Azul", peso: "Médio", categoria: "Master 1", equipe: "Sampaio bjj", sexo: "Masculino" },
