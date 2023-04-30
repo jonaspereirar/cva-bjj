@@ -92,7 +92,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Alexei Lungu", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Adulto", equipe: "Sampaio BJJ", sexo: "Masculino"  },
   { nome: "Tiago Gomes", faixa: "Branca", peso: "Médio", categoria: "Adulto", equipe: "DL Jiu-jitsu -  Queluz", sexo: "Masculino"  },
   { nome: "Leonardo Silva", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Master 1", equipe: "Roger Gracie Algarve", sexo: "Masculino"  },
-  { nome: "Elena Buss", faixa: "Branca", peso: "Médio", categoria: "Master 2", equipe: "Roger Gracie Algarve", sexo: "Feminino"  },
+  { nome: "Elena Buss", faixa: "Branca", peso: "Meio-Pesado", categoria: "Adulto", equipe: "Roger Gracie Algarve", sexo: "Feminino"  },
   { nome: "Anne van Es", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "Roger Gracie Algarve", sexo: "Feminino"  },
   //{ nome: "Evany Ottoniel", faixa: "Marron", peso: "Pena", categoria: "Master 1", equipe: "Gracie Barra Amora", sexo: "Masculino"  },
   //{ nome: "João Domingos Oliveira", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Under Pressure BJJ", sexo: "Masculino"  },
