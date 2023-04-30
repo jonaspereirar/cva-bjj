@@ -1,13 +1,10 @@
-import useMediaQuery from "@/hooks/useMediaQuery";
-import { SelectedPage } from "@/shared/types";
-import ActionButton from "@/shared/ActionButton";
-import HomePageText from "@/assets/HomePageText.png";
-import EvolveText from "@/assets/EvolveText.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
-import SponsorRedBull from "@/assets/SponsorRedBull.gif";
+import HomePageText from "@/assets/HomePageText.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import SponsorRedBull from "@/assets/SponsorRedBull.gif";
+import useMediaQuery from "@/hooks/useMediaQuery";
+import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
 type Props = {
@@ -70,7 +67,8 @@ const Home = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
+            {/* ----------------------botoes inscricoes googleForms Infatil----------------------
+            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
               <p className="text-white text-xl">ADULTO/MASTER</p>
               <button
                 onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdguq7WfhvHwmQE7D64yxXgVYzLsybSzid_sm93FtbjhjB2aw/viewform?usp=pp_url"}
@@ -78,9 +76,11 @@ const Home = ({ setSelectedPage }: Props) => {
               >
                 ACESSAR
               </button>
-
-            </div>
-
+              //* ----------------------botoes inscricoes googleForms Adultos----------------------
+            </div> */}
+                {/* ----------------------botoes inscricoes googleForms Infatil----------------------
+                  
+                `
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">INFANTIL/JUVENIL</p>
               <button
@@ -90,7 +90,10 @@ const Home = ({ setSelectedPage }: Props) => {
 
                 ACESSAR
               </button>
-            </div>
+            </div> */}
+
+{/* /* ----------------------botoes inscricoes googleForms---------------------- */}
+
             {/* <a
               className="text-l font-bold text-primary-500 underline hover:text-secondary-500"
               href="https://docs.google.com/forms/d/e/1FAIpQLSd-ARZARAWPzvoml820o8B1t2_7iev0UbmCn_-uIP4qb273FQ/viewform?usp=pp_url"
