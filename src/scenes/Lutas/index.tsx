@@ -27,7 +27,7 @@ const Lutas = ({ setSelectedPage }: Props) => {
       >
         {/* HEADER */}
         <motion.div
-          className="md:w-3/5 mt-20"
+          className="md:w-3/5 mt-4"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -38,10 +38,10 @@ const Lutas = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">Previsão Chaves</span> lutas
+            <span className="text-primary-500">Chaves</span> de lutas
           </HText>
           <p className="my-5">
-            Adultos & Masters: Verifique sua chave e edite se necesssário.
+            Adultos & Masters: Verifique sua chave e edite caso deseje lutar em categoria superior.
           </p>
 
           <LutasComponent atletas={Atletas} />

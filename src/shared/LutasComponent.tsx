@@ -148,6 +148,8 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
                 </div>
               </li>
             ))}
+            {/* ...................................................chaves............................... */}
+
             {/* {luta.atletas.length > 2 ? (
               <div className="top-0 mt-10 ml-64 absolute">
               <div className="col-start-2">
@@ -160,6 +162,8 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
             </div>
             
             ) : null} */}
+
+          {/* ...................................................chaves............................... */}
           </ul>
         ))}
       </div>
@@ -175,6 +179,8 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
                 </div>
               </li>
             ))}
+            {/* ...................................................chaves............................... */}
+
             {/* {luta.atletas.length > 2 ? (
               <div className="top-0 mt-10 ml-64 absolute">
                 <li key={luta.atletas.length + 1}>
@@ -211,7 +217,18 @@ function LutasComponent({ atletas }: { atletas: Atleta[] }) {
                   <span className="text-sm font-medium">Final</span>
                 </div>
               </div>
+            ) : null}
+
+              {luta.atletas.length == 5 ? (
+            <div className="top-0 ml-96 relative top-[-164px] absolute">
+                <div className="w-64 h-12 border-2 border-gray-400 rounded-lg flex flex-col justify-center items-center bg-gray-100 shadow-md rounded-lg p-4 mt-4 mb-1 col-span-2">
+                  <span className="text-sm font-medium">Final</span>
+                </div>
+              </div>
             ) : null} */}
+
+            {/* ...................................................chaves............................... */}
+            
           </ul>
 
         ))}

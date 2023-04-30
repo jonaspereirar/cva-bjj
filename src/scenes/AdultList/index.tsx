@@ -1,6 +1,4 @@
-import HText from "@/shared/HText";
 import { SelectedPage } from "@/shared/types";
-import { motion } from "framer-motion";
 import { useState } from "react";
 
 import { Atletas } from "./AdultListData";
@@ -28,7 +26,7 @@ const AdultList = ({ setSelectedPage }: Props) => {
 
   return (
     <div className="ml-20 mb-10">
-      <motion.div
+      {/* <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.AdultList)}
       >
           <HText>
@@ -82,7 +80,7 @@ const AdultList = ({ setSelectedPage }: Props) => {
           </ul>
         </section>
       )}
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 }
