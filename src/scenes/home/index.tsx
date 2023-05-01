@@ -28,7 +28,7 @@ const Home = ({ setSelectedPage }: Props) => {
     const url = URL.createObjectURL(new Blob([femininosPDF]));
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', 'arquivo.pdf');
+    link.setAttribute('download', 'femininos.pdf');
     document.body.appendChild(link);
     link.click();
   }
