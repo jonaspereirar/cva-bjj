@@ -7,6 +7,8 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
+import femininosPDF from '../Lutas/femininos.pdf';
+
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
@@ -21,6 +23,15 @@ const Home = ({ setSelectedPage }: Props) => {
   const isAbove768Screens = useMediaQuery("(min-width: 768px)");
   const isAboveMediumScreens = useMediaQuery("(min-width: 960px)");
   const isAboveLargeScreens = useMediaQuery("(min-width: 1280px)");
+
+  function handleDownload(event: React.MouseEvent<HTMLButtonElement>) {
+    const url = URL.createObjectURL(new Blob([femininosPDF]));
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'arquivo.pdf');
+    document.body.appendChild(link);
+    link.click();
+  }
 
 
   return (
@@ -101,6 +112,17 @@ const Home = ({ setSelectedPage }: Props) => {
             >
               <p>Regulamento/Premiação</p>
             </a> */}
+
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <p className="text-white text-xl">Chaves de Luta Feminino</p>
+              <button
+                onClick={handleDownload}
+                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
+              >
+
+                Download
+              </button>
+            </div> 
           </motion.div>
         </div>
 

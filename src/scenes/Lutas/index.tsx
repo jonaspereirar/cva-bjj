@@ -38,7 +38,7 @@ const Lutas = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">Chaves</span> de lutas
+            <span className="text-primary-500">Pesquisa de Chaves</span> de lutas
           </HText>
           <p className="my-5">
             Adultos & Masters: Verifique sua chave e edite caso deseje lutar em categoria superior.

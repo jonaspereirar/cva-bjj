@@ -137,7 +137,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 25 de  Abril de 2023.</strong></p>
               </p>
               <p className="my-5">
-                Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 30 de Abril de  2023.</strong></p>
+                Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 03 de Maio de 2023.</strong></p>
               </p>
               <p className="my-5">
                 <strong >ATENÇÃO: Não serão permitidas quaisquer alterações às <br />listas após a  publicação das chaves do torneio.</strong>
