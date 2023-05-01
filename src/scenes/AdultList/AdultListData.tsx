@@ -115,7 +115,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Ericles godoi", faixa: "Azul", peso: "Pesado", categoria: "Adulto", equipe: "Clone bjj", sexo: "Masculino"  },
   { nome: "Carlos Sequeira Guerreiro ", faixa: "Marron", peso: "Pesado", categoria: "Master 4", equipe: "CVA", sexo: "Masculino"  },
   //{ nome: "Paulo Júlio ", faixa: "Marron", peso: "Médio", categoria: "Master 4", equipe: "Clone bjj", sexo: "Masculino"  },
-  { nome: "Pedro Catarino ", faixa: "Azul", peso: "Leve", categoria: "Master 4", equipe: "Endless Team", sexo: "Masculino"  },
+  { nome: "Pedro Catarino ", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "Endless Team", sexo: "Masculino"  },
   { nome: "Tauan Fabiano", faixa: "Roxa", peso: "Meio-Pesado", categoria: "Master 1", equipe: "Gracie Barra", sexo: "Masculino"  },
   //{ nome: "Tiago Gorges", faixa: "Marron", peso: "Pesadíssino", categoria: "Master 2", equipe: "Icon Jiu Jitsu", sexo: "Masculino"  },
   { nome: "Bianca Rocha", faixa: "Branca", peso: "Super-Pesado", categoria: "Adulto", equipe: "Família Marola Faro", sexo: "Feminino"  },
@@ -126,5 +126,8 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Ana Silva", faixa: "Branca", peso: "Super-Pesado", categoria: "Adulto", equipe: "Old Dog", sexo: "Feminino"  },
   { nome: "Paula Oliveira", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Old Dog", sexo: "Feminino"  },
   { nome: "Matheus Maier", faixa: "Preta", peso: "Médio", categoria: "Master 1", equipe: "Família Marola Faro", sexo: "Masculino"  },
+  { nome: "Thallyson Vasconcelos", faixa: "Azul", peso: "Leve", categoria: "Adulto", equipe: "ZR Team Sintra", sexo: "Masculino"  },
+  { nome: "Thavyne Kayla", faixa: "azul", peso: "Pena", categoria: "Adulto", equipe: "ZR Team Sintra", sexo: "Feminino"  },
+  { nome: "Daiane Alexandra", faixa: "azul", peso: "Meio-Pesado", categoria: "Adulto", equipe: "ZR Team Sintra", sexo: "Feminino"  },
 
 ];
