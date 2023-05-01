@@ -24,13 +24,19 @@ const Home = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 960px)");
   const isAboveLargeScreens = useMediaQuery("(min-width: 1280px)");
 
+  const arquivoPDFPath: string = femininosPDF;
+
   function handleDownload(event: React.MouseEvent<HTMLButtonElement>) {
-    const url = URL.createObjectURL(new Blob([femininosPDF]));
-    const link = document.createElement('a');
-    link.href = url;
-    link.setAttribute('download', 'femininos.pdf');
-    document.body.appendChild(link);
-    link.click();
+    fetch(arquivoPDFPath)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', 'chaves_femininos.pdf');
+        document.body.appendChild(link);
+        link.click();
+      });
   }
 
 
