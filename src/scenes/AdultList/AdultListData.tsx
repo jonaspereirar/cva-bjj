@@ -20,7 +20,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Geisi Souza", faixa: "Branca", peso: "Leve", categoria: "Adulto", equipe: "Sampaio BJJ FCS Algarve", sexo: "Feminino" },
   //{ nome: "Rui Pinheiro", faixa: "Azul", peso: "Super-Pesado", categoria: "Master 2", equipe: "Familia Andre Marola", sexo: "Masculino" },
   { nome: "Tymur Zakirov", faixa: "Branca", peso: "Médio", categoria: "Master 1", equipe: "ACADEMIA DL BJJ", sexo: "Masculino" },
-  { nome: "Guilherme Cruz", faixa: "Branca", peso: "Meio-Pesado", categoria: "Adulto", equipe: "Academia DL-BJJ", sexo: "Masculino" },
+  { nome: "Guilherme Cruz", faixa: "Branca", peso: "Pesado", categoria: "Adulto", equipe: "Academia DL-BJJ", sexo: "Masculino" },
   //{ nome: "George Gomes", faixa: "Azul", peso: "Médio", categoria: "Master 1", equipe: "Gracie Barra Paços de Arcos", sexo: "Masculino" },
   //{ nome: "André Matos", faixa: "Branca", peso: "Pena", categoria: "Adulto", equipe: "Sampaio Algarve", sexo: "Masculino" },
   { nome: "Alex Cardeira", faixa: "Roxa", peso: "Médio", categoria: "Adulto", equipe: "DL-bjj", sexo: "Masculino" },
