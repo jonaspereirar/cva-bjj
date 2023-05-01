@@ -71,7 +71,7 @@ export const Atletas: DadosAdulto[] = [
   //{ nome: "Nuno pedro", faixa: "Azul", peso: "Pesado", categoria: "Master 4", equipe: "Sampaio", sexo: "Masculino"  },  
   { nome: "Rubben Rocha", faixa: "Roxa", peso: "Médio", categoria: "Adulto", equipe: "Katsu Jiu-Jitsu", sexo: "Masculino"  },  
   //{ nome: "Leandro Pinheiro", faixa: "Roxa", peso: "Leve", categoria: "Master 2", equipe: "Reginaldo Avelino", sexo: "Masculino"  },  
-  { nome: "Sérgio Aires", faixa: "Branca", peso: "Médio", categoria: "Master 3", equipe: "CVA", sexo: "Masculino"  },  
+  { nome: "Sérgio Aires", faixa: "Branca", peso: "Leve", categoria: "Master 2", equipe: "CVA", sexo: "Masculino"  },  
   { nome: "Alexandre Policarpo", faixa: "Branca", peso: "Médio", categoria: "Master 1", equipe: "CVA", sexo: "Masculino"  },  
   //{ nome: "Anderson", faixa: "Preta", peso: "Meio-Pesado", categoria: "Master 1", equipe: "Bjj4life", sexo: "Masculino"  },  
   { nome: "Joana Costa", faixa: "Branca", peso: "Meio-Pesado", categoria: "Adulto", equipe: "CVA", sexo: "Feminino"  },
