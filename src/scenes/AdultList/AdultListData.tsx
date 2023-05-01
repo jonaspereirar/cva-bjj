@@ -121,7 +121,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Bianca Rocha", faixa: "Branca", peso: "Super-Pesado", categoria: "Adulto", equipe: "Família Marola Faro", sexo: "Feminino"  },
   { nome: "Apolo Pereira", faixa: "Branca", peso: "Médio", categoria: "Master 1", equipe: "Old Dog", sexo: "Masculino"  },
   { nome: "Ricardo Viegas", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "Old Dog", sexo: "Masculino"  },
-  { nome: "Cristiano Hortensio", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Old Dog", sexo: "Masculino"  },
+  { nome: "Cristiano Hortensio", faixa: "Azul", peso: "Leve", categoria: "Adulto", equipe: "Old Dog", sexo: "Masculino"  },
   { nome: "Cristiano Pereira", faixa: "Roxa", peso: "Super-Pesado", categoria: "Master 1", equipe: "Old Dog", sexo: "Masculino"  },
   { nome: "Ana Silva", faixa: "Branca", peso: "Super-Pesado", categoria: "Adulto", equipe: "Old Dog", sexo: "Feminino"  },
   { nome: "Paula Oliveira", faixa: "Azul", peso: "Pena", categoria: "Adulto", equipe: "Old Dog", sexo: "Feminino"  },
