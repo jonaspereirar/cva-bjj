@@ -38,7 +38,7 @@ export const Atletas: DadosAdulto[] = [
   { nome: "Carlos Teixeira", faixa: "Azul", peso: "Médio", categoria: "Master 1", equipe: "Figthers inside", sexo: "Masculino"},
   { nome: "Alexandre Rodrigues", faixa: "Branca", peso: "Pesado", categoria: "Adulto", equipe: "Checkmat torres Vedras", sexo: "Masculino"},
   //{ nome: "Bruno Sodre", faixa: "Branca", peso: "Pesado", categoria: "Master 1", equipe: "Gracie lisboa", sexo: "Masculino"},
-  { nome: "Luís Verdades", faixa: "Azul", peso: "Leve", categoria: "Master 3", equipe: "Endless Team-Liga de Algés", sexo: "Masculino"},
+  { nome: "Luís Verdades", faixa: "Azul", peso: "Leve", categoria: "Master 1", equipe: "Endless Team-Liga de Algés", sexo: "Masculino"},
   { nome: "Helder Sousa", faixa: "Marron", peso: "Pesado", categoria: "Master 1", equipe: "Endless", sexo: "Masculino"},
   { nome: "Rui Gomes", faixa: "Azul", peso: "Pena", categoria: "Master 2", equipe: "Endless Team Liga de Algés", sexo: "Masculino"},
   { nome: "Francisco Ferreira", faixa: "Azul", peso: "Pluma", categoria: "Adulto", equipe: "Checkmate Europa", sexo: "Masculino"},
