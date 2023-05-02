@@ -119,18 +119,45 @@ const Home = ({ setSelectedPage }: Props) => {
               <p>Regulamento/Premiação</p>
             </a> */}
 
-              <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves de Luta Feminino</p>
+          {/* /* ----------------------botoe chave Feminino---------------------- */}
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <p className="text-white text-xl">Chaves de Lutas Feminino</p>
               <button
                 onClick={handleDownload}
                 className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
-              >
-
-                Download
+              > Download
               </button>
             </div> 
+
+            {/* /* ----------------------botoe chave Adulto---------------------- */}
+
+            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
+              <p className="text-white text-xl">Chaves de Lutas Adulto</p>
+              <button
+                onClick={handleDownload}
+                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
+              > Download
+              </button>
+            </div>  */}
+
+
+            {/* /* ----------------------botoe chave Kids---------------------- */}
+
+            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
+              <p className="text-white text-xl">Chaves de Lutas Infantil</p>
+              <button
+                onClick={handleDownload}
+                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
+              > Download
+              </button>
+            </div>  */}
+
+
+
+
           </motion.div>
         </div>
+        
 
         {/* IMAGE */}
         <div
