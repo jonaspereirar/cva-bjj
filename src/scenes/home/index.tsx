@@ -7,15 +7,16 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
+
 import femininosPDF from '../Lutas/femininos.pdf';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
 
-function SelectedPageGoogle() {
+// function SelectedPageGoogle() {
 
-}
+// }
 
 const Home = ({ setSelectedPage }: Props) => {
   //const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
@@ -130,6 +131,8 @@ const Home = ({ setSelectedPage }: Props) => {
             </div> 
 
             {/* /* ----------------------botoe chave Adulto---------------------- */}
+
+            {/* <BotaoDownload arquivoPath="../Lutas/femininos.pdf" nomeArquivo="femininos.pdf" /> */}
 
             {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
               <p className="text-white text-xl">Chaves de Lutas Adulto</p>
