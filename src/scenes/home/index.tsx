@@ -7,9 +7,11 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
+import { BotaoDownload } from "@/shared/ButtonDownloadProps";
 
+import adultoPDF from '../Lutas/adulto.pdf';
 import femininosPDF from '../Lutas/femininos.pdf';
-
+import mastersPDF from '../Lutas/masters.pdf';
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
@@ -25,20 +27,20 @@ const Home = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 960px)");
   const isAboveLargeScreens = useMediaQuery("(min-width: 1280px)");
 
-  const arquivoPDFPath: string = femininosPDF;
+  // const arquivoPDFPath: string = femininosPDF;
 
-  function handleDownload(event: React.MouseEvent<HTMLButtonElement>) {
-    fetch(arquivoPDFPath)
-      .then(response => response.blob())
-      .then(blob => {
-        const url = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.href = url;
-        link.setAttribute('download', 'chaves_femininos.pdf');
-        document.body.appendChild(link);
-        link.click();
-      });
-  }
+  // function handleDownload(event: React.MouseEvent<HTMLButtonElement>) {
+  //   fetch(arquivoPDFPath)
+  //     .then(response => response.blob())
+  //     .then(blob => {
+  //       const url = URL.createObjectURL(blob);
+  //       const link = document.createElement('a');
+  //       link.href = url;
+  //       link.setAttribute('download', 'chaves_femininos.pdf');
+  //       document.body.appendChild(link);
+  //       link.click();
+  //     });
+  // }
 
 
   return (
@@ -123,36 +125,39 @@ const Home = ({ setSelectedPage }: Props) => {
           {/* /* ----------------------botoe chave Feminino---------------------- */}
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">Chaves de Lutas Feminino</p>
-              <button
-                onClick={handleDownload}
-                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
-              > Download
-              </button>
+            
+            <BotaoDownload arquivoPath={femininosPDF} nomeArquivo="Chaves_feminino" />
+              
             </div> 
 
             {/* /* ----------------------botoe chave Adulto---------------------- */}
 
-            {/* <BotaoDownload arquivoPath="../Lutas/femininos.pdf" nomeArquivo="femininos.pdf" /> */}
 
-            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">Chaves de Lutas Adulto</p>
-              <button
-                onClick={handleDownload}
-                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
-              > Download
-              </button>
-            </div>  */}
+            
+            <BotaoDownload arquivoPath={adultoPDF} nomeArquivo="Chaves_adulto" />
+              
+            </div> 
+
+            {/* /* ----------------------botoe chave Masters---------------------- */}
+
+
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <p className="text-white text-xl">Chaves de Lutas Masters</p>
+            
+            <BotaoDownload arquivoPath={mastersPDF} nomeArquivo="Chaves_masters" />
+              
+            </div> 
 
 
             {/* /* ----------------------botoe chave Kids---------------------- */}
 
-            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
+            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">Chaves de Lutas Infantil</p>
-              <button
-                onClick={handleDownload}
-                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
-              > Download
-              </button>
+            
+            <BotaoDownload arquivoPath={infantilPDF} nomeArquivo="Chaves_infantil" />
+              
             </div>  */}
 
 
