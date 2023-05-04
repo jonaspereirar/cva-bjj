@@ -1,4 +1,3 @@
-import HText from "@/shared/HText";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -28,11 +27,11 @@ const InfantList = ({ setSelectedPage }: Props) => {
 
   return (
     <div className="ml-20">
-          <HText>
+          {/* <HText>
             <span className="text-primary-500">Inscritos Infantil/Juvenil</span>
           </HText>
       <button className="rounded-md bg-secondary-500 px-10 py-2 hover:bg-primary-500 hover:text-white"
-      onClick={handleToggleListClick}>Ver lista de inscritos</button>
+      onClick={handleToggleListClick}>Ver lista de inscritos</button> */}
       {showList && (
         <section id="listagem-infantil" className="mx-auto w-5/6 pt-24 pb-32">
          

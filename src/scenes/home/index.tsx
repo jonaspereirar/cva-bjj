@@ -11,6 +11,7 @@ import { BotaoDownload } from "@/shared/ButtonDownloadProps";
 
 import adultoPDF from '../Lutas/adulto.pdf';
 import femininosPDF from '../Lutas/femininos.pdf';
+import infantilPDF from '../Lutas/kids.pdf';
 import mastersPDF from '../Lutas/masters.pdf';
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -121,10 +122,18 @@ const Home = ({ setSelectedPage }: Props) => {
             >
               <p>Regulamento/Premiação</p>
             </a> */}
+            {/* /* ----------------------botoe chave Kids---------------------- */}
+
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <p className="text-white text-xl">Chaves Infantil</p>
+            
+            <BotaoDownload arquivoPath={infantilPDF} nomeArquivo="Chaves_infantil" />
+              
+            </div> 
 
           {/* /* ----------------------botoe chave Feminino---------------------- */}
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves de Lutas Feminino</p>
+              <p className="text-white text-xl">Chaves Feminino</p>
             
             <BotaoDownload arquivoPath={femininosPDF} nomeArquivo="Chaves_feminino" />
               
@@ -134,7 +143,7 @@ const Home = ({ setSelectedPage }: Props) => {
 
 
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves de Lutas Adulto</p>
+              <p className="text-white text-xl">Chaves Adulto</p>
             
             <BotaoDownload arquivoPath={adultoPDF} nomeArquivo="Chaves_adulto" />
               
@@ -144,21 +153,13 @@ const Home = ({ setSelectedPage }: Props) => {
 
 
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves de Lutas Masters</p>
+              <p className="text-white text-xl">Chaves Masters</p>
             
             <BotaoDownload arquivoPath={mastersPDF} nomeArquivo="Chaves_masters" />
               
             </div> 
 
 
-            {/* /* ----------------------botoe chave Kids---------------------- */}
-
-            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves de Lutas Infantil</p>
-            
-            <BotaoDownload arquivoPath={infantilPDF} nomeArquivo="Chaves_infantil" />
-              
-            </div>  */}
 
 
 
