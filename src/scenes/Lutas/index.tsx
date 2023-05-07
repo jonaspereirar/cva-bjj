@@ -2,6 +2,39 @@ import HText from "@/shared/HText";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
+import graciebarrapacodarcos from "../../assets/img-resultados/Gracie-Barra-Paco-Darcos.png";
+import graciebarrahamurgo from "../../assets/img-resultados/Gracie-barra-hamburgo.jpg";
+import atos from "../../assets/img-resultados/atos-sao-luis.jpg";
+import bpt from "../../assets/img-resultados/bpt.png";
+import checkmate from "../../assets/img-resultados/checkmate.jpg";
+import clone from "../../assets/img-resultados/clone.png";
+import cobrinha from "../../assets/img-resultados/cobrinha.png";
+import cvabjj from "../../assets/img-resultados/cvabjj.jpg";
+import dlbjj from "../../assets/img-resultados/dlbjj.jpeg";
+import endless from "../../assets/img-resultados/endless-team.jpg";
+import fighters from "../../assets/img-resultados/fighters-inside.jpg";
+import five from "../../assets/img-resultados/five-elements.png";
+import icon from "../../assets/img-resultados/icon.jpg";
+import katsu from "../../assets/img-resultados/katsu.jpg";
+import marola from "../../assets/img-resultados/marola.jpg";
+import odojosaoluis from "../../assets/img-resultados/odojo-sao-luis.png";
+import olddogteam from "../../assets/img-resultados/old-dog-team.jpg";
+import rogergracie from "../../assets/img-resultados/roger-gracie.png";
+import sampaio from "../../assets/img-resultados/sampaio.jpg";
+import vitateam from "../../assets/img-resultados/vita-team.png";
+import zrteam from "../../assets/img-resultados/zrteam.jpg";
+
+
+
+
+
+
+
+
+
+
+
+
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -36,6 +69,217 @@ const Lutas = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
+            <span className="text-primary-500">Resultados</span> por Equipas
+          </HText>
+          <p className="my-5 flex">
+            <strong className="mr-1">1° </strong>  Old Dog Team 
+            <strong className="ml-2">155 pontos </strong> 
+              <img
+                src={olddogteam}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 2° </strong>  ZR Team
+            <strong className="ml-2">87 pontos </strong> 
+              <img
+                src={zrteam}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 3° </strong>  CVABJJ
+            <strong className="ml-2">86 pontos </strong> 
+              <img
+                src={cvabjj}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 4° </strong>  Roger Gracie
+            <strong className="ml-2">64 pontos </strong> 
+              <img
+                src={rogergracie}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 5° </strong>  Sampaio
+            <strong className="ml-2">58 pontos </strong> 
+              <img
+                src={sampaio}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 6° </strong>  O Dojo São Luis
+            <strong className="ml-2">58 pontos </strong> 
+              <img
+                src={odojosaoluis}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 7° </strong>  DLBJJ
+            <strong className="ml-2">53 pontos </strong> 
+              <img
+                src={dlbjj}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 8° </strong>  Endless Team
+            <strong className="ml-2">43 pontos </strong> 
+              <img
+                src={endless}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 9° </strong>  Cobrinha
+            <strong className="ml-2">43 pontos </strong> 
+              <img
+                src={cobrinha}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 10° </strong>  Icon
+            <strong className="ml-2">43 pontos </strong> 
+              <img
+                src={icon}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 11° </strong> Família Marola
+            <strong className="ml-2">37 pontos </strong> 
+              <img
+                src={marola}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 12° </strong>  Fighters Inside
+            <strong className="ml-2">33 pontos </strong> 
+              <img
+                src={fighters}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 13° </strong>  Atos S. Luis
+            <strong className="ml-2">29 pontos </strong> 
+              <img
+                src={atos}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 14° </strong> Checkmat
+            <strong className="ml-2">22 pontos </strong> 
+              <img
+                src={checkmate}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 15° </strong> Clone
+            <strong className="ml-2">17 pontos </strong> 
+              <img
+                src={clone}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 16° </strong>  GB Paço de Arcos
+            <strong className="ml-2">12 pontos </strong> 
+              <img
+                src={graciebarrapacodarcos}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 17° </strong>  Katsu Jiu-Jitsu
+            <strong className="ml-2">10 pontos </strong> 
+              <img
+                src={katsu}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 18° </strong>  BPT
+            <strong className="ml-2">3 pontos </strong> 
+              <img
+                src={bpt}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 19° </strong>  Vita-Team
+            <strong className="ml-2">3 pontos </strong> 
+              <img
+                src={vitateam}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 20° </strong>  Five Elements
+            <strong className="ml-2">3 pontos </strong> 
+              <img
+                src={five}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 21° </strong>  GB Hamburgo
+            <strong className="ml-2">1 pontos </strong> 
+              <img
+                src={graciebarrahamurgo}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <strong className="mr-1"> A classificação das equipas vencedoras foram determinada com base na totalidade das pontuações conquistadas.
+          Em caso de empate entre equipas com a mesma pontuação, o critério de desempate foram o número de vantagens acumuladas ao longo do torneio.</strong>
+{/* <p className="my-5">
+  <strong>2° </strong> ZR
+  <img
+    src={secondPlaceImage}
+    alt="Perfil do 2° colocado"
+    className="w-10 h-10 ml-2"
+  />
+</p>
+<p className="my-5">
+  <strong>3° </strong> Old Dog
+  <img
+    src={thirdPlaceImage}
+    alt="Perfil do 3° colocado"
+    className="w-10 h-10 ml-2"
+  />
+</p> */}
+
+          {/* <HText>
             <span className="text-primary-500">Cronograma</span> do evento
           </HText>
           <div className="container mx-auto p-4">
@@ -101,7 +345,7 @@ const Lutas = ({ setSelectedPage }: Props) => {
               <div className="w-2/3">As pesagens das demais categorias serão realizadas 20 minutos antes do início de cada chave.</div>
             </div>
     </div>
-    </div>
+  </div> */}
 
 
 

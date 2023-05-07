@@ -7,12 +7,7 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
-import { BotaoDownload } from "@/shared/ButtonDownloadProps";
 
-import adultoPDF from '../Lutas/adulto.pdf';
-import femininosPDF from '../Lutas/femininos.pdf';
-import infantilPDF from '../Lutas/kids.pdf';
-import mastersPDF from '../Lutas/masters.pdf';
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
@@ -124,40 +119,40 @@ const Home = ({ setSelectedPage }: Props) => {
             </a> */}
             {/* /* ----------------------botoe chave Kids---------------------- */}
 
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">Chaves Infantil</p>
             
             <BotaoDownload arquivoPath={infantilPDF} nomeArquivo="Chaves_infantil" />
               
-            </div> 
+            </div>  */}
 
           {/* /* ----------------------botoe chave Feminino---------------------- */}
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+             {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">Chaves Feminino</p>
             
-            <BotaoDownload arquivoPath={femininosPDF} nomeArquivo="Chaves_feminino" />
+            <BotaoDownload arquivoPath={femininosPDF} nomeArquivo="Chaves_feminino" /> 
               
-            </div> 
+            </div>  */}
 
             {/* /* ----------------------botoe chave Adulto---------------------- */}
 
 
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">Chaves Adulto</p>
             
             <BotaoDownload arquivoPath={adultoPDF} nomeArquivo="Chaves_adulto" />
               
-            </div> 
+            </div>  */}
 
             {/* /* ----------------------botoe chave Masters---------------------- */}
 
 
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
               <p className="text-white text-xl">Chaves Masters</p>
             
             <BotaoDownload arquivoPath={mastersPDF} nomeArquivo="Chaves_masters" />
               
-            </div> 
+            </div>  */}
 
 
 
