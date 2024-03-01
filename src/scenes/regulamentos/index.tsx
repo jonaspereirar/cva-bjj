@@ -13,7 +13,7 @@ const regulamentos: Array<RegulamentoType> = [
     icon: <CalendarDaysIcon className="h-6 w-6" />,
     title: "Data e Hora do evento ",
     description:
-      "Dia 06 de Maio de 2023, Início às 09 horas",
+      "Dia 11 de Maio de 2024, Início às 09 horas",
   },
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
@@ -25,7 +25,7 @@ const regulamentos: Array<RegulamentoType> = [
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Inscrições",
     description:
-      "As inscrições para o torneio terão que ser realizadas através dos link da pagina Home.",
+      `As inscrições devem ser realizadas através dos link da pagina Home.`,
   },
 ];
 
@@ -128,16 +128,16 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Data limite de inscrição no torneio: <p><strong> Até às 23h 59m do dia 25 de Abril de 2023</strong>.</p>
+                Data limite de inscrição no torneio: <p><strong> Até às 23h 59m do dia 25 de Abril de 2024</strong>.</p>
               </p>
               <p className="my-5">
-                Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 16 de  Abril de 2023.</strong></p>
+                Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 16 de  Abril de 2024.</strong></p>
               </p>
               <p className="my-5">
-                Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 25 de  Abril de 2023.</strong></p>
+                Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 25 de  Abril de 2024.</strong></p>
               </p>
               <p className="my-5">
-                Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 03 de Maio de 2023.</strong></p>
+                Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 03 de Maio de 2024.</strong></p>
               </p>
               <p className="my-5">
                 <strong >ATENÇÃO: Não serão permitidas quaisquer alterações às <br />listas após a  publicação das chaves do torneio.</strong>
@@ -179,11 +179,11 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 <strong>. 3° classificado</strong> Medalha
               </p>
               <p className="my-5">
-                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2023</strong> é necessário haver no
+                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2024</strong> é necessário haver no
                 mínimo <strong>10</strong> atletas na chave.  Se na chave houver entre <strong>4</strong> a <strong>9</strong> atletas será atribuído como prémio um kimono.
               </p>
               <p className="my-5">
-                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2023</strong><strong> será transferido o valor da inscrição para o atleta.</strong>
+                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2024</strong><strong> será transferido o valor da inscrição para o atleta.</strong>
               </p>
 
               <HText>
@@ -191,7 +191,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               </HText>
 
               <p className="my-5">
-                Preço da inscrição no torneio até ao final do dia 23 de Abril de 2023:
+                Preço da inscrição no torneio até ao final do dia 23 de Abril de 2024:
               </p>
               <p className="my-5">
                 <strong>• €15</strong> para atletas com idade inferior aos 18 anos.
@@ -202,7 +202,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 <p className="my-5"> <strong>Estes preços têm os seguintes acréscimos:</strong></p>
               </p>
               <p className="my-5">
-                • Acréscimos de <strong>€10</strong> para inscrições efectuadas depois do dia <strong>23 de Abril de 2023</strong> até à data limite de inscrição.
+                • Acréscimos de <strong>€10</strong> para inscrições efectuadas depois do dia <strong>23 de Abril de 2024</strong> até à data limite de inscrição.
               </p>
 
               <p>PAGAMENTO:</p>
