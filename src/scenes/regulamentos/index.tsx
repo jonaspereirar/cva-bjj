@@ -128,10 +128,10 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Data limite de inscrição no torneio: <p><strong> Até às 23h 59m do dia 12 de Abril de 2024</strong>.</p>
+                Data limite de inscrição no torneio: <p><strong> Até às 23h 59m do dia 19 de Abril de 2024</strong>.</p>
               </p>
               <p className="my-5">
-                Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 19 de  Abril de 2024.</strong></p>
+                Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 20 de  Abril de 2024.</strong></p>
               </p>
               <p className="my-5">
                 Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 26 de  Abril de 2024.</strong></p>
@@ -191,7 +191,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               </HText>
 
               <p className="my-5">
-                Preço da inscrição no torneio até ao final do dia 12 de Abril de 2024:
+                Preço da inscrição no torneio até ao final do dia 19 de Abril de 2024:
               </p>
               <p className="my-5">
                 <strong>• €20</strong> para atletas com idade inferior aos 18 anos.
@@ -202,7 +202,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 <p className="my-5"> <strong>Estes preços têm os seguintes acréscimos:</strong></p>
               </p>
               <p className="my-5">
-                • Acréscimos de <strong>€15</strong> para inscrições efectuadas depois do dia <strong>12 de Abril de 2024</strong> até à data limite de inscrição.
+                • Acréscimos de <strong>€15</strong> para inscrições efectuadas depois do dia <strong>19 de Abril de 2024</strong> até à data limite de inscrição.
               </p>
 
               <p>PAGAMENTO:</p>
