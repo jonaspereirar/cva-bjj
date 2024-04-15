@@ -25,7 +25,6 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Moustafa Rashed", equipe: "O DOJO Sao Luis", sexo: "Masculino", categoria: "Master 1", peso: "Pesadíssimo", faixa: "Branca" },
     { nome: "Cristian Salazar", equipe: "O Dojo São Luís", sexo: "Masculino", categoria: "Master 1", peso: "Médio", faixa: "Marron" },
     { nome: "Tomás Lameiras", equipe: "CVA bjj", sexo: "Masculino", categoria: "Adulto", peso: "Pesado", faixa: "Branca" },
-    { nome: "Dinis Faustino", equipe: "CVA castro verde", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Branca" },
     { nome: "Anne van Es", equipe: "Fusion Studio Lagos", sexo: "Feminino", categoria: "Master 1", peso: "Pena", faixa: "Azul" },
     { nome: "Laura Pulita", equipe: "Família Marola Faro", sexo: "Feminino", categoria: "Master 2", peso: "Pluma", faixa: "Branca" },
     { nome: "Melyssa Botelho", equipe: "Familia Marola Ferreiras", sexo: "Feminino", categoria: "Adulto", peso: "Pluma", faixa: "Branca" },
