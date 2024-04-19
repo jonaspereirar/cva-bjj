@@ -33,7 +33,6 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Vicente Leal", equipe: "Família Marola Faro", sexo: "Masculino", categoria: "Adulto", peso: "Pena", faixa: "Branca" },
     { nome: "Gabriel Piçarra", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Adulto", peso: "Pluma", faixa: "Branca" },
     { nome: "Carlos Teixeira", equipe: "Figthers Inside", sexo: "Masculino", categoria: "Master 1", peso: "Médio", faixa: "Azul" },
-    { nome: "Elena Buss", equipe: "Roger gracie algarve", sexo: "Feminino", categoria: "Master 2", peso: "Médio", faixa: "Azul" },
     { nome: "Rafael Coelho", equipe: "Familia Marola Faro", sexo: "Masculino", categoria: "Master 2", peso: "Leve", faixa: "Roxa" },
     { nome: "Sergio Fernandes", equipe: "Família André Marola Faro", sexo: "Masculino", categoria: "Master 5", peso: "Pesadíssimo", faixa: "Marron" },
     { nome: "Débora Cabrita", equipe: "Sampaio BJJ", sexo: "Feminino", categoria: "Adulto", peso: "Meio-Pesado", faixa: "Branca" },
@@ -53,10 +52,10 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Clara Stambassi", equipe: "Família André Marola", sexo: "Feminino", categoria: "Master 1", peso: "Leve", faixa: "Branca" },
     { nome: "Luís Margalho", equipe: "Sérgio Vita Icon Jiu-jitsu Evora", sexo: "Masculino", categoria: "Master 4", peso: "Leve", faixa: "Marron" },
     { nome: "Andreas Guerra", equipe: "Familia Andreas Marola", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" },
-    { nome: "Diane Grossot", equipe: "Roger Gracie Algarve", sexo: "Feminino", categoria: "Médio", faixa: "Azul"},
-    { nome: "Antonio Acabado", equipe: "Fightes inside reguengos", sexo: "Masculino", categoria: "Leve", faixa: "Branca"},
-    { nome: "Marta Jardim", equipe: "Família Marola Algarve", sexo: "Feminino", categoria: "Pena", faixa: "Branca"},
-    { nome: "André Rodrigues", equipe: "Vita Team Évora / Icon JJ Team", sexo: "Masculino", categoria: "Pena", faixa: "Branca" }
+    { nome: "Diane Grossot", equipe: "Roger Gracie Algarve", sexo: "Feminino", categoria: "Master 3", peso: "Médio", faixa: "Azul"},
+    { nome: "Marta Jardim", equipe: "Família Marola Algarve", sexo: "Feminino", categoria: "Master 2", peso: "Pena", faixa: "Branca"},
+    { nome: "André Rodrigues", equipe: "Vita Team Évora / Icon JJ Team", sexo: "Masculino", categoria: "Adulto", peso: "Pena", faixa: "Branca" },
+    { nome: "João Fadista", equipe: "Icon Jiu-Jitsu Évora", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" }
     
   
   
