@@ -38,7 +38,26 @@ export const Atletas: DadosInfatil[] =
   { nome: "Roven Hagen", equipe: "Roger Gracie Algarve",  peso: 45, faixa: "Cinza", categoria: "Infanto-Juvenil" },
   { nome: "Rodrigo Santos", equipe: "Sampaiobjj_fcs",  peso: 49, faixa: "Branca", categoria: "Infantil" },    { nome: "Lara Cunha", equipe: "Família Marola", peso: 56.5, faixa: "Azul", categoria: "Juvenil" },
   { nome: "Gabriel Krushovski", equipe: "Icon jiu jitsu Algarve",  peso: 56.1, faixa: "Laranja", categoria: "Infanto-Juvenil" },
-  { nome: "Matilde pereira", equipe: "Castro verde", peso: 48, faixa: "Branca", categoria: "Infanto-Juvenil" }
+  { nome: "Matilde pereira", equipe: "Castro verde", peso: 48, faixa: "Branca", categoria: "Infanto-Juvenil" },
+  { nome: "Beatriz Gilot", equipe: "Roger Gracie Algarve (Aljezur)", sexo: "Feminino", categoria: "Infantil", peso: 35.10, faixa: "Cinza", idade: 10 },
+  { nome: "Benjamim Gilot", equipe: "Roger Gracie Algarve (Aljezur)", sexo: "Masculino", categoria: "Infantil", peso: 39.15, faixa: "Cinza", idade: 12 },
+  { nome: "Valérie Bach", equipe: "Roger Gracie Algarve", sexo: "Feminino", categoria: "Infanto-Juvenil", peso: 56, faixa: "Cinza", idade: null },
+  { nome: "Naomi van Nuland", equipe: "Roger Gracie Algarve", sexo: "Feminino", categoria: "Infanto-Juvenil", peso: 46, faixa: "Cinza", idade: null },
+  { nome: "Troy van Nuland", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Infantil", peso: 41, faixa: "Cinza", idade: 12 },
+  { nome: "Sadie Elliott-Lane", equipe: "Roger Gracie Aljezur", sexo: "Feminino", categoria: "Mirim", peso: 31.3, faixa: "Cinza", idade: 10 },
+  { nome: "Alya MARTINS", equipe: "Roger Gracie Algarve", sexo: "Feminino", categoria: "Juvenil", peso: 56, faixa: "Cinza", idade: null },
+  { nome: "Ema Guerreiro", equipe: "Sampaio bjj fcs", sexo: "Feminino", categoria: "Juvenil", peso: 61, faixa: "Branca", idade: null },
+  { nome: "Mia Grossot Menezes", equipe: "Roger Gracie Algarve", sexo: "Feminino", categoria: "Mirim", peso: 21, faixa: "Cinza", idade: 10 },
+  { nome: "Luanda Grossot Menezes", equipe: "Roger Gracie Algarve", sexo: "Feminino", categoria: "Infantil", peso: 35, faixa: "Cinza", idade: 12 },
+  { nome: "David Gomes Menezes", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Juvenil", peso: 52, faixa: "Cinza", idade: null },
+  { nome: "Tom Ouwerkerk", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Infantil", peso: 47.2, faixa: "Cinza", idade: null },
+  { nome: "David Balbszun", equipe: "Roger Gracie Aljezur", sexo: "Masculino", categoria: "Infanto-Juvenil", peso: 100, faixa: "Branca", idade: null },
+  { nome: "Tammo Baldszun", equipe: "Roger gracie", sexo: "Masculino", categoria: "Infantil", peso: 32, faixa: "Branca", idade: 10 },
+  { nome: "Santiago Afonso", equipe: "Jiujitsu Castro Verde", sexo: "Masculino", categoria: "Infanto-Juvenil", peso: 55, faixa: "Amarela", idade: null },
+  { nome: "Bianca Rodrigues", equipe: "Cva Castro verde", sexo: "Feminino", categoria: "Infantil", peso: 42, faixa: "Branca", idade: 12 },
+  { nome: "Nui Tai Whitelegg", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Infanto-Juvenil", peso: 60, faixa: "Branca", idade: null },
+  { nome: "Ayun Trindade", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Juvenil", peso: 62, faixa: "Branca", idade: null },
+  { nome: "Tiago Barroso", equipe: "O dojo São Luís", sexo: "Masculino", categoria: "Infantil", peso: 33, faixa: "Cinza", idade: 12 }
   ]
   
 
