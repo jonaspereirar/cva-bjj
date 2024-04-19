@@ -52,7 +52,11 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Sara Machado", equipe: "OLD DOG TEAM PORTUGAL", sexo: "Feminino", categoria: "Adulto", peso: "Leve", faixa: "Azul" },
     { nome: "Clara Stambassi", equipe: "Família André Marola", sexo: "Feminino", categoria: "Master 1", peso: "Leve", faixa: "Branca" },
     { nome: "Luís Margalho", equipe: "Sérgio Vita Icon Jiu-jitsu Evora", sexo: "Masculino", categoria: "Master 4", peso: "Leve", faixa: "Marron" },
-    { nome: "Andreas Guerra", equipe: "Familia Andreas Marola", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" }
+    { nome: "Andreas Guerra", equipe: "Familia Andreas Marola", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" },
+    { nome: "Diane Grossot", equipe: "Roger Gracie Algarve", sexo: "Feminino", categoria: "Médio", faixa: "Azul"},
+    { nome: "Antonio Acabado", equipe: "Fightes inside reguengos", sexo: "Masculino", categoria: "Leve", faixa: "Branca"},
+    { nome: "Marta Jardim", equipe: "Família Marola Algarve", sexo: "Feminino", categoria: "Pena", faixa: "Branca"},
+    { nome: "André Rodrigues", equipe: "Vita Team Évora / Icon JJ Team", sexo: "Masculino", categoria: "Pena", faixa: "Branca" }
     
   
   
