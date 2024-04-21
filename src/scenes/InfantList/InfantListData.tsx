@@ -36,7 +36,8 @@ export const Atletas: DadosInfatil[] =
   { nome: "Luca ter haar", equipe: "Famila Marola Ferreiras",  peso: 32, faixa: "Cinza", categoria: "Infantil" },
   { nome: "Eduardo alves", equipe: "equipe dl-bjj",  peso: 80, faixa: "Branca", categoria: "Juvenil" },
   { nome: "Roven Hagen", equipe: "Roger Gracie Algarve",  peso: 45, faixa: "Cinza", categoria: "Infanto-Juvenil" },
-  { nome: "Rodrigo Santos", equipe: "Sampaiobjj_fcs",  peso: 49, faixa: "Branca", categoria: "Infantil" },    { nome: "Lara Cunha", equipe: "Família Marola", peso: 56.5, faixa: "Azul", categoria: "Juvenil" },
+  { nome: "Rodrigo Santos", equipe: "Sampaiobjj_fcs",  peso: 49, faixa: "Branca", categoria: "Infantil" },    
+  { nome: "Lara Cunha", equipe: "Família Marola", peso: 56.5, faixa: "Azul", categoria: "Juvenil" },
   { nome: "Gabriel Krushovski", equipe: "Icon jiu jitsu Algarve",  peso: 56.1, faixa: "Laranja", categoria: "Infanto-Juvenil" },
   { nome: "Matilde pereira", equipe: "Castro verde", peso: 48, faixa: "Branca", categoria: "Infanto-Juvenil" },
   { nome: "Beatriz Gilot", equipe: "Roger Gracie Algarve (Aljezur)", categoria: "Infantil", peso: 35.10, faixa: "Cinza"},
@@ -57,7 +58,12 @@ export const Atletas: DadosInfatil[] =
   { nome: "Bianca Rodrigues", equipe: "Cva Castro verde", categoria: "Infantil", peso: 42, faixa: "Branca"},
   { nome: "Nui Tai Whitelegg", equipe: "Roger Gracie Algarve",  categoria: "Infanto-Juvenil", peso: 60, faixa: "Branca"},
   { nome: "Ayun Trindade", equipe: "Roger Gracie Algarve",  categoria: "Juvenil", peso: 62, faixa: "Branca"},
-  { nome: "Tiago Barroso", equipe: "O dojo São Luís",  categoria: "Infantil", peso: 33, faixa: "Cinza"}
+  { nome: "Tiago Barroso", equipe: "O dojo São Luís",  categoria: "Infantil", peso: 33, faixa: "Cinza"},
+  { nome: "Lourenço D'Oliveira", equipe: "Família Marola", peso: 125.5, faixa: "Branca", categoria: "Juvenil" },
+  { nome: "Bea Borges", equipe: "Mente Blindada", peso: 63, faixa: "Amarela", categoria: "Infanto-Juvenil" }
+
+
+
   ]
   
 
