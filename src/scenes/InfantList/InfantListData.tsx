@@ -60,7 +60,14 @@ export const Atletas: DadosInfatil[] =
   { nome: "Ayun Trindade", equipe: "Roger Gracie Algarve",  categoria: "Juvenil", peso: 62, faixa: "Branca"},
   { nome: "Tiago Barroso", equipe: "O dojo São Luís",  categoria: "Infantil", peso: 33, faixa: "Cinza"},
   { nome: "Lourenço D'Oliveira", equipe: "Família Marola", peso: 125.5, faixa: "Branca", categoria: "Juvenil" },
-  { nome: "Bea Borges", equipe: "Mente Blindada", peso: 63, faixa: "Amarela", categoria: "Infanto-Juvenil" }
+  { nome: "Bea Borges", equipe: "Mente Blindada", peso: 63, faixa: "Amarela", categoria: "Infanto-Juvenil" },
+  { nome: "Alice Vermelho", equipe: "Jiujitsu Castro Verde",  categoria: "Mirim", peso: 19, faixa: "Cinza" },
+  { nome: "Sofia Reis", equipe: "Jiujitsu Castro Verde",  categoria: "Mirim", peso: 23, faixa: "Cinza" },
+  { nome: "Inês Pessoa", equipe: "Jiujitsu Castro Verde",  categoria: "Infantil", peso: 21, faixa: "Branca" }
+
+
+
+
 
 
 

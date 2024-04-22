@@ -56,7 +56,10 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Marta Jardim", equipe: "Família Marola Algarve", sexo: "Feminino", categoria: "Master 2", peso: "Pena", faixa: "Branca"},
     { nome: "André Rodrigues", equipe: "Vita Team Évora / Icon JJ Team", sexo: "Masculino", categoria: "Adulto", peso: "Pena", faixa: "Branca" },
     { nome: "João Fadista", equipe: "Icon Jiu-Jitsu Évora", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" },
-    { nome: "Miguel Jesus", equipe: "Icon Jiu-Jitsu Évora", sexo: "Masculino", categoria: "Master 1", peso: "Médio", faixa: "Marron" }
+    { nome: "Miguel Jesus", equipe: "Icon Jiu-Jitsu Évora", sexo: "Masculino", categoria: "Master 1", peso: "Médio", faixa: "Marron" },
+    { nome: "Jonas Rodrigues", equipe: "CVABJJ", sexo: "Masculino", categoria: "Master 3", peso: "Pesado", faixa: "Preta" }
+
+
 
 
     
