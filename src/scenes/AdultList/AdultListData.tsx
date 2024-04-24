@@ -57,7 +57,16 @@ export const Atletas: DadosAdulto[] = [
     { nome: "André Rodrigues", equipe: "Vita Team Évora / Icon JJ Team", sexo: "Masculino", categoria: "Adulto", peso: "Pena", faixa: "Branca" },
     { nome: "João Fadista", equipe: "Icon Jiu-Jitsu Évora", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" },
     { nome: "Miguel Jesus", equipe: "Icon Jiu-Jitsu Évora", sexo: "Masculino", categoria: "Master 1", peso: "Médio", faixa: "Marron" },
-    { nome: "Jonas Rodrigues", equipe: "CVABJJ", sexo: "Masculino", categoria: "Master 3", peso: "Pesado", faixa: "Preta" }
+    { nome: "Jonas Rodrigues", equipe: "CVABJJ", sexo: "Masculino", categoria: "Master 3", peso: "Pesado", faixa: "Preta" },
+    { nome: "Rodrigo Silva", equipe: "CVABJJ", sexo: "Masculino", categoria: "Adulto", peso: "Pluma", faixa: "Roxa" },
+    { nome: "Carlos Santillan", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Master 3", peso: "Médio", faixa: "Azul" },
+    { nome: "Gabriel Piçarra", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Adulto", peso: "Pena", faixa: "Branca" },
+    { nome: "Matheus Maier Alves", equipe: "Família Marola", sexo: "Masculino", categoria: "Master 1", peso: "Pena", faixa: "Preta" }
+
+
+    
+
+
 
 
 
