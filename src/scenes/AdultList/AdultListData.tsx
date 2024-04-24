@@ -61,7 +61,8 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Rodrigo Silva", equipe: "CVABJJ", sexo: "Masculino", categoria: "Adulto", peso: "Pluma", faixa: "Roxa" },
     { nome: "Carlos Santillan", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Master 3", peso: "Médio", faixa: "Azul" },
     { nome: "Gabriel Piçarra", equipe: "Roger Gracie Algarve", sexo: "Masculino", categoria: "Adulto", peso: "Pena", faixa: "Branca" },
-    { nome: "Matheus Maier Alves", equipe: "Família Marola", sexo: "Masculino", categoria: "Master 1", peso: "Pena", faixa: "Preta" }
+    { nome: "Matheus Maier Alves", equipe: "Família Marola", sexo: "Masculino", categoria: "Master 1", peso: "Pena", faixa: "Preta" }, 
+    { nome: "André Pinto", equipe: "CVABJJ", sexo: "Masculino", categoria: "Master 1", peso: "Leve", faixa: "Roxa" }
 
 
     
