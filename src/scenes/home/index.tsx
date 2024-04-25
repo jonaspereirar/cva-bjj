@@ -4,8 +4,14 @@ import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.gif";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import { BotaoDownload } from "@/shared/ButtonDownloadProps";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
+
+import adultoPDF from "@/scenes/Lutas/adulto.pdf";
+import femininosPDF from "@/scenes/Lutas/femininos.pdf";
+// import infantilPDF from "@/scenes/Lutas/kids.pdf";
+import mastersPDF from "@/scenes/Lutas/masters.pdf";
 
 
 type Props = {
@@ -23,20 +29,20 @@ const Home = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 960px)");
   const isAboveLargeScreens = useMediaQuery("(min-width: 1280px)");
 
-  // const arquivoPDFPath: string = femininosPDF;
+  const arquivoPDFPath: string = femininosPDF;
 
-  // function handleDownload(event: React.MouseEvent<HTMLButtonElement>) {
-  //   fetch(arquivoPDFPath)
-  //     .then(response => response.blob())
-  //     .then(blob => {
-  //       const url = URL.createObjectURL(blob);
-  //       const link = document.createElement('a');
-  //       link.href = url;
-  //       link.setAttribute('download', 'chaves_femininos.pdf');
-  //       document.body.appendChild(link);
-  //       link.click();
-  //     });
-  // }
+  function handleDownload(event: React.MouseEvent<HTMLButtonElement>) {
+    fetch(arquivoPDFPath)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', 'chaves_femininos.pdf');
+        document.body.appendChild(link);
+        link.click();
+      });
+  }
 
 
   return (
@@ -72,94 +78,73 @@ const Home = ({ setSelectedPage }: Props) => {
 
           {/* ACTIONS */}
           <motion.div
-            className="mt-8 flex items-center gap-8"
-            style={{ display: "flex", flexDirection: "column" }}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
-            variants={{
-              hidden: { opacity: 0, x: -50 },
-              visible: { opacity: 1, x: 0 },
-            }}
-          >
-            {/* ----------------------botoes inscricoes googleForms Infatil----------------------*/}
-             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px" }}>
-              <p className="text-white text-xl">ADULTO/MASTER</p>
-              <button
-                onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfid3D_jYRnzKwMAI2G_JlY3dqJI1r6BTXdXeAdAhqMhRDm3A/viewform?usp=sf_link"}
-                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
-              >
-                ACESSAR
-              </button>
-              {/*  ----------------------botoes inscricoes googleForms Adultos----------------------*/}
-            </div> 
-                {/* ----------------------botoes inscricoes googleForms Infatil----------------------*/}
-                  
-          
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">INFANTIL/JUVENIL</p>
-              <button
-                onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeWgEeMAumyafVApxVPyGUWnihaLmD8EAhHI74E2Y2iIDmoRg/viewform?usp=sf_link"}
-                className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
-              >
+  className="mt-8 flex flex-wrap justify-center md:justify-start gap-8"
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, amount: 0.5 }}
+  transition={{ delay: 0.2, duration: 0.5 }}
+  variants={{
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0 },
+  }}
+>
+  <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">ADULTO/MASTER</p>
+    <button
+      onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfid3D_jYRnzKwMAI2G_JlY3dqJI1r6BTXdXeAdAhqMhRDm3A/viewform?usp=sf_link"}
+      className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
+    >
+      ACESSAR
+    </button>
+  </div>
 
-                ACESSAR
-              </button>
-            </div>
+  <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">INFANTIL/JUVENIL</p>
+    <button
+      onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeWgEeMAumyafVApxVPyGUWnihaLmD8EAhHI74E2Y2iIDmoRg/viewform?usp=sf_link"}
+      className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
+    >
+      ACESSAR
+    </button>
+  </div>
 
-{/* /* ----------------------botoes inscricoes googleForms---------------------- */}
+  </motion.div>
 
-             {/* <a
-              className="text-l font-bold text-primary-500 underline hover:text-secondary-500"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSd-ARZARAWPzvoml820o8B1t2_7iev0UbmCn_-uIP4qb273FQ/viewform?usp=pp_url"
-              target="_blank"
-            >
-              <p>Regulamento/Premiação</p>
-            </a>  */}
-            {/* /* ----------------------botoe chave Kids---------------------- */}
+{/* Botões de Download */}
+<motion.div
+  className="mt-8 flex flex-wrap justify-center md:justify-start gap-8"
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, amount: 0.5 }}
+  transition={{ delay: 0.2, duration: 0.5 }}
+  variants={{
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0 },
+  }}
+>
 
-            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves Infantil</p>
-            
-            <BotaoDownload arquivoPath={infantilPDF} nomeArquivo="Chaves_infantil" />
-              
-            </div>  */}
+  {/* <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">Chaves Infantil</p>
+    <BotaoDownload arquivoPath={infantilPDF} nomeArquivo="Chaves_infantil" />
+  </div> */}
 
-          {/* /* ----------------------botoe chave Feminino---------------------- */}
-             {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves Feminino</p>
-            
-            <BotaoDownload arquivoPath={femininosPDF} nomeArquivo="Chaves_feminino" /> 
-              
-            </div>  */}
+  <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">Chaves Feminino</p>
+    <BotaoDownload arquivoPath={femininosPDF} nomeArquivo="Chaves_feminino" />
+  </div>
 
-            {/* /* ----------------------botoe chave Adulto---------------------- */}
+  <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">Chaves Adulto</p>
+    <BotaoDownload arquivoPath={adultoPDF} nomeArquivo="Chaves_adulto" />
+  </div>
 
-
-            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves Adulto</p>
-            
-            <BotaoDownload arquivoPath={adultoPDF} nomeArquivo="Chaves_adulto" />
-              
-            </div>  */}
-
-            {/* /* ----------------------botoe chave Masters---------------------- */}
+  <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">Chaves Masters</p>
+    <BotaoDownload arquivoPath={mastersPDF} nomeArquivo="Chaves_masters" />
+  </div>
+</motion.div>
 
 
-            {/* <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <p className="text-white text-xl">Chaves Masters</p>
-            
-            <BotaoDownload arquivoPath={mastersPDF} nomeArquivo="Chaves_masters" />
-              
-            </div>  */}
-
-
-
-
-
-
-          </motion.div>
         </div>
         
 
