@@ -140,6 +140,9 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 28 de Maio de 2024.</strong></p>
               </p>
               <p className="my-5">
+                Data limite de edição de inscrições pelo professor: <p><strong>Até às 23h 59m do dia 09 de Maio de 2024.</strong></p>
+              </p>
+              <p className="my-5">
                 <strong >ATENÇÃO: Não serão permitidas quaisquer alterações às <br />listas após a  publicação das chaves do torneio.</strong>
               </p>
 

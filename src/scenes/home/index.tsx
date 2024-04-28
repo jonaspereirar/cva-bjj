@@ -10,8 +10,10 @@ import { motion } from "framer-motion";
 
 import adultoPDF from "@/scenes/Lutas/adulto.pdf";
 import femininosPDF from "@/scenes/Lutas/femininos.pdf";
-// import infantilPDF from "@/scenes/Lutas/kids.pdf";
+import juvenilPDF from "@/scenes/Lutas/juvenil.pdf";
+import infantilPDF from "@/scenes/Lutas/kids.pdf";
 import mastersPDF from "@/scenes/Lutas/masters.pdf";
+
 
 
 type Props = {
@@ -123,10 +125,15 @@ const Home = ({ setSelectedPage }: Props) => {
   }}
 >
 
-  {/* <div className="flex flex-col items-center mb-8">
+  <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">Chaves Infantil</p>
     <BotaoDownload arquivoPath={infantilPDF} nomeArquivo="Chaves_infantil" />
-  </div> */}
+  </div>
+
+  <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">Chaves Juvenil</p>
+    <BotaoDownload arquivoPath={juvenilPDF} nomeArquivo="Chaves_juvenil" />
+  </div>
 
   <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">Chaves Feminino</p>
