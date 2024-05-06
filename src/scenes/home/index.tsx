@@ -90,7 +90,9 @@ const Home = ({ setSelectedPage }: Props) => {
     visible: { opacity: 1, x: 0 },
   }}
 >
-  <div className="flex flex-col items-center mb-8">
+   {/* Botões de inscritos */}
+   
+  {/* <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">ADULTO/MASTER</p>
     <button
       onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfid3D_jYRnzKwMAI2G_JlY3dqJI1r6BTXdXeAdAhqMhRDm3A/viewform?usp=sf_link"}
@@ -98,9 +100,9 @@ const Home = ({ setSelectedPage }: Props) => {
     >
       ACESSAR
     </button>
-  </div>
+  </div> */}
 
-  <div className="flex flex-col items-center mb-8">
+  {/* <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">INFANTIL/JUVENIL</p>
     <button
       onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeWgEeMAumyafVApxVPyGUWnihaLmD8EAhHI74E2Y2iIDmoRg/viewform?usp=sf_link"}
@@ -108,7 +110,7 @@ const Home = ({ setSelectedPage }: Props) => {
     >
       ACESSAR
     </button>
-  </div>
+  </div> */}
 
   </motion.div>
 
