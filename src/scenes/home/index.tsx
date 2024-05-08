@@ -4,11 +4,13 @@ import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.gif";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import { ButtonCronograma } from "@/shared/ButtonCronogramProps";
 import { BotaoDownload } from "@/shared/ButtonDownloadProps";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
 import adultoPDF from "@/scenes/Lutas/adulto.pdf";
+import cronogramaPDF from "@/scenes/Lutas/cronograma.pdf";
 import femininosPDF from "@/scenes/Lutas/femininos.pdf";
 import juvenilPDF from "@/scenes/Lutas/juvenil.pdf";
 import infantilPDF from "@/scenes/Lutas/kids.pdf";
@@ -113,6 +115,11 @@ const Home = ({ setSelectedPage }: Props) => {
   </div> */}
 
   </motion.div>
+  
+  <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">Cronograma</p>
+    <ButtonCronograma arquivoPath={cronogramaPDF} nomeArquivo="Cronograma" />
+  </div>
 
 {/* Botões de Download */}
 <motion.div
@@ -126,6 +133,7 @@ const Home = ({ setSelectedPage }: Props) => {
     visible: { opacity: 1, x: 0 },
   }}
 >
+
 
   <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">Chaves Infantil</p>
