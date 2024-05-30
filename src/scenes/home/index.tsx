@@ -40,7 +40,7 @@ const Home = ({ setSelectedPage }: Props) => {
         link.click();
       });
   }
-
+//Muda aqui
 
   return (
     <section id="home" className="gap-16 bg-black md:h-full md:pb-0">
