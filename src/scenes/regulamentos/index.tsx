@@ -13,7 +13,7 @@ const regulamentos: Array<RegulamentoType> = [
     icon: <CalendarDaysIcon className="h-6 w-6" />,
     title: "Data e Hora do evento ",
     description:
-      "Dia 11 de Maio de 2024, Início às 09 horas",
+      "Dia 10 de Maio de 2025, Início às 09 horas",
   },
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
@@ -128,23 +128,23 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Data limite de inscrição no torneio: <p><strong> Até às 23h 59m do dia 19 de Abril de 2024</strong>.</p>
-              </p>
-              <p className="my-5">
-                Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 20 de  Abril de 2024.</strong></p>
-              </p>
-              <p className="my-5">
-                Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 26 de  Abril de 2024.</strong></p>
-              </p>
-              <p className="my-5">
-                Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 28 de Maio de 2024.</strong></p>
-              </p>
-              <p className="my-5">
-                Data limite de edição de inscrições pelo professor: <p><strong>Até às 23h 59m do dia 09 de Maio de 2024.</strong></p>
-              </p>
-              <p className="my-5">
-                <strong >ATENÇÃO: Não serão permitidas quaisquer alterações às <br />listas após a  publicação das chaves do torneio.</strong>
-              </p>
+              Data limite de inscrição no torneio: <p><strong>Até às 23h 59m do dia 19 de Abril de 2025</strong>.</p>
+            </p>
+            <p className="my-5">
+              Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 20 de Abril de 2025.</strong></p>
+            </p>
+            <p className="my-5">
+              Data limite de edição de inscrições pelo atleta: <p><strong>Até às 23h 59m do dia 26 de Abril de 2025.</strong></p>
+            </p>
+            <p className="my-5">
+              Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 28 de Abril de 2025.</strong></p>
+            </p>
+            <p className="my-5">
+              Data limite de edição de inscrições pelo professor: <p><strong>Até às 23h 59m do dia 09 de Maio de 2025.</strong></p>
+            </p>
+            <p className="my-5">
+              <strong>ATENÇÃO: Não serão permitidas quaisquer alterações às <br />listas após a publicação das chaves do torneio.</strong>
+            </p>
 
 
               <HText>
