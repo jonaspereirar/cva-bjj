@@ -69,7 +69,7 @@ const Home = ({ setSelectedPage }: Props) => {
               </div>
             </div>
             <p className="mt-6 text-xl md:text-3xl text-red-800">
-              11 de Maio
+              10 de Maio
             </p>
           </motion.div>
 
