@@ -186,7 +186,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 mínimo <strong>10</strong> atletas na chave.  Se na chave houver entre <strong>4</strong> a <strong>9</strong> atletas será atribuído como prémio um kimono.
               </p>
               <p className="my-5">
-                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2025</strong><strong> será transferido o valor da inscrição para o atleta.</strong>
+                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2026</strong><strong> será transferido o valor da inscrição para o atleta.</strong>
               </p>
 
               <HText>
