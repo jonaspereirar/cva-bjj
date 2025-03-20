@@ -182,7 +182,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
                 <strong>. 3° classificado</strong> Medalha
               </p>
               <p className="my-5">
-                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2025</strong> é necessário haver no
+                <strong>**</strong> Para a atribuição do prémio <strong>Inscrição Campeonato Europeu 2026</strong> é necessário haver no
                 mínimo <strong>10</strong> atletas na chave.  Se na chave houver entre <strong>4</strong> a <strong>9</strong> atletas será atribuído como prémio um kimono.
               </p>
               <p className="my-5">
@@ -194,18 +194,18 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               </HText>
 
               <p className="my-5">
-                Preço da inscrição no torneio até ao final do dia 19 de Abril de 2024:
+                Preço da inscrição no torneio até ao final do dia 19 de Abril de 2025:
               </p>
               <p className="my-5">
-                <strong>• €20</strong> para atletas com idade inferior aos 18 anos.
+                <strong>• €25</strong> para atletas com idade inferior aos 18 anos.
               </p>
               <p className="my-5">
-                <strong>• €30 </strong>para atletas com idade igual ou superior aos 18 anos.
+                <strong>• €35 </strong>para atletas com idade igual ou superior aos 18 anos.
 
                 <p className="my-5"> <strong>Estes preços têm os seguintes acréscimos:</strong></p>
               </p>
               <p className="my-5">
-                • Acréscimos de <strong>€15</strong> para inscrições efectuadas depois do dia <strong>19 de Abril de 2024</strong> até à data limite de inscrição.
+                • Acréscimos de <strong>€15</strong> para inscrições efectuadas depois do dia <strong>19 de Abril de 2025</strong> até à data limite de inscrição.
               </p>
 
               <p>PAGAMENTO:</p>
