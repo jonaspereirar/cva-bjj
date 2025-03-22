@@ -87,25 +87,25 @@ const Home = ({ setSelectedPage }: Props) => {
 >
    {/* Botões de inscritos */}
    
-  {/* <div className="flex flex-col items-center mb-8">
+  <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">ADULTO/MASTER</p>
     <button
-      onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfid3D_jYRnzKwMAI2G_JlY3dqJI1r6BTXdXeAdAhqMhRDm3A/viewform?usp=sf_link"}
+      onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScud4-GFcgGZoKYkgxZ2ZNNYQACe9jsy75WAjD8BVNWnV7ChQ/viewform?usp=header"}
       className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
     >
       ACESSAR
     </button>
-  </div> */}
+  </div>
 
-  {/* <div className="flex flex-col items-center mb-8">
+  <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">INFANTIL/JUVENIL</p>
     <button
-      onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeWgEeMAumyafVApxVPyGUWnihaLmD8EAhHI74E2Y2iIDmoRg/viewform?usp=sf_link"}
+      onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeMb91s_6mjtoqeNZf5lnM8cPet24p3r3pVhz349-SbZgajdg/viewform"}
       className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
     >
       ACESSAR
     </button>
-  </div> */}
+  </div>
 
   </motion.div>
   
@@ -114,7 +114,7 @@ const Home = ({ setSelectedPage }: Props) => {
   <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">Cronograma</p>
     <ButtonCronograma arquivoPath={cronogramaPDF} nomeArquivo="Cronograma" />
-  </div> */}
+  </div>
 
 {/* Botões de Download */}
 {/* <motion.div

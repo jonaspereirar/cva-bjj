@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/CVABJJ">Facebook</a>
           </p>
           <p className="my-5">
-            <a href="https://instagram.com/cvabjj?igshid=ZDdkNTZiNTM=">Instagram</a>
+            <a href="https://www.instagram.com/torneiobjjcastroverde/">Instagram</a>
           </p>
 
         </div>
