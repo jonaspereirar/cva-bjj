@@ -90,7 +90,7 @@ const Home = ({ setSelectedPage }: Props) => {
   <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">ADULTO/MASTER</p>
     <button
-      onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScud4-GFcgGZoKYkgxZ2ZNNYQACe9jsy75WAjD8BVNWnV7ChQ/viewform?usp=header"}
+      onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScud4-GFcgGZoKYkgxZ2ZNNYQACe9jsy75WAjD8BVNWnV7ChQ/viewform"}
       className="bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 px-4 py-2 rounded-md text-white"
     >
       ACESSAR
