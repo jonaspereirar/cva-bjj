@@ -9,5 +9,7 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Helder Silva", equipe: "Academia Mente Blindada, Algueirao Mem Martins", sexo: "Masculino", categoria: "Adulto", peso: "Pesado", faixa: "Preta" },
     { nome: "Rodrigo Silva", equipe: "CVABJJ", sexo: "Masculino", categoria: "Adulto", peso: "Pluma", faixa: "Marron" },
     { nome: "Ismael Poeta", equipe: "Família Marola Algarve", sexo: "Masculino", categoria: "Master 3", peso: "Médio", faixa: "Azul" },
-    { nome: "Diane Grossot", equipe: "Bear bones", sexo: "Feminino", categoria: "Master 3", peso: "Médio", faixa: "Azul" }
+    { nome: "Diane Grossot", equipe: "Bear bones", sexo: "Feminino", categoria: "Master 3", peso: "Médio", faixa: "Azul" },
+    { nome: "João Oliveira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pesadíssimo", faixa: "Branca" },
+
 ];
