@@ -11,5 +11,9 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Ismael Poeta", equipe: "Família Marola Algarve", sexo: "Masculino", categoria: "Master 3", peso: "Médio", faixa: "Azul" },
     { nome: "Diane Grossot", equipe: "Bear bones", sexo: "Feminino", categoria: "Master 3", peso: "Médio", faixa: "Azul" },
     { nome: "João Oliveira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pesadíssimo", faixa: "Branca" },
-
+    { nome: "Elena Buss", equipe: "Bear Bones", sexo: "Feminino", categoria: "Master 2", peso: "Médio", faixa: "Azul" },
+    { nome: "André Pinto", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Master 1", peso: "Leve", faixa: "Roxa" },
+    { nome: "Márcio Vieira", equipe: "Sampaio FCS BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Azul" },
+    { nome: "Débora Cabrita", equipe: "Sampaio BJJ", sexo: "Feminino", categoria: "Adulto", peso: "Meio-Pesado", faixa: "Azul" },
+    { nome: "Miguel Roma", equipe: "Sampaio BJJ_FCS", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Branca" }
 ];
