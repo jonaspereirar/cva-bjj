@@ -15,5 +15,9 @@ export const Atletas: DadosAdulto[] = [
     { nome: "André Pinto", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Master 1", peso: "Leve", faixa: "Roxa" },
     { nome: "Márcio Vieira", equipe: "Sampaio FCS BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Azul" },
     { nome: "Débora Cabrita", equipe: "Sampaio BJJ", sexo: "Feminino", categoria: "Adulto", peso: "Meio-Pesado", faixa: "Azul" },
-    { nome: "Miguel Roma", equipe: "Sampaio BJJ_FCS", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Branca" }
+    { nome: "Miguel Roma", equipe: "Sampaio BJJ_FCS", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Branca" },
+    { nome: "Rafael Ferreira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pesado", faixa: "Azul" },
+    { nome: "Nuno Ferreira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Master 3", peso: "Super-Pesado", faixa: "Azul" }
+
+
 ];
