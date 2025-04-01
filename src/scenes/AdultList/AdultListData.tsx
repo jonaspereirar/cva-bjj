@@ -17,7 +17,9 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Débora Cabrita", equipe: "Sampaio BJJ", sexo: "Feminino", categoria: "Adulto", peso: "Meio-Pesado", faixa: "Azul" },
     { nome: "Miguel Roma", equipe: "Sampaio BJJ_FCS", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Branca" },
     { nome: "Rafael Ferreira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pesado", faixa: "Azul" },
-    { nome: "Nuno Ferreira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Master 3", peso: "Super-Pesado", faixa: "Azul" }
+    { nome: "Nuno Ferreira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Master 3", peso: "Super-Pesado", faixa: "Azul" },
+    { nome: "Marlon Espada", equipe: "Família Marola Algarve", sexo: "Masculino", categoria: "Master 2", peso: "Leve", faixa: "Azul" },
+
 
 
 ];
