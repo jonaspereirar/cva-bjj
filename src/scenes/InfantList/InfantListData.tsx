@@ -8,6 +8,8 @@ export const Atletas: DadosInfatil[] =
   { nome: "Skip Ouwerkerk", equipe: "Bear Bones Jiujitsu Aljezur", peso: 49, faixa: "Cinza", categoria: "Infanto-Juvenil" },
   { nome: "Tomas Guia", equipe: "SampaioBJJ_FCS", peso: 78, faixa: "Laranja", categoria: "Infanto-Juvenil" },
   { nome: "Artur Freitas", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 30.5, faixa: "Cinca/Preta", categoria: "Mirim" },
+  { nome: "Tiago Faísco", equipe: "CVABJJ", peso: 46, faixa: "Cinca", categoria: "Infantil" },
+  { nome: "Santiago Afonso ", equipe: "CVABJJ", peso: 60, faixa: "Amarela", categoria: "Infanto-Juvenil" },
 
 ]
   

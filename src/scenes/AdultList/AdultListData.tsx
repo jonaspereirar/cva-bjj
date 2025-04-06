@@ -19,6 +19,7 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Rafael Ferreira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pesado", faixa: "Azul" },
     { nome: "Nuno Ferreira", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Master 3", peso: "Super-Pesado", faixa: "Azul" },
     { nome: "Marlon Espada", equipe: "Família Marola Algarve", sexo: "Masculino", categoria: "Master 2", peso: "Leve", faixa: "Azul" },
+    { nome: "Carlos Santillan Blanco", equipe: "Bear Bones Aljezur", sexo: "Masculino", categoria: "Master 3", peso: "Médio", faixa: "Azul" },
 
 
 
