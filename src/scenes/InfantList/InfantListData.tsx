@@ -10,6 +10,7 @@ export const Atletas: DadosInfatil[] =
   { nome: "Artur Freitas", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 30.5, faixa: "Cinca/Preta", categoria: "Mirim" },
   { nome: "Tiago Faísco", equipe: "CVABJJ", peso: 46, faixa: "Cinca", categoria: "Infantil" },
   { nome: "Santiago Afonso ", equipe: "CVABJJ", peso: 60, faixa: "Amarela", categoria: "Infanto-Juvenil" },
+  { nome: "Martim Martins", equipe: "Sampaio", peso: 68, faixa: "Branca", categoria: "Juvenil" },
 
 ]
   
