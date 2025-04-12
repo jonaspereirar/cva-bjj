@@ -11,6 +11,9 @@ export const Atletas: DadosInfatil[] =
   { nome: "Tiago Faísco", equipe: "CVABJJ", peso: 46, faixa: "Cinca", categoria: "Infantil" },
   { nome: "Santiago Afonso ", equipe: "CVABJJ", peso: 60, faixa: "Amarela", categoria: "Infanto-Juvenil" },
   { nome: "Martim Martins", equipe: "Sampaio", peso: 68, faixa: "Branca", categoria: "Juvenil" },
+  { nome: "Rodrigo Silva", equipe: "Gracie Barra Lagoa", peso: 24, faixa: "Cinca/Branca", categoria: "Mirim" },
+  { nome: "Gabriel Gonçalves", equipe: "Sampaiobjj Guia", peso: 79, faixa: "Branca", categoria: "Juvenil" },
+  { nome: "Balian Hellinger", equipe: "Old Dogs", peso: 75, faixa: "Amarela", categoria: "Juvenil" },
 
 ]
   

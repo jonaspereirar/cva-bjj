@@ -24,6 +24,8 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Giovanni Capella", equipe: "Familia Marola Algarve", sexo: "Masculino", categoria: "Master 1", peso: "Leve", faixa: "Preta" },
     { nome: "Eduardo Polo", equipe: "Bear Bones Jiu Jitsu", sexo: "Masculino", categoria: "Adulto", peso: "Leve", faixa: "Branca" },
     { nome: "Miklos de Pina ", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Branca" },
+    { nome: "Jéssica Martins", equipe: "Sampaio BJJ", sexo: "Feminino", categoria: "Master 1", peso: "Pena", faixa: "Azul" },
+    { nome: "Zango Edgar Gonçalves", equipe: "Fighclubesantarem", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Roxa" },
 
 
 
