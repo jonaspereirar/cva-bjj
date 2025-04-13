@@ -15,7 +15,8 @@ export const Atletas: DadosInfatil[] =
   { nome: "Gabriel Gonçalves", equipe: "Sampaiobjj Guia", peso: 79, faixa: "Branca", categoria: "Juvenil" },
   { nome: "Balian Hellinger", equipe: "Old Dogs", peso: 75, faixa: "Amarela", categoria: "Juvenil" },
   { nome: "Zia Martins", equipe: "Bear Bones Jiujitsu", peso: 45, faixa: "Amarela/Branca", categoria: "Infanto-Juvenil" },
-  { nome: "Alya Martins", equipe: "Bear Bones Jiujitsu", peso: 55, faixa: "Amarela/Branca", categoria: "Juvenil" },
+  { nome: "Louis Gana", equipe: "CVABJJ", peso: 68, faixa: "Azul", categoria: "Juvenil" },
+  
 
 ]
   
