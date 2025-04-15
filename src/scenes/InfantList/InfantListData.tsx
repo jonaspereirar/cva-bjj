@@ -18,7 +18,12 @@ export const Atletas: DadosInfatil[] =
   { nome: "Louis Gana", equipe: "CVABJJ", peso: 68, faixa: "Azul", categoria: "Juvenil" },
   { nome: "Jilson", equipe: "Fight Studio Beja", peso: 60, faixa: "Branca", categoria: "Juvenil" },
   { nome: "Luca Ciammaichella", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 28, faixa: "Cinca/Preta", categoria: "Mirim" },
-  { nome: "Valerie Bach", equipe: "Bear Bones Jiujitsu", peso: 58, faixa: "Amarela/Branca", categoria: "Infanto-Juvenil" }
+  { nome: "Valerie Bach", equipe: "Bear Bones Jiujitsu", peso: 58, faixa: "Amarela/Branca", categoria: "Infanto-Juvenil" },
+  { nome: "Lia Neves", equipe: "Bear Bones Aljezur", peso: 40, faixa: "Cinza", categoria: "Infanto-Juvenil" },
+  { nome: "Sebastian Pujol", equipe: "Bear Bones Aljezur", peso: 30, faixa: "Cinza", categoria: "Infantil" },
+  { nome: "João Espada", equipe: "Old Dogs Team", peso: 60, faixa: "Laranja/Preta", categoria: "Infanto-Juvenil" },
+
+
 ]
   
 
