@@ -30,5 +30,8 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Guilgerme Gonçalves", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pluma", faixa: "Azul" },
     { nome: "Helder Silva", equipe: "Mente Blindada", sexo: "Masculino", categoria: "Adulto", peso: "Meio-Pesado", faixa: "Preta" },
     { nome: "Leonardo Gana", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Master 4", peso: "Leve", faixa: "Branca" },
-
+    { nome: "Melyssa Botelho", equipe: "Familia Marola Algarve", sexo: "Feminino", categoria: "Adulto", peso: "Pena", faixa: "Branca" },
+    { nome: "Nuno Pedro", equipe: "SampaioBJJ", sexo: "Masculino", categoria: "Master 3", peso: "Pesadíssimo", faixa: "Roxa" },
+    { nome: "Elvis Silva", equipe: "Fight Studio Beja", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" },
+    { nome: "Guilherme Gonçalves", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pluma", faixa: "Azul" }
 ];

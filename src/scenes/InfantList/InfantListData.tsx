@@ -16,8 +16,9 @@ export const Atletas: DadosInfatil[] =
   { nome: "Balian Hellinger", equipe: "Old Dogs", peso: 75, faixa: "Amarela", categoria: "Juvenil" },
   { nome: "Zia Martins", equipe: "Bear Bones Jiujitsu", peso: 45, faixa: "Amarela/Branca", categoria: "Infanto-Juvenil" },
   { nome: "Louis Gana", equipe: "CVABJJ", peso: 68, faixa: "Azul", categoria: "Juvenil" },
-  
-
+  { nome: "Jilson", equipe: "Fight Studio Beja", peso: 60, faixa: "Branca", categoria: "Juvenil" },
+  { nome: "Luca Ciammaichella", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 28, faixa: "Cinca/Preta", categoria: "Mirim" },
+  { nome: "Valerie Bach", equipe: "Bear Bones Jiujitsu", peso: 58, faixa: "Amarela/Branca", categoria: "Infanto-Juvenil" }
 ]
   
 
