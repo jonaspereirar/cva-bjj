@@ -22,6 +22,14 @@ export const Atletas: DadosInfatil[] =
   { nome: "Lia Neves", equipe: "Bear Bones Aljezur", peso: 40, faixa: "Cinza", categoria: "Infanto-Juvenil" },
   { nome: "Sebastian Pujol", equipe: "Bear Bones Aljezur", peso: 30, faixa: "Cinza", categoria: "Infantil" },
   { nome: "João Espada", equipe: "Old Dogs Team", peso: 60, faixa: "Laranja/Preta", categoria: "Infanto-Juvenil" },
+  { nome: "Troy Van Nuland", equipe: "Bear Bones Aljezur", peso: 47.5, faixa: "Amarela/Branca", categoria: "Infanto-Juvenil" },
+  { nome: "Naomi Van Nuland", equipe: "Bear Bones Aljezur", peso: 50, faixa: "Cinza/Preta", categoria: "Infanto-Juvenil" },
+  { nome: "Roven Hagen", equipe: "Bear Bones Aljezur", peso: 52, faixa: "Amarela/Branca", categoria: "Infanto-Juvenil" },
+  { nome: "Nathalia Maria Rodrigues", equipe: "SampaioBJJ_FCS", peso: 57, faixa: "Branca", categoria: "Juvenil" },
+
+
+
+
 
 
 ]
