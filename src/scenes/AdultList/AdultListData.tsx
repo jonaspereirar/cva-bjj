@@ -40,6 +40,8 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Hugo Tavares", equipe: "Endless team Jiu-Jitsu", sexo: "Masculino", categoria: "Masster 4", peso: "Maio-Pesado", faixa: "Preta" },
     { nome: "Dash Edwards", equipe: "Família Marola", sexo: "Masculino", categoria: "Master 6", peso: "Pesadíssimo", faixa: "Preta" },
     { nome: "Jorge Lourenço", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Master 2", peso: "Leve", faixa: "Roxa" },
+    { nome: "Pedro Pereira", equipe: "Endless team", sexo: "Masculino", categoria: "Masster 3", peso: "Pesado", faixa: "Marron" },
+
 
 
 
