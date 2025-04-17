@@ -27,6 +27,7 @@ export const Atletas: DadosInfatil[] =
   { nome: "Roven Hagen", equipe: "Bear Bones Aljezur", peso: 52, faixa: "Amarela/Branca", categoria: "Infanto-Juvenil" },
   { nome: "Nathalia Maria Rodrigues", equipe: "SampaioBJJ_FCS", peso: 57, faixa: "Branca", categoria: "Juvenil" },
   { nome: "Sadie Grace Elliott-Lane", equipe: "Bear Bones Aljezur", peso: 32, faixa: "Cinza/Preta", categoria: "Infantil" },
+  { nome: "William", equipe: "Endless team", peso: 74, faixa: "Azul", categoria: "Juvenil" },
 
 
 
