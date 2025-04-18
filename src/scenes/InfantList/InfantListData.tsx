@@ -28,6 +28,15 @@ export const Atletas: DadosInfatil[] =
   { nome: "Nathalia Maria Rodrigues", equipe: "SampaioBJJ_FCS", peso: 57, faixa: "Branca", categoria: "Juvenil" },
   { nome: "Sadie Grace Elliott-Lane", equipe: "Bear Bones Aljezur", peso: 32, faixa: "Cinza/Preta", categoria: "Infantil" },
   { nome: "William", equipe: "Endless team", peso: 74, faixa: "Azul", categoria: "Juvenil" },
+  { nome: "Elias Maximilian Montag", equipe: "Sampaio Guia/Silves", peso: 74, faixa: "Cinza", categoria: "Infantil" },
+  { nome: "Hector Grey", equipe: "Família Marola Algarve", peso: 21, faixa: "Branca", categoria: "Mirim" },
+  { nome: "Nadine Santos", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 66, faixa: "Branca", categoria: "Infanto-Juvenil" },
+  { nome: "Gabriel Lungu", equipe: "Sampaiobjj", peso: 55, faixa: "Laranja", categoria: "Infanto-Juvenil" },
+  { nome: "Henrique Sequeira", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 33, faixa: "Cinza/Preta", categoria: "Mirim" },
+
+
+  
+
 
 
 

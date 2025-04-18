@@ -41,6 +41,12 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Dash Edwards", equipe: "Família Marola", sexo: "Masculino", categoria: "Master 6", peso: "Pesadíssimo", faixa: "Preta" },
     { nome: "Jorge Lourenço", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Master 2", peso: "Leve", faixa: "Roxa" },
     { nome: "Pedro Pereira", equipe: "Endless team", sexo: "Masculino", categoria: "Masster 3", peso: "Pesado", faixa: "Marron" },
+    { nome: "Uiara Castro", equipe: "Bear Bones Jiu Jitsu", sexo: "Feminino", categoria: "Adulto", peso: "Pluma", faixa: "Branca" },
+    { nome: "João Faúlha", equipe: "SampaioBJJ-fcs algarve", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" },
+    { nome: "Mitchell Van Der Mey", equipe: "Icon Jiu Jitsu", sexo: "Masculino", categoria: "Master 1", peso: "Pena", faixa: "Branca" },
+
+
+
 
 
 
