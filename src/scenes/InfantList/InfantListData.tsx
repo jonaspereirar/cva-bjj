@@ -33,6 +33,14 @@ export const Atletas: DadosInfatil[] =
   { nome: "Nadine Santos", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 66, faixa: "Branca", categoria: "Infanto-Juvenil" },
   { nome: "Gabriel Lungu", equipe: "Sampaiobjj", peso: 55, faixa: "Laranja", categoria: "Infanto-Juvenil" },
   { nome: "Henrique Sequeira", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 33, faixa: "Cinza/Preta", categoria: "Mirim" },
+  { nome: "Martinm Pôla Lopes", equipe: "Fight Studio Beja", peso: 75, faixa: "Branca", categoria: "Infanto-Juvenil" },
+  { nome: "Alma Givon Whitelegg", equipe: "Bear Bones Aljezur", peso: 51, faixa: "Cinza", categoria: "Infanto-Juvenil" },
+  { nome: "Antonella Santos", equipe: "Fight Studio Beja", peso: 57, faixa: "Cinza", categoria: "Infanto-Juvenil" },
+  { nome: "Yala Trindade", equipe: "Bear Bones Aljezur", peso: 33, faixa: "Cinza", categoria: "Infantil" },
+
+
+
+
 
 
   
