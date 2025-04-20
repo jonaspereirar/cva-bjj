@@ -47,6 +47,8 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Adriano Reis", equipe: "Família Marola", sexo: "Masculino", categoria: "Master 3", peso: "Meio-Pesado", faixa: "Branca" },
     { nome: "Valter Correia", equipe: "SampaioBJJ", sexo: "Masculino", categoria: "Adulto", peso: "Pesadíssimo", faixa: "Branca" },
     { nome: "Telma Lage", equipe: "SampaioBJJ", sexo: "Feminino", categoria: "Master 2", peso: "Leve", faixa: "Roxa" },
+    { nome: "Moustafa Rashed", equipe: "Old Dog", sexo: "Masculino", categoria: "Master 3", peso: "Pesadíssimo", faixa: "Azul" },
+
 
 
 

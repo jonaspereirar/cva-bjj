@@ -37,6 +37,22 @@ export const Atletas: DadosInfatil[] =
   { nome: "Alma Givon Whitelegg", equipe: "Bear Bones Aljezur", peso: 51, faixa: "Cinza", categoria: "Infanto-Juvenil" },
   { nome: "Antonella Santos", equipe: "Fight Studio Beja", peso: 57, faixa: "Cinza", categoria: "Infanto-Juvenil" },
   { nome: "Yala Trindade", equipe: "Bear Bones Aljezur", peso: 33, faixa: "Cinza", categoria: "Infantil" },
+  { nome: "Moussa Rashed", equipe: "Old Dog", peso: 44, faixa: "Cinza", categoria: "Infantil" },
+  { nome: "Lune Naudts", equipe: "Bear Bones Aljezur", peso: 57, faixa: "Cinza/Branca", categoria: "Infantil" },
+  { nome: "Mia Menezes", equipe: "Bear Bones Aljezur", peso: 24, faixa: "Cinza/Preta", categoria: "Infantil" },
+  { nome: "Luanda Menezes", equipe: "Bear Bones Aljezur", peso: 40, faixa: "Cinza/Branca", categoria: "Infantil" },
+  { nome: "Leonardo Santos", equipe: "Família Marola Algarve", peso: 28.5, faixa: "Branca", categoria: "Mirim" },
+  { nome: "Eurico Lopes Prucoli", equipe: "Família Marola Algarve", peso: 26, faixa: "Branca", categoria: "Mirim" },
+  { nome: "Sofia Teixeira", equipe: "Fight Studio Beja", peso: 38, faixa: "Branca", categoria: "Mirim" },
+  { nome: "Afonso Mariano", equipe: "Fight Studio Beja", peso: 59, faixa: "Branca", categoria: "Infanto-Juvenil" },
+
+
+
+
+
+
+
+
 
 
 
