@@ -45,6 +45,7 @@ export const Atletas: DadosInfatil[] =
   { nome: "Eurico Lopes Prucoli", equipe: "Família Marola Algarve", peso: 26, faixa: "Branca", categoria: "Mirim" },
   { nome: "Sofia Teixeira", equipe: "Fight Studio Beja", peso: 38, faixa: "Branca", categoria: "Mirim" },
   { nome: "Afonso Mariano", equipe: "Fight Studio Beja", peso: 59, faixa: "Branca", categoria: "Infanto-Juvenil" },
+  { nome: "Bernardo Braz", equipe: "Old Dog Team", peso: 56, faixa: "Verde", categoria: "Infatil" },
 
 
 
