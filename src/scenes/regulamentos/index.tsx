@@ -128,7 +128,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-              Data limite de inscrição no torneio: <p><strong>Até às 23h 59m do dia 19 de Abril de 2025</strong>.</p>
+              Data limite de inscrição no torneio: <p><strong>Até às 23h 59m do dia 26 de Abril de 2025</strong>.</p>
             </p>
             <p className="my-5">
               Data da publicação das listas provisórias: <p><strong>Até às 23h 59m do dia 20 de Abril de 2025.</strong></p>
@@ -140,7 +140,7 @@ const Regulamentos = ({ setSelectedPage }: Props) => {
               Data de publicação das chaves: <p><strong>Até às 23h 59m do dia 28 de Abril de 2025.</strong></p>
             </p>
             <p className="my-5">
-              Data limite de edição de inscrições pelo professor: <p><strong>Até às 23h 59m do dia 09 de Maio de 2025.</strong></p>
+              Data limite de edição de inscrições pelo professor: <p><strong>Até às 23h 59m do dia 08 de Maio de 2025.</strong></p>
             </p>
             <p className="my-5">
               <strong>ATENÇÃO: Não serão permitidas quaisquer alterações às <br />listas após a publicação das chaves do torneio.</strong>
