@@ -46,6 +46,12 @@ export const Atletas: DadosInfatil[] =
   { nome: "Sofia Teixeira", equipe: "Fight Studio Beja", peso: 38, faixa: "Branca", categoria: "Mirim" },
   { nome: "Afonso Mariano", equipe: "Fight Studio Beja", peso: 59, faixa: "Branca", categoria: "Infanto-Juvenil" },
   { nome: "Bernardo Braz", equipe: "Old Dog Team", peso: 56, faixa: "Verde", categoria: "Infatil" },
+  { nome: "Martim Lopes", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 30, faixa: "Branca", categoria: "Mirim" },
+  { nome: "Ema Guerreiro", equipe: "SampaioBJJ_FCS", peso: 60, faixa: "Branca", categoria: "Juvenil" },
+  { nome: "Educado Abreu", equipe: "Gas team_Guardiões Artes Suave", peso: 50, faixa: "Branca", categoria: "Infanto-Juvenil" },
+
+
+
 
 
 
