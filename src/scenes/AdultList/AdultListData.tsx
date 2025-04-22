@@ -26,7 +26,7 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Miklos de Pina ", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Branca" },
     { nome: "Jéssica Martins", equipe: "Sampaio BJJ", sexo: "Feminino", categoria: "Master 1", peso: "Pena", faixa: "Azul" },
     { nome: "Zango Edgar Gonçalves", equipe: "Fighclubesantarem", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Roxa" },
-    { nome: "Elias Martins", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Branca" },
+    { nome: "Elias Martins", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Leve", faixa: "Branca" },
     { nome: "Guilgerme Gonçalves", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pluma", faixa: "Azul" },
     { nome: "Helder Silva", equipe: "Mente Blindada", sexo: "Masculino", categoria: "Adulto", peso: "Meio-Pesado", faixa: "Preta" },
     { nome: "Leonardo Gana", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Master 4", peso: "Leve", faixa: "Branca" },
