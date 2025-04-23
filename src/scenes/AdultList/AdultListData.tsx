@@ -35,9 +35,9 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Elvis Silva", equipe: "Fight Studio Beja", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Branca" },
     { nome: "Guilherme Gonçalves", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Adulto", peso: "Pluma", faixa: "Azul" },
     { nome: "Alya Martins", equipe: "Bear Bones Jiu Jitsu", sexo: "Femenino", categoria: "Adulto", peso: "Pena", faixa: "Branca" },
-    { nome: "Dinis Faustino", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Maio-Pesado", faixa: "Branca" },
+    { nome: "Dinis Faustino", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Meio-Pesado", faixa: "Branca" },
     { nome: "Maurício Veiga", equipe: "Bear Bones", sexo: "Masculino", categoria: "Master 1", peso: "Médio", faixa: "Branca" },
-    { nome: "Hugo Tavares", equipe: "Endless team Jiu-Jitsu", sexo: "Masculino", categoria: "Masster 4", peso: "Maio-Pesado", faixa: "Preta" },
+    { nome: "Hugo Tavares", equipe: "Endless team Jiu-Jitsu", sexo: "Masculino", categoria: "Masster 4", peso: "Meio-Pesado", faixa: "Preta" },
     { nome: "Dash Edwards", equipe: "Família Marola", sexo: "Masculino", categoria: "Master 6", peso: "Pesadíssimo", faixa: "Preta" },
     { nome: "Jorge Lourenço", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Master 2", peso: "Leve", faixa: "Roxa" },
     { nome: "Pedro Pereira", equipe: "Endless team", sexo: "Masculino", categoria: "Masster 3", peso: "Pesado", faixa: "Marron" },
@@ -53,6 +53,10 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Jeferson Abreu", equipe: "Gas team_Guardiões Arte Suave", sexo: "Masculino", categoria: "Master 3", peso: "Pena", faixa: "Branca" },
     { nome: "André Ramalho", equipe: "Icon Jiu Jitsu", sexo: "Masculino", categoria: "Master 1", peso: "Médio", faixa: "Branca" },
     { nome: "David Costa", equipe: "Sampaio BJJ_FCS", sexo: "Masculino", categoria: "Adulto", peso: "Leve", faixa: "Branca" },
+    { nome: "Francisco Filho", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Leve", faixa: "Branca" },
+    { nome: "Maria Ermelinda Carvalho", equipe: "Endless team_Algés", sexo: "Feminino", categoria: "Master 3", peso: "Médio", faixa: "Branca" },
+
+
 
 
 
