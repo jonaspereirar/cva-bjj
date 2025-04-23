@@ -53,7 +53,7 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Jeferson Abreu", equipe: "Gas team_Guardiões Arte Suave", sexo: "Masculino", categoria: "Master 3", peso: "Pena", faixa: "Branca" },
     { nome: "André Ramalho", equipe: "Icon Jiu Jitsu", sexo: "Masculino", categoria: "Master 1", peso: "Médio", faixa: "Branca" },
     { nome: "David Costa", equipe: "Sampaio BJJ_FCS", sexo: "Masculino", categoria: "Adulto", peso: "Leve", faixa: "Branca" },
-    { nome: "Francisco Filho", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Leve", faixa: "Branca" },
+    { nome: "Francisco Filho", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Adulto", peso: "Leve", faixa: "Azul" },
     { nome: "Maria Ermelinda Carvalho", equipe: "Endless team_Algés", sexo: "Feminino", categoria: "Master 3", peso: "Médio", faixa: "Branca" },
 
 

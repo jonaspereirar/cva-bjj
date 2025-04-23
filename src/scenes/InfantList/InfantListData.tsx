@@ -49,6 +49,8 @@ export const Atletas: DadosInfatil[] =
   { nome: "Martim Lopes", equipe: "Kaishi Jiu Jitsu Lagoa", peso: 30, faixa: "Branca", categoria: "Mirim" },
   { nome: "Ema Guerreiro", equipe: "SampaioBJJ_FCS", peso: 60, faixa: "Branca", categoria: "Juvenil" },
   { nome: "Educado Abreu", equipe: "Gas team_Guardiões Artes Suave", peso: 50, faixa: "Branca", categoria: "Infanto-Juvenil" },
+  { nome: "Amiran Prudyvus", equipe: "Old Dog Team", peso: 33, faixa: "Cinza", categoria: "Mirim" },
+
 
 
 
