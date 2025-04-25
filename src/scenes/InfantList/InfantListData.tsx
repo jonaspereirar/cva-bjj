@@ -50,6 +50,9 @@ export const Atletas: DadosInfatil[] =
   { nome: "Ema Guerreiro", equipe: "SampaioBJJ_FCS", peso: 60, faixa: "Branca", categoria: "Juvenil" },
   { nome: "Educado Abreu", equipe: "Gas team_Guardiões Artes Suave", peso: 50, faixa: "Branca", categoria: "Infanto-Juvenil" },
   { nome: "Amiran Prudyvus", equipe: "Old Dog Team", peso: 33, faixa: "Cinza", categoria: "Mirim" },
+  { nome: "Maria Santos", equipe: "Fight Studio Beja", peso: 57.7, faixa: "Branca", categoria: "Juvenil"},
+  { nome: "Alice Vermelho", equipe: "CVABJJ", peso: 28, faixa: "Cinza/Branca", categoria: "Mirim" },
+  { nome: "Francisco Ferreira", equipe: "CVABJJ", peso: 60, faixa: "Cinza/Branca", categoria: "Mirim" },
 
 
 
