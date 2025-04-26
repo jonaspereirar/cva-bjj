@@ -53,6 +53,8 @@ export const Atletas: DadosInfatil[] =
   { nome: "Maria Santos", equipe: "Fight Studio Beja", peso: 57.7, faixa: "Branca", categoria: "Juvenil"},
   { nome: "Alice Vermelho", equipe: "CVABJJ", peso: 28, faixa: "Cinza/Branca", categoria: "Mirim" },
   { nome: "Francisco Ferreira", equipe: "CVABJJ", peso: 60, faixa: "Cinza/Branca", categoria: "Mirim" },
+  { nome: "Dori De Razon", equipe: "Bear Bones Jiujitsu", peso: 22, faixa: "Cinza", categoria: "Mirim" },
+
 
 
 
