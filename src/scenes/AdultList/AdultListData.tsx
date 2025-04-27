@@ -57,6 +57,8 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Maria Ermelinda Carvalho", equipe: "Endless team_Algés", sexo: "Feminino", categoria: "Master 3", peso: "Médio", faixa: "Branca" },
     { nome: "Mickael Marreiros", equipe: "SampaioBJJ", sexo: "Masculino", categoria: "Master 1", peso: "Meio-Pesado", faixa: "Azul" },
     { nome: "Atanas Krushovski", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Master 4", peso: "Pesado", faixa: "Preta" },
+    { nome: "Lázaro Fonseca", equipe: "Gas team", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Azul" },
+    { nome: "Pedro Catarino", equipe: "Endless team Jiu-Jitsu", sexo: "Masculino", categoria: "Master 4", peso: "Leve", faixa: "Azul" },
 
 
 

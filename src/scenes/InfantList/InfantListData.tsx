@@ -54,6 +54,7 @@ export const Atletas: DadosInfatil[] =
   { nome: "Alice Vermelho", equipe: "CVABJJ", peso: 28, faixa: "Cinza/Branca", categoria: "Mirim" },
   { nome: "Francisco Ferreira", equipe: "CVABJJ", peso: 60, faixa: "Cinza/Branca", categoria: "Mirim" },
   { nome: "Dori De Razon", equipe: "Bear Bones Jiujitsu", peso: 22, faixa: "Cinza", categoria: "Mirim" },
+  { nome: "Matheus Andrade", equipe: "SamapaioBJJ_FCS", peso: 56, faixa: "Branca", categoria: "Juvenil" },
 
 
 
