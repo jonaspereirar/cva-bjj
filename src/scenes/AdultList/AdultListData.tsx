@@ -59,6 +59,8 @@ export const Atletas: DadosAdulto[] = [
     { nome: "Atanas Krushovski", equipe: "Kaishi Jiu Jitsu Lagoa", sexo: "Masculino", categoria: "Master 4", peso: "Pesado", faixa: "Preta" },
     { nome: "Lázaro Fonseca", equipe: "Gas team", sexo: "Masculino", categoria: "Adulto", peso: "Médio", faixa: "Azul" },
     { nome: "Pedro Catarino", equipe: "Endless team Jiu-Jitsu", sexo: "Masculino", categoria: "Master 4", peso: "Leve", faixa: "Azul" },
+    { nome: "Nuno Malpão", equipe: "Fight Studio", sexo: "Masculino", categoria: "Master 4", peso: "Pena", faixa: "Branca" },
+    { nome: "Alexandre Policarpo", equipe: "CVA BJJ", sexo: "Masculino", categoria: "Master 2", peso: "Meio-Pesado", faixa: "Branca" },
 
 
 

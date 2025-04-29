@@ -57,6 +57,10 @@ export const Atletas: DadosInfatil[] =
   { nome: "Matheus Andrade", equipe: "SamapaioBJJ_FCS", peso: 56, faixa: "Branca", categoria: "Juvenil" },
   { nome: "Eva Matias", equipe: "Old Dog Team", peso: 52, faixa: "Verde/Branca", categoria: "Infanto-Juvenil" },
   { nome: "Francisco Catarino", equipe: "Endless team Jiu-Jitsu", peso: 42, faixa: "Amarela/Branca", categoria: "Infantil" },
+  { nome: "Sofia Reis", equipe: "CVABJJ", peso: 24.5, faixa: "Cinza/Branca", categoria: "Mirim" },
+  { nome: "Daniel Reis", equipe: "CVABJJ", peso: 39, faixa: "Cinza", categoria: "Infantil" },
+
+
 
 
 
