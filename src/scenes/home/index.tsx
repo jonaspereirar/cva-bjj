@@ -165,8 +165,8 @@ const Home = ({ setSelectedPage }: Props) => {
   </div>
 
   <div className="flex flex-col items-center mb-8">
-    <p className="text-white text-xl">Chaves Infantil</p>
-    <BotaoDownload arquivoPath={lutasCasadaPDF} nomeArquivo="lutasCasada" />
+    <p className="text-white text-xl">Lutas Casada</p>
+    <BotaoDownload arquivoPath={lutasCasadaPDF} nomeArquivo="Lutas_Casada" />
   </div>
 </motion.div>
 
