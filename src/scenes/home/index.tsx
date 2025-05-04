@@ -13,6 +13,7 @@ import adultoPDF from "@/scenes/Lutas/adultos.pdf";
 import femininosPDF from "@/scenes/Lutas/femininos.pdf";
 import infantilPDF from "@/scenes/Lutas/infantil.pdf";
 import juvenilPDF from "@/scenes/Lutas/juvenil.pdf";
+import lutasCastadasPDF from "@/scenes/Lutas/lutasCastadas.pdf";
 import mastersPDF from "@/scenes/Lutas/masters.pdf";
 
 
@@ -161,6 +162,11 @@ const Home = ({ setSelectedPage }: Props) => {
   <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">Chaves Masters</p>
     <BotaoDownload arquivoPath={mastersPDF} nomeArquivo="Chaves_masters" />
+  </div>
+
+  <div className="flex flex-col items-center mb-8">
+    <p className="text-white text-xl">Chaves Infantil</p>
+    <BotaoDownload arquivoPath={lutasCastadasPDF} nomeArquivo="lutasCasdas" />
   </div>
 </motion.div>
 
