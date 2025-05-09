@@ -10,11 +10,13 @@ import { motion } from "framer-motion";
 import { BotaoDownload } from "@/shared/ButtonDownloadProps";
 
 import adultoPDF from "@/scenes/Lutas/adulto.pdf";
+import cronogramaPDF from "@/scenes/Lutas/cronograma.pdf";
 import femininosPDF from "@/scenes/Lutas/femininos.pdf";
-import infantilPDF from "@/scenes/Lutas/kids.pdf";
 import juvenilPDF from "@/scenes/Lutas/juvenil.pdf";
+import infantilPDF from "@/scenes/Lutas/kids.pdf";
 import lutasCasadaPDF from "@/scenes/Lutas/lutasCasada.pdf";
 import mastersPDF from "@/scenes/Lutas/masters.pdf";
+import { ButtonCronograma } from "@/shared/ButtonCronogramProps";
 
 
 
@@ -118,12 +120,12 @@ const Home = ({ setSelectedPage }: Props) => {
   </motion.div>
   
   {/* Botões de Download Cronograma */}
-{/* 
+
   <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">Cronograma</p>
     <ButtonCronograma arquivoPath={cronogramaPDF} nomeArquivo="Cronograma" />
   </div>
-  */}
+ 
 
 {/* Botões de Download */}
 <motion.div
