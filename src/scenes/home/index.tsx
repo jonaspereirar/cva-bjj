@@ -7,16 +7,8 @@ import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
-import { BotaoDownload } from "@/shared/ButtonDownloadProps";
 
-import adultoPDF from "@/scenes/Lutas/adulto.pdf";
-import cronogramaPDF from "@/scenes/Lutas/cronograma.pdf";
 import femininosPDF from "@/scenes/Lutas/femininos.pdf";
-import juvenilPDF from "@/scenes/Lutas/juvenil.pdf";
-import infantilPDF from "@/scenes/Lutas/kids.pdf";
-import lutasCasadaPDF from "@/scenes/Lutas/lutasCasada.pdf";
-import mastersPDF from "@/scenes/Lutas/masters.pdf";
-import { ButtonCronograma } from "@/shared/ButtonCronogramProps";
 
 
 
@@ -121,14 +113,14 @@ const Home = ({ setSelectedPage }: Props) => {
   
   {/* Botões de Download Cronograma */}
 
-  <div className="flex flex-col items-center mb-8">
+  {/* <div className="flex flex-col items-center mb-8">
     <p className="text-white text-xl">Cronograma</p>
     <ButtonCronograma arquivoPath={cronogramaPDF} nomeArquivo="Cronograma" />
-  </div>
+  </div> */}
  
 
 {/* Botões de Download */}
-<motion.div
+{/* <motion.div
   className="mt-8 flex flex-wrap justify-center md:justify-start gap-8"
   initial="hidden"
   whileInView="visible"
@@ -170,7 +162,7 @@ const Home = ({ setSelectedPage }: Props) => {
     <p className="text-white text-xl">Lutas Casada</p>
     <BotaoDownload arquivoPath={lutasCasadaPDF} nomeArquivo="Lutas_Casada" />
   </div>
-</motion.div>
+</motion.div> */}
 
 
         </div>

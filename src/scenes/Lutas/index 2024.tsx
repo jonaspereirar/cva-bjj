@@ -2,17 +2,27 @@ import HText from "@/shared/HText";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 
-import BearBones from "../../assets/img-resultados/BearBones.jpg";
 import graciebarrapacodarcos from "../../assets/img-resultados/Gracie-Barra-Paco-Darcos.png";
-import KAISHI from "../../assets/img-resultados/KAISHI.jpg";
+import graciebarrahamurgo from "../../assets/img-resultados/Gracie-barra-hamburgo.jpg";
+import atos from "../../assets/img-resultados/atos-sao-luis.jpg";
+import bpt from "../../assets/img-resultados/bpt.png";
+import checkmate from "../../assets/img-resultados/checkmate.jpg";
+import clone from "../../assets/img-resultados/clone.png";
 import cobrinha from "../../assets/img-resultados/cobrinha.png";
 import cvabjj from "../../assets/img-resultados/cvabjj.jpg";
+import dlbjj from "../../assets/img-resultados/dlbjj.jpeg";
 import endless from "../../assets/img-resultados/endless-team.jpg";
-import gasTeam from "../../assets/img-resultados/gasTeam.png";
+import fighters from "../../assets/img-resultados/fighters-inside.jpg";
+import five from "../../assets/img-resultados/five-elements.png";
 import icon from "../../assets/img-resultados/icon.jpg";
+import katsu from "../../assets/img-resultados/katsu.jpg";
 import marola from "../../assets/img-resultados/marola.jpg";
+import odojosaoluis from "../../assets/img-resultados/odojo-sao-luis.png";
 import olddogteam from "../../assets/img-resultados/old-dog-team.jpg";
+import rogergracie from "../../assets/img-resultados/roger-gracie.png";
 import sampaio from "../../assets/img-resultados/sampaio.jpg";
+import vitateam from "../../assets/img-resultados/vita-team.png";
+import zrteam from "../../assets/img-resultados/zrteam.jpg";
 
 
 
@@ -63,7 +73,7 @@ const Lutas = ({ setSelectedPage }: Props) => {
           </HText>
           <p className="my-5 flex">
             <strong className="mr-1">1° </strong>  Old Dog Team 
-            <strong className="ml-2">193 pontos </strong> 
+            <strong className="ml-2">155 pontos </strong> 
               <img
                 src={olddogteam}
                 alt="Perfil do 1° colocado"
@@ -71,44 +81,35 @@ const Lutas = ({ setSelectedPage }: Props) => {
               />
           </p>
           <p className="my-5 flex">
-            <strong className="mr-1"> 2° </strong>  Cobrinha Beja
-            <strong className="ml-2">135 pontos </strong> 
+            <strong className="mr-1"> 2° </strong>  ZR Team
+            <strong className="ml-2">87 pontos </strong> 
               <img
-                src={cobrinha}
+                src={zrteam}
                 alt="Perfil do 1° colocado"
                 className="w-10 h-10 ml-2"
               />
           </p>
           <p className="my-5 flex">
-            <strong className="mr-1"> 3° </strong>  Bear Bones
-            <strong className="ml-2">117 pontos </strong> 
-              <img
-                src={BearBones}
-                alt="Perfil do 1° colocado"
-                className="w-10 h-10 ml-2"
-              />
-          </p>
-          <p className="my-5 flex">
-            <strong className="mr-1"> 4° </strong>  CVABJJ
-            <strong className="ml-2">68 pontos </strong> 
+            <strong className="mr-1"> 3° </strong>  CVABJJ
+            <strong className="ml-2">86 pontos </strong> 
               <img
                 src={cvabjj}
                 alt="Perfil do 1° colocado"
                 className="w-10 h-10 ml-2"
               />
           </p>
-              <p className="my-5 flex">
-            <strong className="mr-1"> 5° </strong>  Kaishi Lagoa
-            <strong className="ml-2">55 pontos </strong> 
+          <p className="my-5 flex">
+            <strong className="mr-1"> 4° </strong>  Roger Gracie
+            <strong className="ml-2">64 pontos </strong> 
               <img
-                src={KAISHI}
+                src={rogergracie}
                 alt="Perfil do 1° colocado"
                 className="w-10 h-10 ml-2"
               />
           </p>
           <p className="my-5 flex">
-            <strong className="mr-1"> 6° </strong>  Sampaio
-            <strong className="ml-2">54 pontos </strong> 
+            <strong className="mr-1"> 5° </strong>  Sampaio
+            <strong className="ml-2">58 pontos </strong> 
               <img
                 src={sampaio}
                 alt="Perfil do 1° colocado"
@@ -116,51 +117,24 @@ const Lutas = ({ setSelectedPage }: Props) => {
               />
           </p>
           <p className="my-5 flex">
-            <strong className="mr-1"> 7° </strong> Família Marola
-            <strong className="ml-2">40 pontos </strong> 
-              <img
-                src={marola}
-                alt="Perfil do 1° colocado"
-                className="w-10 h-10 ml-2"
-              />
-          </p>
-          <p className="my-5 flex">
-            <strong className="mr-1"> 8° </strong>  Gas Team
+            <strong className="mr-1"> 6° </strong>  O Dojo São Luis
             <strong className="ml-2">58 pontos </strong> 
               <img
-                src={gasTeam}
-                alt="Perfil do 1° colocado"
-                className="w-10 h-10 ml-2"
-              />
-          </p>
-           <p className="my-5 flex">
-            <strong className="mr-1"> 9° </strong>  Icon
-            <strong className="ml-2">9 pontos </strong> 
-              <img
-                src={icon}
+                src={odojosaoluis}
                 alt="Perfil do 1° colocado"
                 className="w-10 h-10 ml-2"
               />
           </p>
           <p className="my-5 flex">
-            <strong className="mr-1"> 10° </strong>  Gracie-barra
-            <strong className="ml-2">4 pontos </strong> 
+            <strong className="mr-1"> 7° </strong>  DLBJJ
+            <strong className="ml-2">53 pontos </strong> 
               <img
-                src={graciebarrapacodarcos}
+                src={dlbjj}
                 alt="Perfil do 1° colocado"
                 className="w-10 h-10 ml-2"
               />
           </p>
           <p className="my-5 flex">
-            <strong className="mr-1"> 11° </strong>  Endless Team
-            <strong className="ml-2">2 pontos </strong> 
-              <img
-                src={endless}
-                alt="Perfil do 1° colocado"
-                className="w-10 h-10 ml-2"
-              />
-          </p>
-          {/* <p className="my-5 flex">
             <strong className="mr-1"> 8° </strong>  Endless Team
             <strong className="ml-2">43 pontos </strong> 
               <img
@@ -174,6 +148,24 @@ const Lutas = ({ setSelectedPage }: Props) => {
             <strong className="ml-2">43 pontos </strong> 
               <img
                 src={cobrinha}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 10° </strong>  Icon
+            <strong className="ml-2">43 pontos </strong> 
+              <img
+                src={icon}
+                alt="Perfil do 1° colocado"
+                className="w-10 h-10 ml-2"
+              />
+          </p>
+          <p className="my-5 flex">
+            <strong className="mr-1"> 11° </strong> Família Marola
+            <strong className="ml-2">37 pontos </strong> 
+              <img
+                src={marola}
                 alt="Perfil do 1° colocado"
                 className="w-10 h-10 ml-2"
               />
@@ -267,7 +259,7 @@ const Lutas = ({ setSelectedPage }: Props) => {
                 alt="Perfil do 1° colocado"
                 className="w-10 h-10 ml-2"
               />
-          </p> */}
+          </p>
           <strong className="mr-1"> A classificação das equipas vencedoras foram determinada com base na totalidade das pontuações conquistadas.
           Em caso de empate entre equipas com a mesma pontuação, o critério de desempate foram o número de vantagens acumuladas ao longo do torneio.</strong>
 {/* <p className="my-5">
